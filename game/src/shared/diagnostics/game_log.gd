@@ -11,7 +11,7 @@ static func build_record(
 	fields: Dictionary = {},
 ) -> Dictionary:
 	return {
-		"timestamp_utc": Time.get_datetime_string_from_system(true),
+		"timestamp_utc": Time.get_datetime_string_from_system(true) + "Z",
 		"level": String(level),
 		"service": String(service),
 		"subsystem": String(subsystem),
