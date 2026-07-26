@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>OutSurvive — Mobile Match HUD Delta</title>
+  <style>
+    :root{--base:#161b18;--panel:rgba(16,20,16,.92);--text:#e7e3d5;--muted:#b9c0b7;--line:#6b786e;--amber:#d6a84b;--cyan:#73afc7;--danger:#dc6652;--green:#8fb06c;--safe-x:max(18px,env(safe-area-inset-left),env(safe-area-inset-right));--safe-y:max(14px,env(safe-area-inset-top),env(safe-area-inset-bottom));font-family:"Noto Sans",system-ui,sans-serif;color:var(--text)}
+    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:var(--base)}
+    body{background:linear-gradient(180deg,rgba(14,27,24,.08),rgba(9,12,10,.42)),radial-gradient(ellipse at 50% 88%,#536548 0 15%,#38493a 16% 34%,transparent 35%),linear-gradient(154deg,#859588 0 27%,#5f7464 28% 50%,#8c795e 51% 64%,#445747 65% 100%)}
+    .world:before{content:"";position:absolute;inset:39% 41% 0 42%;background:linear-gradient(90deg,#292f28,#4d5547);clip-path:polygon(42% 0,61% 0,100% 100%,0 100%);opacity:.74}
+    .safe{position:absolute;inset:var(--safe-y) var(--safe-x);border:1px dashed rgba(214,168,75,.55);pointer-events:none}.safe:before{content:"SAFE AREA · MOBILE LANDSCAPE";position:absolute;top:4px;left:8px;color:var(--amber);font:600 clamp(9px,1vw,13px)/1.2 monospace;letter-spacing:.08em}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:4px;box-shadow:0 0 0 1px rgba(0,0,0,.3)}
+    .compass{position:absolute;top:calc(var(--safe-y) + 4px);left:50%;transform:translateX(-50%);padding:7px 18px;min-width:34%;text-align:center;font:700 clamp(11px,1.4vw,19px)/1 monospace;letter-spacing:.12em}.compass b{color:var(--cyan)}
+    .squad{position:absolute;top:calc(var(--safe-y) + 42px);left:calc(var(--safe-x) + 5px);width:min(20vw,230px);padding:8px 10px;font-size:clamp(9px,1.05vw,14px)}.member{display:flex;gap:6px;align-items:center;margin:4px 0}.id{color:var(--cyan);font-weight:800}.hp{height:3px;flex:1;background:#323a34}.hp i{display:block;width:78%;height:100%;background:var(--text)}
+    .map{position:absolute;top:calc(var(--safe-y) + 42px);right:calc(var(--safe-x) + 5px);width:clamp(104px,13vw,184px);aspect-ratio:1;padding:8px;background:linear-gradient(32deg,#26382e,#50604d);overflow:hidden}.map:before{content:"";position:absolute;inset:20%;border:2px solid var(--cyan);border-radius:50%}.phase{position:absolute;top:5px;right:6px;padding:4px 6px;color:var(--amber);font:700 clamp(8px,.9vw,12px)/1 monospace}
+    .reticle{position:absolute;left:50%;top:50%;width:34px;height:34px;transform:translate(-50%,-50%)}.reticle:before,.reticle:after{content:"";position:absolute;background:var(--text);box-shadow:0 0 0 1px #080a09}.reticle:before{left:16px;top:4px;width:2px;height:26px}.reticle:after{left:4px;top:16px;width:26px;height:2px}.gap{position:absolute;inset:12px;background:transparent;box-shadow:0 0 0 5px rgba(255,255,255,0);z-index:1}
+    .health{position:absolute;left:50%;bottom:calc(var(--safe-y) + 12px);transform:translateX(-50%);width:min(31vw,390px);padding:7px 9px}.bar{height:7px;background:#323a34}.bar i{display:block;width:73%;height:100%;background:var(--text)}.boost{height:3px;margin-top:4px;background:linear-gradient(90deg,var(--amber) 42%,#323a34 42%)}
+    .ammo{position:absolute;right:calc(var(--safe-x) + 8px);bottom:calc(var(--safe-y) + 10px);padding:7px 10px;font:600 clamp(10px,1.35vw,19px)/1.1 monospace}.ammo strong{font-size:1.45em}.ammo span{color:var(--muted)}
+    .look{position:absolute;right:22%;top:25%;width:35%;height:48%;border:1px dashed rgba(231,227,213,.19);display:grid;place-items:center;color:rgba(231,227,213,.42);font:600 clamp(8px,.9vw,12px)/1 monospace;letter-spacing:.08em}
+    .stick{position:absolute;left:calc(var(--safe-x) + 4.8vw);bottom:calc(var(--safe-y) + 7vh);width:clamp(92px,12vw,142px);aspect-ratio:1;border:2px solid rgba(231,227,213,.58);border-radius:50%;background:rgba(16,20,16,.34)}.stick:after{content:"MOVE";position:absolute;width:48%;aspect-ratio:1;left:26%;top:26%;display:grid;place-items:center;border-radius:50%;background:rgba(16,20,16,.74);border:2px solid var(--amber);font:700 clamp(8px,.8vw,11px)/1 monospace}
+    .btn{position:absolute;display:grid;place-items:center;min-width:48px;min-height:48px;width:clamp(48px,5.2vw,68px);aspect-ratio:1;border:1px solid rgba(231,227,213,.66);border-radius:50%;background:rgba(16,20,16,.67);font:700 clamp(8px,.9vw,12px)/1 monospace;color:var(--text)}.btn.critical{width:clamp(64px,7vw,88px);border-width:2px;border-color:var(--amber)}
+    .fire-r{right:calc(var(--safe-x) + 4vw);top:49%}.fire-l{left:calc(var(--safe-x) + 18vw);top:40%;opacity:.8}.ads{right:calc(var(--safe-x) + 12vw);top:36%}.reload{right:calc(var(--safe-x) + 13vw);bottom:19%}.jump{right:calc(var(--safe-x) + 4vw);bottom:22%}.stance{right:calc(var(--safe-x) + 20vw);bottom:12%}.interact{right:calc(var(--safe-x) + 20vw);top:51%;border-radius:6px}.mapbtn{right:calc(var(--safe-x) + 1vw);top:22%;border-radius:6px}.bag{right:calc(var(--safe-x) + 7vw);top:22%;border-radius:6px}
+    .prompt{position:absolute;left:50%;top:61%;transform:translateX(-50%);padding:6px 9px;font-size:clamp(9px,1vw,13px)}.note{position:absolute;left:50%;bottom:calc(var(--safe-y) + 2px);transform:translateX(-50%);color:var(--muted);font:500 clamp(8px,.75vw,10px)/1 monospace;white-space:nowrap}
+    @media(max-aspect-ratio:1.45/1){.squad{width:23vw}.look{right:25%;width:31%}.fire-l{left:23%}.stance{right:28%}.health{width:29vw}.note{display:none}}
+  </style>
+</head>
+<body>
+  <main class="world" aria-label="Mobile Match HUD delta reference">
+    <div class="safe" aria-hidden="true"></div>
+    <div class="compass panel">285&nbsp;&nbsp; <b>300 NW</b> &nbsp;&nbsp;315</div>
+    <section class="squad panel" aria-label="Đội"><div class="member"><b class="id">○1</b> MAI <span class="hp"><i></i></span></div><div class="member"><b class="id">□2</b> LAN <span class="hp"><i style="width:54%"></i></span></div><div class="member"><b class="id">△3</b> QUÂN <span class="hp"><i style="width:88%"></i></span></div></section>
+    <section class="map panel" aria-label="Minimap"><span class="phase">P4 · 01:30</span></section>
+    <div class="reticle" aria-label="Tâm ngắm"><i class="gap"></i></div>
+    <div class="look">TOUCH LOOK ZONE</div>
+    <div class="stick" aria-label="Cần di chuyển"></div>
+    <button class="btn critical fire-r">FIRE</button><button class="btn critical fire-l">FIRE L</button><button class="btn ads">ADS</button><button class="btn reload">RLD</button><button class="btn jump">VAULT</button><button class="btn stance">CROUCH</button><button class="btn interact">LOOT</button><button class="btn mapbtn">MAP</button><button class="btn bag">BAG</button>
+    <div class="prompt panel">NHẶT · 5.56 MM ×30</div>
+    <div class="health panel"><div class="bar"><i></i></div><div class="boost"></div></div>
+    <div class="ammo panel"><strong>30</strong> <span>/ 146 · AUTO</span></div>
+    <div class="note">Governing contract: DESIGN.md + EXPERIENCE.md · no enemy cue · no auto-fire</div>
+  </main>
+</body>
+</html>

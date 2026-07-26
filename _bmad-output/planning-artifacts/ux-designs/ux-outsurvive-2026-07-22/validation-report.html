@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OutSurvive — UX Design Validation Report</title>
+<style>
+  :root{--bg:#fafaf9;--surface:#fff;--border:#e7e5e4;--text:#1c1917;--muted:#78716c;--strong:#16a34a;--adequate:#65a30d;--thin:#d97706;--broken:#dc2626;--low:#64748b;--medium:#ca8a04;--high:#ea580c;--critical:#dc2626}
+  *{box-sizing:border-box}html,body{margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+  .container{max-width:960px;margin:0 auto;padding:32px 24px 64px}.report-header{display:flex;justify-content:space-between;gap:24px;padding-bottom:16px;border-bottom:1px solid var(--border);margin-bottom:24px}.title h1{margin:0;font-size:22px}.subtitle,.source,.footer{color:var(--muted);font:12px ui-monospace,"SF Mono",Menlo,monospace}.resolution,.synthesis,.mechanical{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:24px}.resolution{border-left:4px solid var(--strong);background:#f0fdf4}.resolution h2{margin:0 0 6px;font-size:16px}.resolution p,.synthesis p{margin:0 0 10px}.resolution p:last-child,.synthesis p:last-child{margin:0}.synthesis{border-left:3px solid var(--muted)}
+  .dimension-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:24px}.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px}.card span{display:block;color:var(--muted);font-size:13px}.card b{font-size:14px}.strong{color:var(--strong)}.adequate{color:var(--adequate)}.thin{color:var(--thin)}
+  section{margin-bottom:14px}details{background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden}summary{padding:14px 20px;cursor:pointer;display:flex;align-items:center;gap:12px}summary h2{margin:0;font-size:16px;flex:1}.pill{font-size:11px;padding:3px 10px;border-radius:999px;color:#fff;text-transform:uppercase;font-weight:700}.pill.strong{background:var(--strong)}.pill.adequate{background:var(--adequate)}.pill.thin{background:var(--thin)}.body{padding:0 20px 18px}.finding{padding:14px 0;border-top:1px solid var(--border)}.finding header{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.finding h3{font-size:15px;margin:0;flex:1}.badge{font-size:10px;padding:3px 8px;border-radius:4px;text-transform:uppercase;font-weight:700}.high{background:#ffedd5;color:var(--high)}.medium{background:#fef9c3;color:var(--medium)}.low{background:#f1f5f9;color:var(--low)}.loc{font:12px ui-monospace,"SF Mono",Menlo,monospace;color:var(--muted)}.finding p{margin:7px 0 0;font-size:14px}.mechanical h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;color:var(--muted)}.mechanical ul{margin:0;padding-left:20px}.footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--border)}
+</style>
+</head>
+<body><div class="container">
+  <header class="report-header"><div class="title"><h1>OutSurvive — UX Design Validation Report</h1><div class="subtitle">DESIGN.md + EXPERIENCE.md · 2026-07-22T02:27:58+07:00</div></div></header>
+
+  <div class="resolution">
+    <h2>Resolution update — Final</h2>
+    <p><strong>12 Closed · 5 Accepted dependency · 0 Open.</strong> Hai spine hiện ở <code>status: final</code>. Bốn mockup đã được promote, link, distill và pass visual check tại 1920×1080/100% cùng 1280×720/140%.</p>
+    <p>Các finding bên dưới được giữ nguyên như snapshot tại Reviewer Gate; trạng thái chuẩn và bằng chứng đóng nằm trong <code>final-ux-verification.md</code>.</p>
+  </div>
+
+  <div class="synthesis">
+    <p>Tại Reviewer Gate, hai spine là contract <strong>adequate</strong> cho định hướng kiến trúc: source/token resolve, component parity hoàn chỉnh và ba hành trình phủ vòng lặp chính. Các khoảng trống của snapshot này đã được resolve theo banner Final phía trên.</p>
+    <p>Ba lens ghi nhận <strong>0 Critical · 13 High · 15 Medium · 4 Low</strong> theo lượt đếm thô. Các lens đồng thuận ranh giới cạnh tranh cốt lõi đang đúng: không footstep radar, damage number, loot score/recommendation, enemy outline hoặc lợi thế HUD trên ultrawide.</p>
+  </div>
+
+  <div class="dimension-summary">
+    <div class="card"><span>Flow coverage</span><b class="adequate">adequate</b></div>
+    <div class="card"><span>Token completeness</span><b class="adequate">adequate</b></div>
+    <div class="card"><span>Component coverage</span><b class="strong">strong</b></div>
+    <div class="card"><span>State coverage</span><b class="thin">thin</b></div>
+    <div class="card"><span>Visual references</span><b class="adequate">adequate at gate</b></div>
+    <div class="card"><span>Bloat & overspecification</span><b class="adequate">adequate</b></div>
+    <div class="card"><span>Inheritance discipline</span><b class="adequate">adequate</b></div>
+    <div class="card"><span>Shape fit</span><b class="strong">strong</b></div>
+  </div>
+
+  <section><details><summary><h2>Flow coverage</h2><span class="pill adequate">adequate</span></summary><div class="body">
+    <p>Core loop, Squad/DBNO, Training, Settings, Profile, Results và failure paths đều có journey. Onboarding chưa thật sự có flow độc lập.</p>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Training và onboarding bị gộp</h3><span class="loc">EXPERIENCE.md:212,256,290</span></header><p><strong>Fix:</strong> tách Training; đánh dấu onboarding deferred hoặc định nghĩa entry/skip/complete/failure.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>Token completeness</h2><span class="pill adequate">adequate</span></summary><div class="body">
+    <p>17 color token hiện tại đều là hex và mọi token reference resolve. Một border load-bearing chưa đạt floor.</p>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Viền minimap khoảng 2,90:1</h3><span class="loc">DESIGN.md:15,21,147,152,244</span></header><p><strong>Fix:</strong> dùng border token/separation đạt ≥3:1 nếu là ranh giới cần thiết.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>Component coverage</h2><span class="pill strong">strong</span></summary><div class="body"><p>24 component hiện tại có exact parity giữa YAML, visual rows và behavioral rows; không có component mồ côi.</p></div></details></section>
+
+  <section><details open><summary><h2>State coverage</h2><span class="pill thin">thin</span></summary><div class="body">
+    <p>IA surfaces có state row, nhưng multiplayer và post-match vẫn thiếu transition contract.</p>
+    <article class="finding"><header><span class="badge high">high</span><h3>Multiplayer transition states chưa đủ contract</h3><span class="loc">EXPERIENCE.md:101–116,153,290</span></header><p><strong>Fix:</strong> trigger → visible state → timeout/authority → next state cho Party, Queue, Pre-match và Live Match.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Spectator/replay/report payload còn mở</h3><span class="loc">EXPERIENCE.md:110–116,209–214,254</span></header><p><strong>Fix:</strong> khóa payload/transition tối thiểu hoặc defer rõ.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>Visual reference coverage</h2><span class="pill adequate">adequate</span></summary><div class="body">
+    <p>Không có orphan hoặc broken link tại Reviewer Gate; bốn visual reference load-bearing là bước Finalize kế tiếp.</p>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Bốn mockup UX-014 chưa được dựng</h3><span class="loc">DESIGN.md:260 · EXPERIENCE.md:193–204</span></header><p><strong>Fix:</strong> dựng Lobby, Match HUD, Inventory, Map/Phase; link inline và distill ngược.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>Bloat & overspecification</h2><span class="pill adequate">adequate</span></summary><div class="body"><p>Các chi tiết camera, xe, inventory và anti-pattern phục vụ fairness/acceptance; không phát hiện prose trang trí cản handoff.</p></div></details></section>
+
+  <section><details><summary><h2>Inheritance discipline</h2><span class="pill adequate">adequate</span></summary><div class="body">
+    <p>Hai source cùng resolve tới GDD 1.0.0; terminology và component names nhất quán.</p>
+    <article class="finding"><header><span class="badge high">high</span><h3>Timing lộ bo kế tiếp bị rơi khỏi UX behavior</h3><span class="loc">gdd.md:374 · EXPERIENCE.md:38,81,107,149</span></header><p><strong>Fix:</strong> chỉ render next-zone khi server-confirmed wait phase bắt đầu; không prediction trước đó.</p></article>
+    <article class="finding"><header><span class="badge low">low</span><h3>7 loại dữ liệu HUD bị mô tả thành 6 cụm</h3><span class="loc">gdd.md:456 · EXPERIENCE.md:131,201</span></header><p><strong>Fix:</strong> nói rõ 7 loại dữ liệu render qua 6 module vì minimap-zone-panel gộp minimap và phase.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>Shape fit</h2><span class="pill strong">strong</span></summary><div class="body"><p>DESIGN giữ canonical section order; EXPERIENCE có đủ foundation, IA, voice, component/state patterns, interaction, accessibility, game-specific sections và key flows.</p></div></details></section>
+
+  <section><details><summary><h2>Accessibility & fairness reviewer</h2><span class="source">review-accessibility-fairness.md</span></summary><div class="body">
+    <p>Ranh giới chống trợ chiến đúng, nhưng năm High ảnh hưởng trực tiếp tới readability hoặc competitive parity.</p>
+    <article class="finding"><header><span class="badge high">high</span><h3>Contrast chưa khóa sau compositing</h3><span class="loc">DESIGN.md:237,244,258,264</span></header><p><strong>Fix:</strong> backplate/opacity rule và screenshot acceptance: text ≥4,5:1; icon/focus ≥3:1.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Camera ultrawide chưa có fairness policy</h3><span class="loc">DESIGN.md:254 · EXPERIENCE.md:124,187</span></header><p><strong>Fix:</strong> projection/FOV matrix 16:9–32:9, hai vai, FOV min/max và cover cases.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Critical alerts tranh chấp</h3><span class="loc">DESIGN.md:266 · EXPERIENCE.md:74,84,131</span></header><p><strong>Fix:</strong> priority/preemption/lane/lifetime matrix; deadline gây chết không bị banner thấp hơn chiếm.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Reticle và colorblind presets thiếu visual contract</h3><span class="loc">DESIGN.md:11–217 · EXPERIENCE.md:170</span></header><p><strong>Fix:</strong> reticle component, geometry/outline, exact preset mapping và parity acceptance.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Spectator information parity còn mở</h3><span class="loc">EXPERIENCE.md:110,116,209,251–254</span></header><p><strong>Fix:</strong> teammate-follow only; không free cam/orbit; cùng LOS/audio/data subset.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>UI scale thiếu minimum rendered size</h3><span class="loc">DESIGN.md:53–63,250</span></header><p><strong>Fix:</strong> critical text floor; co spacing trước; không truncate combat/network timers.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Keyboard focus lifecycle và Map parity chưa khóa</h3><span class="loc">EXPERIENCE.md:73,122,140,174</span></header><p><strong>Fix:</strong> initial/trap/return focus và keyboard path cho pan/zoom/marker.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Audio accessibility thiếu parity metric</h3><span class="loc">EXPERIENCE.md:172,176</span></header><p><strong>Fix:</strong> controls/bus contract, cấm khuếch đại cue và test metric cung 30°.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Reduce Motion/Flash thiếu budget</h3><span class="loc">DESIGN.md:312 · EXPERIENCE.md:159–161</span></header><p><strong>Fix:</strong> trần frequency/duration/amplitude/luminance và fallback tương đương.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Subtitle queue thiếu no-drop class</h3><span class="loc">DESIGN.md:303 · EXPERIENCE.md:94</span></header><p><strong>Fix:</strong> capacity, duration, dedupe, preemption và collision rules.</p></article>
+    <article class="finding"><header><span class="badge low">low</span><h3>Viền map thấp hơn floor 3:1</h3><span class="loc">DESIGN.md:147–152,244</span></header><p><strong>Fix:</strong> tăng contrast hoặc tuyên bố border chỉ trang trí.</p></article>
+  </div></details></section>
+
+  <section><details><summary><h2>PC HUD & input reviewer</h2><span class="source">review-pc-hud-input.md</span></summary><div class="body">
+    <p>Field Instrument phù hợp, nhưng safe-frame, input capture, remap, party communication và reconnect chưa handoff-ready.</p>
+    <article class="finding"><header><span class="badge high">high</span><h3>Safe-frame và breakpoint chưa triển khai được</h3><span class="loc">DESIGN.md:90,254–260</span></header><p><strong>Fix:</strong> central 16:9 reference rect, clamp/reflow/overflow và 720p–32:9 test matrix.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Overlay thiếu priority/lane/suppression matrix</h3><span class="loc">DESIGN.md:256,264–303</span></header><p><strong>Fix:</strong> z-order/anchor/lifetime/suppression; stress scene 720p/140%.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Map/Inventory thiếu input-routing contract</h3><span class="loc">EXPERIENCE.md:37–39,85–88,107</span></header><p><strong>Fix:</strong> cursor, movement, camera, weapon, vehicle, audio và close binding matrix.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Full remap thiếu action/conflict/recovery rules</h3><span class="loc">EXPERIENCE.md:109,120–125,137–143</span></header><p><strong>Fix:</strong> v1.0 action inventory, conflict classes, required escape path, Apply/Cancel/reset/persistence.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Party/voice/8 ping chặn Squad flow</h3><span class="loc">EXPERIENCE.md:89–90,153,243–254</span></header><p><strong>Fix:</strong> team-only voice + 8 ping có icon/label/source/TTL/cooldown/cancel.</p></article>
+    <article class="finding"><header><span class="badge high">high</span><h3>Reconnect/spectator thiếu state machine</h3><span class="loc">EXPERIENCE.md:104–116,209,251–254</span></header><p><strong>Fix:</strong> Connecting → Reconnecting → Restored/Timed out/Team eliminated.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Phase anatomy thiếu wait/shrink/countdown/outside state</h3><span class="loc">DESIGN.md:147–152 · EXPERIENCE.md:56,81</span></header><p><strong>Fix:</strong> phase number, state label, timer và outside-zone state.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Teammate identity không nhất quán</h3><span class="loc">DESIGN.md:131,183–197</span></header><p><strong>Fix:</strong> number/shape/label mapping chung trên squad, world, compass và map.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Fire countdown mất khi rời xe</h3><span class="loc">EXPERIENCE.md:84,131,151</span></header><p><strong>Fix:</strong> chuyển sang world/audio cue và giữ đến server-confirmed explosion/cancel.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Armor durability thiếu visual anatomy</h3><span class="loc">DESIGN.md:178–182 · EXPERIENCE.md:87,147</span></header><p><strong>Fix:</strong> current/max, bar và broken hierarchy.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Context prompt thiếu arbitration nhiều action</h3><span class="loc">EXPERIENCE.md:82,84–88,131</span></header><p><strong>Fix:</strong> priority + tap/hold/cycle/secondary action và reject behavior.</p></article>
+    <article class="finding"><header><span class="badge medium">medium</span><h3>Damage cue trên Map thiếu hệ quy chiếu</h3><span class="loc">EXPERIENCE.md:107,149</span></header><p><strong>Fix:</strong> screen-relative theo world camera tại hit time.</p></article>
+    <article class="finding"><header><span class="badge low">low</span><h3>Rebind persistence/unsaved state chưa khóa</h3><span class="loc">EXPERIENCE.md:93,109,137–143</span></header><p><strong>Fix:</strong> Apply/Cancel, local/profile persistence và rollback.</p></article>
+    <article class="finding"><header><span class="badge low">low</span><h3>Font/key-label overflow mới là NOTE</h3><span class="loc">DESIGN.md:228,248–250</span></header><p><strong>Fix:</strong> fallback glyph/keycap, wrap/ellipsis/tooltip và Việt/Anh snapshots.</p></article>
+  </div></details></section>
+
+  <div class="mechanical"><h3>Mechanical notes</h3><ul><li>Frontmatter parse; GDD source tồn tại; status hiện là draft.</li><li>17 color token hiện tại đều là hex; mọi token reference resolve.</li><li>24 component hiện tại có exact parity.</li><li>Ba journey có protagonist, numbered steps, climax và failure path.</li><li>Chưa có visual artifact; bốn mockup UX-014 là bước sau resolution.</li></ul></div>
+  <footer class="footer">Rubric: .agents/skills/gds-ux/references/validate.md · Reviewers: review-rubric.md, review-accessibility-fairness.md, review-pc-hud-input.md · Generated 2026-07-22T02:27:58+07:00</footer>
+</div></body></html>

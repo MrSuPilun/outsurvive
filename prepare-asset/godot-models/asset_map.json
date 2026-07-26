@@ -1,0 +1,4748 @@
+[
+  {
+    "source": "_unresolved/Object003--000274_189efa82.glb",
+    "target": "Unresolved/Unresolved_Object003000274189efa82.glb",
+    "category": "Unresolved",
+    "is_lod": false
+  },
+  {
+    "source": "jyz/jyz_fx006.glb",
+    "target": "Props/Prop_JyzFx006.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "logon/bx_shdzc_car01.glb",
+    "target": "Vehicles_SciFi/Vehicle_BxShdzcCar01.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "logon/logon_drum01.glb",
+    "target": "Props/Prop_LogonDrum01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "logon/logon_tire01.glb",
+    "target": "Vehicles_SciFi/Vehicle_LogonTire01.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "logon/logon_tire02.glb",
+    "target": "Vehicles_SciFi/Vehicle_LogonTire02.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "logon/xiutz_logon01.glb",
+    "target": "Props/Prop_Logon01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/bmsl_linjgd_dj002b.glb",
+    "target": "Buildings/Building_LinjgdDj002b.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/bmsl_linjgd_dj002c.glb",
+    "target": "Buildings/Building_LinjgdDj002c.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/bmsl_linjgd_jz005.glb",
+    "target": "Buildings/Building_LinjgdJz005.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/common_dianxiangan_01.glb",
+    "target": "Buildings/Building_Dianxiangan01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/jyz_ld001.glb",
+    "target": "Buildings/Building_JyzLd001.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_dj002b_lod1.glb",
+    "target": "Buildings/lod/Building_LinjgdDj002b_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_dj002b_lod2.glb",
+    "target": "Buildings/lod/Building_LinjgdDj002b_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_dj002c_lod1.glb",
+    "target": "Buildings/lod/Building_LinjgdDj002c_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_dj002c_lod2.glb",
+    "target": "Buildings/lod/Building_LinjgdDj002c_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_jz005_lod1.glb",
+    "target": "Buildings/lod/Building_LinjgdJz005_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/bmsl_linjgd_jz005_lod2.glb",
+    "target": "Buildings/lod/Building_LinjgdJz005_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/common_dianxiangan_01_lod1.glb",
+    "target": "Buildings/lod/Building_Dianxiangan01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/jyz_ld001_lod1.glb",
+    "target": "Buildings/lod/Building_JyzLd001_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/jyz_ld001_lod2.glb",
+    "target": "Buildings/lod/Building_JyzLd001_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/track_bridge004_lod1.glb",
+    "target": "Buildings/lod/Building_TrackBridge004_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/track_bridge004_lod2.glb",
+    "target": "Buildings/lod/Building_TrackBridge004_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/west_gas_station_001_lod1.glb",
+    "target": "Buildings/lod/Building_WestGasStation001_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/west_gas_station_001_lod2.glb",
+    "target": "Buildings/lod/Building_WestGasStation001_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_bc_tz_01_lod1.glb",
+    "target": "Buildings/lod/Building_BcTz01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_bc_tz_01_lod2.glb",
+    "target": "Buildings/lod/Building_BcTz01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_building_jk_lod1.glb",
+    "target": "Buildings/lod/BuildingJk_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_building_jk_lod2.glb",
+    "target": "Buildings/lod/BuildingJk_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_fdc_dgz_01_lod1.glb",
+    "target": "Buildings/lod/Building_FdcDgz01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_fdc_dgz_01_lod2.glb",
+    "target": "Buildings/lod/Building_FdcDgz01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_fdc_yc1_lod1.glb",
+    "target": "Buildings/lod/Building_FdcYc1_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_fdc_yc1_lod2.glb",
+    "target": "Buildings/lod/Building_FdcYc1_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_gccyg_01_lod1.glb",
+    "target": "Buildings/lod/Building_Gccyg01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_gccyg_01_lod2.glb",
+    "target": "Buildings/lod/Building_Gccyg01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_hc_01_lod1.glb",
+    "target": "Buildings/lod/Building_Hc01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_hc_01_lod2.glb",
+    "target": "Buildings/lod/Building_Hc01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_jb_dp_01_lod1.glb",
+    "target": "Buildings/lod/Building_JbDp01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_jb_dp_01_lod2.glb",
+    "target": "Buildings/lod/Building_JbDp01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mainexit_01_lod1.glb",
+    "target": "Buildings/lod/Building_Mainexit01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mainexit_01_lod2.glb",
+    "target": "Buildings/lod/Building_Mainexit01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mainexit_02_lod1.glb",
+    "target": "Buildings/lod/Building_Mainexit02_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mainexit_02_lod2.glb",
+    "target": "Buildings/lod/Building_Mainexit02_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mws_01_lod1.glb",
+    "target": "Buildings/lod/Building_Mws01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mws_01_lod2.glb",
+    "target": "Buildings/lod/Building_Mws01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mws_02_lod1.glb",
+    "target": "Buildings/lod/Building_Mws02_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_mws_02_lod2.glb",
+    "target": "Buildings/lod/Building_Mws02_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_qzj_01_lod1.glb",
+    "target": "Buildings/lod/Building_Qzj01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_qzj_01_lod2.glb",
+    "target": "Buildings/lod/Building_Qzj01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_tower_hcz_01_lod1.glb",
+    "target": "Buildings/lod/Building_TowerHcz01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_tower_hcz_01_lod2.glb",
+    "target": "Buildings/lod/Building_TowerHcz01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_yc_01_lod1.glb",
+    "target": "Buildings/lod/Building_Yc01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_yc_01_lod2.glb",
+    "target": "Buildings/lod/Building_Yc01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_yjs1_lod1.glb",
+    "target": "Buildings/lod/Building_Yjs1_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/lod/xiutz_yjs1_lod2.glb",
+    "target": "Buildings/lod/Building_Yjs1_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building/track_bridge004.glb",
+    "target": "Buildings/Building_TrackBridge004.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/west_gas_station_001.glb",
+    "target": "Buildings/Building_WestGasStation001.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/west_gas_station_002.glb",
+    "target": "Buildings/Building_WestGasStation002.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_3c_decal_01.glb",
+    "target": "Buildings/Building_3cDecal01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_bc_tz_01.glb",
+    "target": "Buildings/Building_BcTz01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_jk.glb",
+    "target": "Buildings/BuildingJk.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_jk_toutite.glb",
+    "target": "Buildings/BuildingJkToutite.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_large_2c_decal_01.glb",
+    "target": "Buildings/BuildingLarge2cDecal01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_large_decal_01.glb",
+    "target": "Buildings/BuildingLargeDecal01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_large_stairs_01.glb",
+    "target": "Buildings/BuildingLargeStairs01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_med_decal_01.glb",
+    "target": "Buildings/BuildingMedDecal01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_med_glass_01.glb",
+    "target": "Buildings/BuildingMedGlass01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_med_glass_02.glb",
+    "target": "Buildings/BuildingMedGlass02.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_med_glass_03.glb",
+    "target": "Buildings/BuildingMedGlass03.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_building_small_decal_01.glb",
+    "target": "Buildings/BuildingSmallDecal01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_fdc_dgz_01.glb",
+    "target": "Buildings/Building_FdcDgz01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_fdc_yc1.glb",
+    "target": "Buildings/Building_FdcYc1.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_gccyg_01.glb",
+    "target": "Buildings/Building_Gccyg01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_gcdm_01.glb",
+    "target": "Buildings/Building_Gcdm01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_hc_01.glb",
+    "target": "Buildings/Building_Hc01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_jb_dp_01.glb",
+    "target": "Buildings/Building_JbDp01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_kitchencabinet_01.glb",
+    "target": "Buildings/Building_Kitchencabinet01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_kitchencabinet_02.glb",
+    "target": "Buildings/Building_Kitchencabinet02.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_kitchencabinet_03.glb",
+    "target": "Buildings/Building_Kitchencabinet03.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_kitchencabinet_04.glb",
+    "target": "Buildings/Building_Kitchencabinet04.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_kitchencabinet_05.glb",
+    "target": "Buildings/Building_Kitchencabinet05.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mainexit_01.glb",
+    "target": "Buildings/Building_Mainexit01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mainexit_01a.glb",
+    "target": "Buildings/Building_Mainexit01a.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mainexit_02.glb",
+    "target": "Buildings/Building_Mainexit02.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mainexit_11.glb",
+    "target": "Buildings/Building_Mainexit11.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mws_01.glb",
+    "target": "Buildings/Building_Mws01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_mws_02.glb",
+    "target": "Buildings/Building_Mws02.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_pz01.glb",
+    "target": "Buildings/Building_Pz01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_pz02.glb",
+    "target": "Buildings/Building_Pz02.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_qzj_01.glb",
+    "target": "Buildings/Building_Qzj01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_shiqiao.glb",
+    "target": "Buildings/Building_Stonebridge.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_shuidao.glb",
+    "target": "Buildings/Building_Shuidao.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_tower_hcz_01.glb",
+    "target": "Buildings/Building_TowerHcz01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_warehouse_a3.glb",
+    "target": "Buildings/Building_WarehouseA3.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_wj025.glb",
+    "target": "Buildings/Building_Wj025.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_yc_01.glb",
+    "target": "Buildings/Building_Yc01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building/xiutz_yjs1.glb",
+    "target": "Buildings/Building_Yjs1.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_daoju_lod1.glb",
+    "target": "Buildings/lod/Building_JzDaoju_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_daoju_lod2.glb",
+    "target": "Buildings/lod/Building_JzDaoju_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_neibu_lod1.glb",
+    "target": "Buildings/lod/Building_JzNeibu_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_neibu_lod2.glb",
+    "target": "Buildings/lod/Building_JzNeibu_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_waike_lod1.glb",
+    "target": "Buildings/lod/Building_JzWaike_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/saibt_jz_waike_lod2.glb",
+    "target": "Buildings/lod/Building_JzWaike_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_1c_01_2048_lod1.glb",
+    "target": "Buildings/lod/Building_1c012048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_1c_01_2048_lod2.glb",
+    "target": "Buildings/lod/Building_1c012048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_01_lod1.glb",
+    "target": "Buildings/lod/BuildingLarge01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_01_lod2.glb",
+    "target": "Buildings/lod/BuildingLarge01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_2c_01_2048_lod1.glb",
+    "target": "Buildings/lod/BuildingLarge2c012048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_2c_01_2048_lod2.glb",
+    "target": "Buildings/lod/BuildingLarge2c012048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_3c_01_2048_lod1.glb",
+    "target": "Buildings/lod/BuildingLarge3c012048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_large_3c_01_2048_lod2.glb",
+    "target": "Buildings/lod/BuildingLarge3c012048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_med_01_2048_lod1.glb",
+    "target": "Buildings/lod/BuildingMed012048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_med_01_2048_lod2.glb",
+    "target": "Buildings/lod/BuildingMed012048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_med_wood_01_lod1.glb",
+    "target": "Buildings/lod/BuildingMedWood01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_med_wood_01_lod2.glb",
+    "target": "Buildings/lod/BuildingMedWood01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_small_01_lod1.glb",
+    "target": "Buildings/lod/BuildingSmall01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_small_01_lod2.glb",
+    "target": "Buildings/lod/BuildingSmall01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_small_02_lod1.glb",
+    "target": "Buildings/lod/BuildingSmall02_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_building_small_02_lod2.glb",
+    "target": "Buildings/lod/BuildingSmall02_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_ck_01_lod1.glb",
+    "target": "Buildings/lod/Building_Ck01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_ck_01_lod2.glb",
+    "target": "Buildings/lod/Building_Ck01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_ck_04_lod1.glb",
+    "target": "Buildings/lod/Building_Ck04_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_ck_04_lod2.glb",
+    "target": "Buildings/lod/Building_Ck04_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_factoryhouse_01_lod1.glb",
+    "target": "Buildings/lod/Building_Factoryhouse01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_factoryhouse_01_lod2.glb",
+    "target": "Buildings/lod/Building_Factoryhouse01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_factoryhouse_02_lod1.glb",
+    "target": "Buildings/lod/Building_Factoryhouse02_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_factoryhouse_02_lod2.glb",
+    "target": "Buildings/lod/Building_Factoryhouse02_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_01_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_01_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_02_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc02_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_02_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc02_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_03_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc03_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_03_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc03_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_04_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc04_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_04_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc04_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_05_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc05_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_05_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc05_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_06_lod1.glb",
+    "target": "Buildings/lod/Building_Fdc06_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_fdc_06_lod2.glb",
+    "target": "Buildings/lod/Building_Fdc06_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_03_lod1.glb",
+    "target": "Buildings/lod/Building_HeiygcFz03_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_03_lod2.glb",
+    "target": "Buildings/lod/Building_HeiygcFz03_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_04_lod1.glb",
+    "target": "Buildings/lod/Building_HeiygcFz04_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_04_lod2.glb",
+    "target": "Buildings/lod/Building_HeiygcFz04_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_05_lod1.glb",
+    "target": "Buildings/lod/Building_HeiygcFz05_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_05_lod2.glb",
+    "target": "Buildings/lod/Building_HeiygcFz05_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_09_lod1.glb",
+    "target": "Buildings/lod/Building_HeiygcFz09_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_heiygc_fz_09_lod2.glb",
+    "target": "Buildings/lod/Building_HeiygcFz09_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_jb_01_lod1.glb",
+    "target": "Buildings/lod/Building_Jb01_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_jb_01_lod2.glb",
+    "target": "Buildings/lod/Building_Jb01_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_jcj_lod1.glb",
+    "target": "Buildings/lod/Building_Jcj_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_jcj_lod2.glb",
+    "target": "Buildings/lod/Building_Jcj_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_warehouse_a_lod1.glb",
+    "target": "Buildings/lod/Building_WarehouseA_2048_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/lod/xiutz_warehouse_a_lod2.glb",
+    "target": "Buildings/lod/Building_WarehouseA_2048_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/building_2048/saibt_jz_daoju.glb",
+    "target": "Buildings/Building_JzDaoju_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/saibt_jz_neibu.glb",
+    "target": "Buildings/Building_JzNeibu_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/saibt_jz_waike.glb",
+    "target": "Buildings/Building_JzWaike_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_1c_01_2048.glb",
+    "target": "Buildings/Building_1c012048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_1c_01_decal_2048.glb",
+    "target": "Buildings/Building_1c01Decal2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_01.glb",
+    "target": "Buildings/BuildingLarge01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_2c_01_2048.glb",
+    "target": "Buildings/BuildingLarge2c012048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_2c_decal_01.glb",
+    "target": "Buildings/BuildingLarge2cDecal01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_3c_01_2048.glb",
+    "target": "Buildings/BuildingLarge3c012048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_3c_01_decal_2048.glb",
+    "target": "Buildings/BuildingLarge3c01Decal2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_large_decal_01.glb",
+    "target": "Buildings/BuildingLargeDecal01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_med_01_2048.glb",
+    "target": "Buildings/BuildingMed012048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_med_decal_01_2048.glb",
+    "target": "Buildings/BuildingMedDecal012048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_med_wood_01.glb",
+    "target": "Buildings/BuildingMedWood01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_small_01.glb",
+    "target": "Buildings/BuildingSmall01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_small_02.glb",
+    "target": "Buildings/BuildingSmall02_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_building_small_decal_01.glb",
+    "target": "Buildings/BuildingSmallDecal01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_ck_01.glb",
+    "target": "Buildings/Building_Ck01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_ck_04.glb",
+    "target": "Buildings/Building_Ck04_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_factoryhouse_01.glb",
+    "target": "Buildings/Building_Factoryhouse01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_factoryhouse_02.glb",
+    "target": "Buildings/Building_Factoryhouse02_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_01.glb",
+    "target": "Buildings/Building_Fdc01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_02.glb",
+    "target": "Buildings/Building_Fdc02_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_03.glb",
+    "target": "Buildings/Building_Fdc03_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_04.glb",
+    "target": "Buildings/Building_Fdc04_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_05.glb",
+    "target": "Buildings/Building_Fdc05_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_fdc_06.glb",
+    "target": "Buildings/Building_Fdc06_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_heiygc_fz_01.glb",
+    "target": "Buildings/Building_HeiygcFz01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_heiygc_fz_03.glb",
+    "target": "Buildings/Building_HeiygcFz03_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_heiygc_fz_04.glb",
+    "target": "Buildings/Building_HeiygcFz04_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_heiygc_fz_05.glb",
+    "target": "Buildings/Building_HeiygcFz05_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_heiygc_fz_09.glb",
+    "target": "Buildings/Building_HeiygcFz09_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_jb_01.glb",
+    "target": "Buildings/Building_Jb01_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_jcj.glb",
+    "target": "Buildings/Building_Jcj_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/building_2048/xiutz_warehouse_a.glb",
+    "target": "Buildings/Building_WarehouseA_2048.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/bmsl_linjgd_dj003b.glb",
+    "target": "Buildings/Building_LinjgdDj003b.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/common_lorry_05.glb",
+    "target": "Cover_Obstacles/Cover_Lorry05.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/lod/bmsl_linjgd_dj003b_lod1.glb",
+    "target": "Buildings/lod/Building_LinjgdDj003b_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/bmsl_linjgd_dj003b_lod2.glb",
+    "target": "Buildings/lod/Building_LinjgdDj003b_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/common_lorry_05_lod1.glb",
+    "target": "Cover_Obstacles/lod/Cover_Lorry05_lod1.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/common_lorry_05_lod2.glb",
+    "target": "Cover_Obstacles/lod/Cover_Lorry05_lod2.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/xiutz_truck_02_lod1.glb",
+    "target": "Cover_Obstacles/lod/Cover_Truck02_lod1.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/xiutz_truck_02_lod2.glb",
+    "target": "Cover_Obstacles/lod/Cover_Truck02_lod2.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/xiutz_truck_02a_lod1.glb",
+    "target": "Cover_Obstacles/lod/Cover_Truck02a_lod1.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/lod/xiutz_truck_02a_lod2.glb",
+    "target": "Cover_Obstacles/lod/Cover_Truck02a_lod2.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/cover/xiutz_bc_sd_01.glb",
+    "target": "Cover_Obstacles/Cover_BcSd01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_bc_sd_02.glb",
+    "target": "Cover_Obstacles/Cover_BcSd02.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_bc_yt_05.glb",
+    "target": "Cover_Obstacles/Cover_BcYt05.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_bc_yt_06.glb",
+    "target": "Cover_Obstacles/Cover_BcYt06.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_bc_yt_07.glb",
+    "target": "Cover_Obstacles/Cover_BcYt07.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_box_a.glb",
+    "target": "Cover_Obstacles/Cover_BoxA.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_cd_01.glb",
+    "target": "Cover_Obstacles/Cover_Cd01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_cd_02a.glb",
+    "target": "Cover_Obstacles/Cover_Cd02a.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_cd_02b.glb",
+    "target": "Cover_Obstacles/Cover_Cd02b.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container01.glb",
+    "target": "Cover_Obstacles/Cover_Container01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container02.glb",
+    "target": "Cover_Obstacles/Cover_Container02.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container03.glb",
+    "target": "Cover_Obstacles/Cover_Container03.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container04.glb",
+    "target": "Cover_Obstacles/Cover_Container04.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container05.glb",
+    "target": "Cover_Obstacles/Cover_Container05.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container07.glb",
+    "target": "Cover_Obstacles/Cover_Container07.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container08.glb",
+    "target": "Cover_Obstacles/Cover_Container08.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container10.glb",
+    "target": "Cover_Obstacles/Cover_Container10.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container11.glb",
+    "target": "Cover_Obstacles/Cover_Container11.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_container12.glb",
+    "target": "Cover_Obstacles/Cover_Container12.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_jz0013a.glb",
+    "target": "Cover_Obstacles/Cover_Jz0013a.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_jz0013b.glb",
+    "target": "Cover_Obstacles/Cover_Jz0013b.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_jz0013c.glb",
+    "target": "Cover_Obstacles/Cover_Jz0013c.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_jz0013d.glb",
+    "target": "Cover_Obstacles/Cover_Jz0013d.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_jz0013e.glb",
+    "target": "Cover_Obstacles/Cover_Jz0013e.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang01.glb",
+    "target": "Cover_Obstacles/Cover_Qiang01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang010.glb",
+    "target": "Cover_Obstacles/Cover_Qiang010.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang03.glb",
+    "target": "Cover_Obstacles/Cover_Qiang03.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang04.glb",
+    "target": "Cover_Obstacles/Cover_Qiang04.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang06.glb",
+    "target": "Cover_Obstacles/Cover_Qiang06.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang07.glb",
+    "target": "Cover_Obstacles/Cover_Qiang07.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang08.glb",
+    "target": "Cover_Obstacles/Cover_Qiang08.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang09.glb",
+    "target": "Cover_Obstacles/Cover_Qiang09.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang10.glb",
+    "target": "Cover_Obstacles/Cover_Qiang10.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang_4m_01.glb",
+    "target": "Cover_Obstacles/Cover_Qiang4m01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_qiang_dj01.glb",
+    "target": "Cover_Obstacles/Cover_QiangDj01.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_roadblock_a.glb",
+    "target": "Cover_Obstacles/Cover_RoadblockA.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_truck_02.glb",
+    "target": "Cover_Obstacles/Cover_Truck02.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_truck_02a.glb",
+    "target": "Cover_Obstacles/Cover_Truck02a.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_a1.glb",
+    "target": "Cover_Obstacles/Cover_WallA1.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_a2.glb",
+    "target": "Cover_Obstacles/Cover_WallA2.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_a3.glb",
+    "target": "Cover_Obstacles/Cover_WallA3.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_a4.glb",
+    "target": "Cover_Obstacles/Cover_WallA4.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_b1.glb",
+    "target": "Cover_Obstacles/Cover_WallB1.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_b2.glb",
+    "target": "Cover_Obstacles/Cover_WallB2.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_wall_b3.glb",
+    "target": "Cover_Obstacles/Cover_WallB3.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/cover/xiutz_yg_02.glb",
+    "target": "Cover_Obstacles/Cover_Yg02.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/bmsl_linjgd_dj001.glb",
+    "target": "Buildings/Building_LinjgdDj001.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/bmsl_linjgd_jz004.glb",
+    "target": "Buildings/Building_LinjgdJz004.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/bmsl_linjgd_jz007.glb",
+    "target": "Buildings/Building_LinjgdJz007.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/decal05.glb",
+    "target": "Props/Prop_Decal05.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/decal06.glb",
+    "target": "Props/Prop_Decal06.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dflg_guswfjc_dj001.glb",
+    "target": "Props/Prop_DflgGuswfjcDj001.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dflg_guswfjc_dj002.glb",
+    "target": "Props/Prop_DflgGuswfjcDj002.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dflg_guswfjc_dj004.glb",
+    "target": "Props/Prop_DflgGuswfjcDj004.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dj_ship003a.glb",
+    "target": "Props/Prop_DjShip003a.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dj_ship003b.glb",
+    "target": "Props/Prop_DjShip003b.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/dlc_hb_01.glb",
+    "target": "Props/Prop_DlcHb01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/garbage01.glb",
+    "target": "Props/Prop_Garbage01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/garbage_01.glb",
+    "target": "Props/Prop_Garbage01_v2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/home_dj005.glb",
+    "target": "Props/Prop_HomeDj005.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/light_lan01.glb",
+    "target": "Props/Prop_LightLan01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/lod/bmsl_linjgd_jz007_lod1.glb",
+    "target": "Buildings/lod/Building_LinjgdJz007_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/bmsl_linjgd_jz007_lod2.glb",
+    "target": "Buildings/lod/Building_LinjgdJz007_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/dj_ship003a_lod1.glb",
+    "target": "Props/lod/Prop_DjShip003a_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/dj_ship003a_lod2.glb",
+    "target": "Props/lod/Prop_DjShip003a_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/dj_ship003b_lod1.glb",
+    "target": "Props/lod/Prop_DjShip003b_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/dj_ship003b_lod2.glb",
+    "target": "Props/lod/Prop_DjShip003b_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/garbage01_lod1.glb",
+    "target": "Props/lod/Prop_Garbage01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/garbage01_lod2.glb",
+    "target": "Props/lod/Prop_Garbage01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/garbage_01_lod1.glb",
+    "target": "Props/lod/Prop_Garbage01_v2_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/garbage_01_lod2.glb",
+    "target": "Props/lod/Prop_Garbage01_v2_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pve01_mudui_01_lod1.glb",
+    "target": "Props/lod/Prop_Pve01Mudui01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pve01_mudui_01_lod2.glb",
+    "target": "Props/lod/Prop_Pve01Mudui01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pve01_xht_building01_lod1.glb",
+    "target": "Buildings/lod/Building_Pve01XhtBuilding01_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pve01_xht_building01_lod2.glb",
+    "target": "Buildings/lod/Building_Pve01XhtBuilding01_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_dj02_lod1.glb",
+    "target": "Props/lod/Prop_Dj02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_dj02_lod2.glb",
+    "target": "Props/lod/Prop_Dj02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_langan02_lod1.glb",
+    "target": "Props/lod/Prop_Langan02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_langan02_lod2.glb",
+    "target": "Props/lod/Prop_Langan02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_plane01_lod1.glb",
+    "target": "Props/lod/Prop_Plane01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/pvp_legionwar_plane01_lod2.glb",
+    "target": "Props/lod/Prop_Plane01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xinshou_pole_01_lod1.glb",
+    "target": "Props/lod/Prop_Pole01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xinshou_pole_01_lod2.glb",
+    "target": "Props/lod/Prop_Pole01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_chache_lod1.glb",
+    "target": "Props/lod/Prop_Forklift_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_chache_lod2.glb",
+    "target": "Props/lod/Prop_Forklift_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_dd_01_lod1.glb",
+    "target": "Props/lod/Prop_Dd01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_gl_01_lod1.glb",
+    "target": "Props/lod/Prop_Gl01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_gl_01_lod2.glb",
+    "target": "Props/lod/Prop_Gl01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_hs_01_lod1.glb",
+    "target": "Props/lod/Prop_Hs01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_jz002_gcgd001_lod1.glb",
+    "target": "Props/lod/Prop_Jz002Gcgd001_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_jz002_gcgd001_lod2.glb",
+    "target": "Props/lod/Prop_Jz002Gcgd001_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_jz010_lod1.glb",
+    "target": "Props/lod/Prop_Jz010_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_jz010_lod2.glb",
+    "target": "Props/lod/Prop_Jz010_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_lwt01_lod1.glb",
+    "target": "Props/lod/Prop_Lwt01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_lwt01_lod2.glb",
+    "target": "Props/lod/Prop_Lwt01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_lwt_01_lod1.glb",
+    "target": "Props/lod/Prop_Lwt01_v2_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_lwt_01_lod2.glb",
+    "target": "Props/lod/Prop_Lwt01_v2_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mainexit_03_lod1.glb",
+    "target": "Buildings/lod/Building_Mainexit03_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mainexit_03_lod2.glb",
+    "target": "Buildings/lod/Building_Mainexit03_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mainexit_06_lod1.glb",
+    "target": "Buildings/lod/Building_Mainexit06_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mainexit_06_lod2.glb",
+    "target": "Buildings/lod/Building_Mainexit06_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_01_lod1.glb",
+    "target": "Props/lod/Prop_Mq01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_01_lod2.glb",
+    "target": "Props/lod/Prop_Mq01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_02_lod1.glb",
+    "target": "Props/lod/Prop_Mq02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_02_lod2.glb",
+    "target": "Props/lod/Prop_Mq02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_04_lod1.glb",
+    "target": "Props/lod/Prop_Mq04_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_mq_04_lod2.glb",
+    "target": "Props/lod/Prop_Mq04_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_pz_01_lod1.glb",
+    "target": "Props/lod/Prop_Pz01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_pz_01_lod2.glb",
+    "target": "Props/lod/Prop_Pz01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_qyt_02_lod1.glb",
+    "target": "Props/lod/Prop_Qyt02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_qyt_02_lod2.glb",
+    "target": "Props/lod/Prop_Qyt02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_sofa02_lod1.glb",
+    "target": "Props/lod/Prop_Sofa02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_st_01_lod1.glb",
+    "target": "Props/lod/Prop_St01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_st_01_lod2.glb",
+    "target": "Props/lod/Prop_St01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tjz_01_lod1.glb",
+    "target": "Props/lod/Prop_Tjz01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tjz_01_lod2.glb",
+    "target": "Props/lod/Prop_Tjz01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tt_lod1.glb",
+    "target": "Props/lod/Prop_Tower_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tt_lod2.glb",
+    "target": "Props/lod/Prop_Tower_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tuolaji_lod1.glb",
+    "target": "Props/lod/Prop_Tractor_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tuolaji_lod2.glb",
+    "target": "Props/lod/Prop_Tractor_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tzd_lod1.glb",
+    "target": "Props/lod/Prop_Tzd_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_tzd_lod2.glb",
+    "target": "Props/lod/Prop_Tzd_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj001_lod1.glb",
+    "target": "Props/lod/Prop_Wj001_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj001_lod2.glb",
+    "target": "Props/lod/Prop_Wj001_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj034a_lod1.glb",
+    "target": "Props/lod/Prop_Wj034a_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj034a_lod2.glb",
+    "target": "Props/lod/Prop_Wj034a_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj034new_lod1.glb",
+    "target": "Props/lod/Prop_Wj034new_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_wj034new_lod2.glb",
+    "target": "Props/lod/Prop_Wj034new_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_xdd_01_lod1.glb",
+    "target": "Props/lod/Prop_Xdd01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_01_lod1.glb",
+    "target": "Props/lod/Prop_Yg01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_01_lod2.glb",
+    "target": "Props/lod/Prop_Yg01_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_02_lod1.glb",
+    "target": "Props/lod/Prop_Yg02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_02_lod2.glb",
+    "target": "Props/lod/Prop_Yg02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_03_lod1.glb",
+    "target": "Props/lod/Prop_Yg03_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yg_03_lod2.glb",
+    "target": "Props/lod/Prop_Yg03_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yl_01_lod1.glb",
+    "target": "Props/lod/Prop_Yl01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yyyz_02_lod1.glb",
+    "target": "Props/lod/Prop_Yyyz02_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yyyz_02_lod2.glb",
+    "target": "Props/lod/Prop_Yyyz02_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/lod/xiutz_yz_01_lod1.glb",
+    "target": "Props/lod/Prop_Yz01_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/props/logon_dg01.glb",
+    "target": "Props/Prop_LogonDg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/logon_rubbish02.glb",
+    "target": "Props/Prop_LogonRubbish02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/oil_decal_01.glb",
+    "target": "Props/Prop_OilDecal01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/item_meiguihua.glb",
+    "target": "Pickups/Pickup_ItemMeiguihua.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_1017_auga3.glb",
+    "target": "Pickups/Pickup_1017Auga3.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_1017_auga3_dj.glb",
+    "target": "Pickups/Pickup_1017Auga3Dj.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_1022_rpg7.glb",
+    "target": "Pickups/Pickup_1022Rpg7.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_1022_rpg7_b.glb",
+    "target": "Pickups/Pickup_1022Rpg7B.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_adrenaline_1.glb",
+    "target": "Pickups/Pickup_Adrenaline1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_aid1.glb",
+    "target": "Pickups/Pickup_Aid1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_backpack_a.glb",
+    "target": "Pickups/Pickup_BackpackA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_backpack_b.glb",
+    "target": "Pickups/Pickup_BackpackB.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_backpack_c.glb",
+    "target": "Pickups/Pickup_BackpackC.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_baiduwaimai.glb",
+    "target": "Pickups/Pickup_Deliverybox.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_bandage_1.glb",
+    "target": "Pickups/Pickup_Bandage1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_bbt_01.glb",
+    "target": "Pickups/Pickup_Bbt01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_cjj_01.glb",
+    "target": "Pickups/Pickup_Cjj01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_energydrinks_1.glb",
+    "target": "Pickups/Pickup_Energydrinks1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_fuel_a.glb",
+    "target": "Pickups/Pickup_FuelA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_goul_01.glb",
+    "target": "Pickups/Pickup_Goul01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_hb_01.glb",
+    "target": "Pickups/Pickup_Hb01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_helmet_a.glb",
+    "target": "Pickups/Pickup_HelmetA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_helmet_b.glb",
+    "target": "Pickups/Pickup_HelmetB.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_helmet_c.glb",
+    "target": "Pickups/Pickup_HelmetC.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_jiaozi_01.glb",
+    "target": "Pickups/Pickup_Jiaozi01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_m12_01.glb",
+    "target": "Pickups/Pickup_M1201.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_m12_01_dj.glb",
+    "target": "Pickups/Pickup_M1201Dj.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_medicalbox_1.glb",
+    "target": "Pickups/Pickup_Medicalbox1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_painkillers_1.glb",
+    "target": "Pickups/Pickup_Painkillers1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pdg_01.glb",
+    "target": "Pickups/Pickup_Pdg01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pistolbullets_1.glb",
+    "target": "Pickups/Pickup_Pistolbullets1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pistolbullets_2.glb",
+    "target": "Pickups/Pickup_Pistolbullets2.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1045_an94.glb",
+    "target": "Pickups/Pickup_Pw1045An94.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1052_mp5sd_01.glb",
+    "target": "Pickups/Pickup_Pw1052Mp5sd01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1052_mp5sd_qtb_01.glb",
+    "target": "Pickups/Pickup_Pw1052Mp5sdQtb01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1052_mp5sd_xsq_01.glb",
+    "target": "Pickups/Pickup_Pw1052Mp5sdXsq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1053_acr_01.glb",
+    "target": "Pickups/Pickup_Pw1053Acr01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_pw_1054_tar21.glb",
+    "target": "Pickups/Pickup_Pw1054Tar21.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_qbz03_qs_01.glb",
+    "target": "Pickups/Pickup_Qbz03Qs01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_riflebullets_1.glb",
+    "target": "Pickups/Pickup_Riflebullets1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_sdm_01.glb",
+    "target": "Pickups/Pickup_Sdm01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_shaojxb.glb",
+    "target": "Pickups/Pickup_Smallgearbox.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_shoes_a.glb",
+    "target": "Pickups/Pickup_ShoesA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_shotgunbullets_1.glb",
+    "target": "Pickups/Pickup_Shotgunbullets1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_sl_01.glb",
+    "target": "Pickups/Pickup_Sl01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_sniperbullets_1.glb",
+    "target": "Pickups/Pickup_Sniperbullets1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_tp_qub88.glb",
+    "target": "Pickups/Pickup_TpQub88.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_tp_qub88_dj.glb",
+    "target": "Pickups/Pickup_TpQub88Dj.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_tp_qub88_mj.glb",
+    "target": "Pickups/Pickup_TpQub88Mj.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_tp_qub88_xsq.glb",
+    "target": "Pickups/Pickup_TpQub88Xsq.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_trousers_a.glb",
+    "target": "Pickups/Pickup_TrousersA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_tshirt_a.glb",
+    "target": "Pickups/Pickup_TshirtA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_turkey_1.glb",
+    "target": "Pickups/Pickup_Turkey1.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_vests_a.glb",
+    "target": "Pickups/Pickup_VestsA.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_vests_b.glb",
+    "target": "Pickups/Pickup_VestsB.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_vests_c.glb",
+    "target": "Pickups/Pickup_VestsC.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq01.glb",
+    "target": "Pickups/Pickup_WeaponBq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq02.glb",
+    "target": "Pickups/Pickup_WeaponBq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq03.glb",
+    "target": "Pickups/Pickup_WeaponBq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq04.glb",
+    "target": "Pickups/Pickup_WeaponBq04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq05.glb",
+    "target": "Pickups/Pickup_WeaponBq05.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_bq06.glb",
+    "target": "Pickups/Pickup_WeaponBq06.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq01.glb",
+    "target": "Pickups/Pickup_WeaponCfq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq02.glb",
+    "target": "Pickups/Pickup_WeaponCfq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq03.glb",
+    "target": "Pickups/Pickup_WeaponCfq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq04.glb",
+    "target": "Pickups/Pickup_WeaponCfq04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq05.glb",
+    "target": "Pickups/Pickup_WeaponCfq05.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq06.glb",
+    "target": "Pickups/Pickup_WeaponCfq06.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_cfq07.glb",
+    "target": "Pickups/Pickup_WeaponCfq07.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_dj01.glb",
+    "target": "Pickups/Pickup_WeaponDj01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_dj02.glb",
+    "target": "Pickups/Pickup_WeaponDj02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_dmsg_01.glb",
+    "target": "Pickups/Pickup_WeaponDmsg01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_jf_01.glb",
+    "target": "Pickups/Pickup_WeaponJf01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_jjq01.glb",
+    "target": "Pickups/Pickup_WeaponJjq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_jjq02.glb",
+    "target": "Pickups/Pickup_WeaponJjq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_jjq03.glb",
+    "target": "Pickups/Pickup_WeaponJjq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_jq_01.glb",
+    "target": "Pickups/Pickup_WeaponJq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj01.glb",
+    "target": "Pickups/Pickup_WeaponMzj01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj02.glb",
+    "target": "Pickups/Pickup_WeaponMzj02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj03.glb",
+    "target": "Pickups/Pickup_WeaponMzj03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj04.glb",
+    "target": "Pickups/Pickup_WeaponMzj04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj05.glb",
+    "target": "Pickups/Pickup_WeaponMzj05.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj06.glb",
+    "target": "Pickups/Pickup_WeaponMzj06.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_mzj07.glb",
+    "target": "Pickups/Pickup_WeaponMzj07.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qg_01.glb",
+    "target": "Pickups/Pickup_WeaponQg01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qt01.glb",
+    "target": "Pickups/Pickup_WeaponQt01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qt02.glb",
+    "target": "Pickups/Pickup_WeaponQt02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qt03.glb",
+    "target": "Pickups/Pickup_WeaponQt03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qt04.glb",
+    "target": "Pickups/Pickup_WeaponQt04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_qt05.glb",
+    "target": "Pickups/Pickup_WeaponQt05.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sdq01.glb",
+    "target": "Pickups/Pickup_WeaponSdq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sdq02.glb",
+    "target": "Pickups/Pickup_WeaponSdq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sdq03.glb",
+    "target": "Pickups/Pickup_WeaponSdq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sdq04.glb",
+    "target": "Pickups/Pickup_WeaponSdq04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sgd01.glb",
+    "target": "Pickups/Pickup_WeaponSgd01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sl01.glb",
+    "target": "Pickups/Pickup_WeaponSl01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sq01.glb",
+    "target": "Pickups/Pickup_WeaponSq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sq02.glb",
+    "target": "Pickups/Pickup_WeaponSq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_sq03.glb",
+    "target": "Pickups/Pickup_WeaponSq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_xsq01.glb",
+    "target": "Pickups/Pickup_WeaponXsq01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_xsq02.glb",
+    "target": "Pickups/Pickup_WeaponXsq02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_xsq03.glb",
+    "target": "Pickups/Pickup_WeaponXsq03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_xsq04.glb",
+    "target": "Pickups/Pickup_WeaponXsq04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_ywd01.glb",
+    "target": "Pickups/Pickup_WeaponYwd01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj01.glb",
+    "target": "Pickups/Pickup_WeaponZj01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj02.glb",
+    "target": "Pickups/Pickup_WeaponZj02.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj03.glb",
+    "target": "Pickups/Pickup_WeaponZj03.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj04.glb",
+    "target": "Pickups/Pickup_WeaponZj04.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj05.glb",
+    "target": "Pickups/Pickup_WeaponZj05.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj06.glb",
+    "target": "Pickups/Pickup_WeaponZj06.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj07.glb",
+    "target": "Pickups/Pickup_WeaponZj07.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj08.glb",
+    "target": "Pickups/Pickup_WeaponZj08.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj09.glb",
+    "target": "Pickups/Pickup_WeaponZj09.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj10.glb",
+    "target": "Pickups/Pickup_WeaponZj10.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj11.glb",
+    "target": "Pickups/Pickup_WeaponZj11.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj12.glb",
+    "target": "Pickups/Pickup_WeaponZj12.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj13.glb",
+    "target": "Pickups/Pickup_WeaponZj13.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_weapon_zj14.glb",
+    "target": "Pickups/Pickup_WeaponZj14.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_xiutz_yt_01.glb",
+    "target": "Pickups/Pickup_XiutzYt01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pick/pk_zgww_01.glb",
+    "target": "Pickups/Pickup_Zgww01.glb",
+    "category": "Pickups",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pve01_mudui_01.glb",
+    "target": "Props/Prop_Pve01Mudui01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pve01_xht_building01.glb",
+    "target": "Buildings/Building_Pve01XhtBuilding01.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pvp_legionwar_dj02.glb",
+    "target": "Props/Prop_Dj02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pvp_legionwar_langan02.glb",
+    "target": "Props/Prop_Langan02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/pvp_legionwar_plane01.glb",
+    "target": "Props/Prop_Plane01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/track_fence02.glb",
+    "target": "Props/Prop_TrackFence02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinshou_aircon02.glb",
+    "target": "Props/Prop_Aircon02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinshou_awning02.glb",
+    "target": "Props/Prop_Awning02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinshou_build09a.glb",
+    "target": "Props/Prop_Build09a.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinshou_pole_01.glb",
+    "target": "Props/Prop_Pole01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinsjx_dj030.glb",
+    "target": "Props/Prop_XinsjxDj030.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xinsjx_dj034.glb",
+    "target": "Props/Prop_XinsjxDj034.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bc_dyx_01.glb",
+    "target": "Props/Prop_BcDyx01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bc_lt_01.glb",
+    "target": "Props/Prop_BcLt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bc_mb_01.glb",
+    "target": "Props/Prop_BcMb01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bdx.glb",
+    "target": "Props/Prop_Bdx.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bed1.glb",
+    "target": "Props/Prop_Bed1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bed2.glb",
+    "target": "Props/Prop_Bed2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bgx_01.glb",
+    "target": "Props/Prop_Bgx01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bgz01.glb",
+    "target": "Props/Prop_Bgz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bz_01.glb",
+    "target": "Props/Prop_Bz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_bz_03.glb",
+    "target": "Props/Prop_Bz03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_carton1.glb",
+    "target": "Props/Prop_Carton1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_carton2.glb",
+    "target": "Props/Prop_Carton2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_carton3.glb",
+    "target": "Props/Prop_Carton3.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_chache.glb",
+    "target": "Props/Prop_Forklift.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_clock.glb",
+    "target": "Props/Prop_Clock.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_crawl1.glb",
+    "target": "Props/Prop_Crawl1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_ctg_02.glb",
+    "target": "Props/Prop_Ctg02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_cupboard1.glb",
+    "target": "Props/Prop_Cupboard1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_cupboard2.glb",
+    "target": "Props/Prop_Cupboard2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_cupboard3.glb",
+    "target": "Props/Prop_Cupboard3.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_cupboard4.glb",
+    "target": "Props/Prop_Cupboard4.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dd_01.glb",
+    "target": "Props/Prop_Dd01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dd_02.glb",
+    "target": "Props/Prop_Dd02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dh.glb",
+    "target": "Props/Prop_Dh.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dljt_01.glb",
+    "target": "Props/Prop_Dljt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dn_02.glb",
+    "target": "Props/Prop_Dn02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dt_01.glb",
+    "target": "Props/Prop_Dt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dt_02.glb",
+    "target": "Props/Prop_Dt02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dt_03.glb",
+    "target": "Props/Prop_Dt03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dx_01.glb",
+    "target": "Props/Prop_Dx01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dxg_01.glb",
+    "target": "Props/Prop_Dxg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_dyx01.glb",
+    "target": "Props/Prop_Dyx01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_eb_02.glb",
+    "target": "Props/Prop_Eb02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fangzhuanlan.glb",
+    "target": "Props/Prop_Fangzhuanlan.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fence_a.glb",
+    "target": "Props/Prop_FenceA.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fence_b.glb",
+    "target": "Props/Prop_FenceB.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fence_c.glb",
+    "target": "Props/Prop_FenceC.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_firewood1.glb",
+    "target": "Props/Prop_Firewood1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fridge01.glb",
+    "target": "Props/Prop_Fridge01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fyi_01.glb",
+    "target": "Props/Prop_Fyi01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_fyj_01.glb",
+    "target": "Props/Prop_Fyj01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_gl01.glb",
+    "target": "Props/Prop_Gl01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_gl_01.glb",
+    "target": "Props/Prop_Gl01_v2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_gskt_01.glb",
+    "target": "Props/Prop_Gskt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_guanhgaopai01.glb",
+    "target": "Props/Prop_Guanhgaopai01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_handrail01.glb",
+    "target": "Props/Prop_Handrail01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_handrail02.glb",
+    "target": "Props/Prop_Handrail02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_handrail03.glb",
+    "target": "Props/Prop_Handrail03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_hcz015.glb",
+    "target": "Props/Prop_Hcz015.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_hs_01.glb",
+    "target": "Props/Prop_Hs01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jaiyouji.glb",
+    "target": "Props/Prop_Jaiyouji.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_bt_01.glb",
+    "target": "Props/Prop_JbBt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_bt_02.glb",
+    "target": "Props/Prop_JbBt02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_dz_01.glb",
+    "target": "Props/Prop_JbDz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_jg_01.glb",
+    "target": "Props/Prop_JbJg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_jj_01.glb",
+    "target": "Props/Prop_JbJj01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_mgd_01.glb",
+    "target": "Props/Prop_JbMgd01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_pz_01.glb",
+    "target": "Props/Prop_JbPz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_sf_01.glb",
+    "target": "Props/Prop_JbSf01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_sf_02.glb",
+    "target": "Props/Prop_JbSf02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_zz_01.glb",
+    "target": "Props/Prop_JbZz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jb_zz_02.glb",
+    "target": "Props/Prop_JbZz02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jiazi.glb",
+    "target": "Props/Prop_Jiazi.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jingshipai.glb",
+    "target": "Props/Prop_Jingshipai.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjd_01.glb",
+    "target": "Props/Prop_Jjd01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjgz_01.glb",
+    "target": "Props/Prop_Jjgz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjhb_01.glb",
+    "target": "Props/Prop_Jjhb01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjhb_02.glb",
+    "target": "Props/Prop_Jjhb02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjqg_01.glb",
+    "target": "Props/Prop_Jjqg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjyg_01.glb",
+    "target": "Props/Prop_Jjyg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjyz_01.glb",
+    "target": "Props/Prop_Jjyz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jjzz_01.glb",
+    "target": "Props/Prop_Jjzz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jsds_01.glb",
+    "target": "Props/Prop_Jsds01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jsgz_01.glb",
+    "target": "Props/Prop_Jsgz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jsjz_01.glb",
+    "target": "Props/Prop_Jsjz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jskz_01.glb",
+    "target": "Props/Prop_Jskz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jsq_02.glb",
+    "target": "Props/Prop_Jsq02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jsyz_01.glb",
+    "target": "Props/Prop_Jsyz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jz.glb",
+    "target": "Props/Prop_Jz.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jz002_gcgd001.glb",
+    "target": "Props/Prop_Jz002Gcgd001.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_jz010.glb",
+    "target": "Props/Prop_Jz010.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_kg.glb",
+    "target": "Props/Prop_Kg.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_lb01.glb",
+    "target": "Props/Prop_Lb01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_ld01.glb",
+    "target": "Props/Prop_Ld01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_light1.glb",
+    "target": "Props/Prop_Light1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_ljt_01.glb",
+    "target": "Props/Prop_Ljt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_ljt_02.glb",
+    "target": "Props/Prop_Ljt02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_lskt_01.glb",
+    "target": "Props/Prop_Lskt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_luji_01.glb",
+    "target": "Props/Prop_Luji01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_lwt01.glb",
+    "target": "Props/Prop_Lwt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_lwt_01.glb",
+    "target": "Props/Prop_Lwt01_v2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mainexit_03.glb",
+    "target": "Buildings/Building_Mainexit03.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mainexit_06.glb",
+    "target": "Buildings/Building_Mainexit06.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mq_01.glb",
+    "target": "Props/Prop_Mq01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mq_02.glb",
+    "target": "Props/Prop_Mq02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mq_04.glb",
+    "target": "Props/Prop_Mq04.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mq_05.glb",
+    "target": "Props/Prop_Mq05.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mt_01.glb",
+    "target": "Props/Prop_Mt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mzl_01.glb",
+    "target": "Props/Prop_Mzl01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_mzl_03.glb",
+    "target": "Props/Prop_Mzl03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_newspaper1.glb",
+    "target": "Props/Prop_Newspaper1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_paint_a.glb",
+    "target": "Props/Prop_PaintA.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_paint_a2.glb",
+    "target": "Props/Prop_PaintA2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_paint_b.glb",
+    "target": "Props/Prop_PaintB.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_paint_b2.glb",
+    "target": "Props/Prop_PaintB2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_paper1.glb",
+    "target": "Props/Prop_Paper1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_pot_01.glb",
+    "target": "Props/Prop_Pot01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_pot_02.glb",
+    "target": "Props/Prop_Pot02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_pot_03.glb",
+    "target": "Props/Prop_Pot03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_pz_01.glb",
+    "target": "Props/Prop_Pz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_pz_02.glb",
+    "target": "Props/Prop_Pz02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_qyt_01.glb",
+    "target": "Props/Prop_Qyt01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_qyt_02.glb",
+    "target": "Props/Prop_Qyt02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_qz01.glb",
+    "target": "Props/Prop_Qz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_qz02.glb",
+    "target": "Props/Prop_Qz02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_railings2.glb",
+    "target": "Props/Prop_Railings2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_railings5c.glb",
+    "target": "Props/Prop_Railings5c.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_railings5d.glb",
+    "target": "Props/Prop_Railings5d.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_railings5e.glb",
+    "target": "Props/Prop_Railings5e.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sd_01.glb",
+    "target": "Props/Prop_Sd01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sg01.glb",
+    "target": "Props/Prop_Sg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sg02.glb",
+    "target": "Props/Prop_Sg02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sg03.glb",
+    "target": "Props/Prop_Sg03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sg05.glb",
+    "target": "Props/Prop_Sg05.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_shoukuaiji.glb",
+    "target": "Props/Prop_Shoukuaiji.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_skj_01.glb",
+    "target": "Props/Prop_Skj01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sofa01.glb",
+    "target": "Props/Prop_Sofa01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sofa02.glb",
+    "target": "Props/Prop_Sofa02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sst1.glb",
+    "target": "Props/Prop_Sst1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sst2.glb",
+    "target": "Props/Prop_Sst2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sst3.glb",
+    "target": "Props/Prop_Sst3.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sst4.glb",
+    "target": "Props/Prop_Sst4.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_sst5.glb",
+    "target": "Props/Prop_Sst5.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_st_01.glb",
+    "target": "Props/Prop_St01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_std_01.glb",
+    "target": "Props/Prop_Std01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_suodao_01.glb",
+    "target": "Props/Prop_Suodao01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_suodao_03.glb",
+    "target": "Props/Prop_Suodao03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_t_01.glb",
+    "target": "Props/Prop_T01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tjz_01.glb",
+    "target": "Props/Prop_Tjz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tsw_01.glb",
+    "target": "Props/Prop_Tsw01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tsw_02.glb",
+    "target": "Props/Prop_Tsw02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tsw_03.glb",
+    "target": "Props/Prop_Tsw03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tsw_04.glb",
+    "target": "Props/Prop_Tsw04.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tsw_05.glb",
+    "target": "Props/Prop_Tsw05.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tt.glb",
+    "target": "Props/Prop_Tower.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tuolaji.glb",
+    "target": "Props/Prop_Tractor.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tv_01.glb",
+    "target": "Props/Prop_Tv01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tyb_01.glb",
+    "target": "Props/Prop_Tyb01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_tzd.glb",
+    "target": "Props/Prop_Tzd.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_water02.glb",
+    "target": "Props/Prop_Water02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_water04.glb",
+    "target": "Props/Prop_Water04.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj001.glb",
+    "target": "Props/Prop_Wj001.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj002a.glb",
+    "target": "Props/Prop_Wj002a.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj003.glb",
+    "target": "Props/Prop_Wj003.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj012.glb",
+    "target": "Props/Prop_Wj012.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj015.glb",
+    "target": "Props/Prop_Wj015.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj034a.glb",
+    "target": "Props/Prop_Wj034a.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj034new.glb",
+    "target": "Props/Prop_Wj034new.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_wj040.glb",
+    "target": "Props/Prop_Wj040.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_woodbox1.glb",
+    "target": "Props/Prop_Woodbox1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_woodbox2.glb",
+    "target": "Props/Prop_Woodbox2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_woodstep1.glb",
+    "target": "Props/Prop_Woodstep1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_woodstool1.glb",
+    "target": "Props/Prop_Woodstool1.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_woodstool2.glb",
+    "target": "Props/Prop_Woodstool2.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xcl_01.glb",
+    "target": "Props/Prop_Xcl01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xdd_01.glb",
+    "target": "Props/Prop_Xdd01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xiaofangshuan.glb",
+    "target": "Props/Prop_Xiaofangshuan.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xsc_01.glb",
+    "target": "Props/Prop_Xsc01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xx_huatan_02.glb",
+    "target": "Props/Prop_XxHuatan02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_xz_01.glb",
+    "target": "Props/Prop_Xz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yg_01.glb",
+    "target": "Props/Prop_Yg01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yg_02.glb",
+    "target": "Props/Prop_Yg02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yg_03.glb",
+    "target": "Props/Prop_Yg03.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yl_01.glb",
+    "target": "Props/Prop_Yl01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_youjiapai.glb",
+    "target": "Props/Prop_Youjiapai.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_ysj.glb",
+    "target": "Props/Prop_Ysj.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yx_02.glb",
+    "target": "Props/Prop_Yx02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yx_06.glb",
+    "target": "Props/Prop_Yx06.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yx_07.glb",
+    "target": "Props/Prop_Yx07.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yx_08.glb",
+    "target": "Props/Prop_Yx08.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yytc_01.glb",
+    "target": "Props/Prop_Yytc01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yytc_02.glb",
+    "target": "Props/Prop_Yytc02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yyyz_02.glb",
+    "target": "Props/Prop_Yyyz02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_yz_01.glb",
+    "target": "Props/Prop_Yz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_zys01.glb",
+    "target": "Props/Prop_Zys01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_zys02.glb",
+    "target": "Props/Prop_Zys02.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_zz_002.glb",
+    "target": "Props/Prop_Zz002.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiutz_zz_01.glb",
+    "target": "Props/Prop_Zz01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/props/xiuzt_sj_01.glb",
+    "target": "Props/Prop_XiuztSj01.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock04.glb",
+    "target": "Rocks/Rock04.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock05.glb",
+    "target": "Rocks/Rock05.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock6.glb",
+    "target": "Rocks/Rock6.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock_01.glb",
+    "target": "Rocks/Rock01.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock_02.glb",
+    "target": "Rocks/Rock02.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/common_rock_03.glb",
+    "target": "Rocks/Rock03.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/rock/lod/common_rock04_lod1.glb",
+    "target": "Rocks/lod/Rock04_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock04_lod2.glb",
+    "target": "Rocks/lod/Rock04_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock05_lod1.glb",
+    "target": "Rocks/lod/Rock05_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock05_lod2.glb",
+    "target": "Rocks/lod/Rock05_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock6_lod1.glb",
+    "target": "Rocks/lod/Rock6_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock6_lod2.glb",
+    "target": "Rocks/lod/Rock6_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock_02_lod1.glb",
+    "target": "Rocks/lod/Rock02_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock_02_lod2.glb",
+    "target": "Rocks/lod/Rock02_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock_03_lod1.glb",
+    "target": "Rocks/lod/Rock03_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/rock/lod/common_rock_03_lod2.glb",
+    "target": "Rocks/lod/Rock03_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_car001_lod1.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Car001_lod1.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_car001_lod2.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Car001_lod2.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_fj01_lod1.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Fj01_lod1.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_fj01_lod2.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Fj01_lod2.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_robot003_lod1.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Robot003_lod1.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_robot003_lod2.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Robot003_lod2.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_robot004_lod1.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Robot004_lod1.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_robot004_lod2.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Robot004_lod2.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_tt001_lod1.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Tt001_lod1.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/lod/tianwang_tt001_lod2.glb",
+    "target": "Vehicles_SciFi/lod/Vehicle_Tt001_lod2.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/tianwang/tianwang_box001.glb",
+    "target": "Vehicles_SciFi/Vehicle_Box001.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_box002.glb",
+    "target": "Vehicles_SciFi/Vehicle_Box002.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_box004.glb",
+    "target": "Vehicles_SciFi/Vehicle_Box004.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_car001.glb",
+    "target": "Vehicles_SciFi/Vehicle_Car001.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_dj007.glb",
+    "target": "Vehicles_SciFi/Vehicle_Dj007.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_fj01.glb",
+    "target": "Vehicles_SciFi/Vehicle_Fj01.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_jq001.glb",
+    "target": "Vehicles_SciFi/Vehicle_Jq001.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_jzx.glb",
+    "target": "Vehicles_SciFi/Vehicle_Container.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_logo.glb",
+    "target": "Vehicles_SciFi/Vehicle_Logo.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_robot003.glb",
+    "target": "Vehicles_SciFi/Vehicle_Robot003.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_robot004.glb",
+    "target": "Vehicles_SciFi/Vehicle_Robot004.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tianwang_tt001.glb",
+    "target": "Vehicles_SciFi/Vehicle_Tt001.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tingwang_robot_01.glb",
+    "target": "Vehicles_SciFi/Vehicle_Robot01.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/tianwang/tingwang_robot_02.glb",
+    "target": "Vehicles_SciFi/Vehicle_Robot02.glb",
+    "category": "Vehicles_SciFi",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/common_shugen01_01.glb",
+    "target": "Vegetation/Vegetation_Shugen0101.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/common_shugen01_03.glb",
+    "target": "Vegetation/Vegetation_Shugen0103.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/lod/common_shugen01_01_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Shugen0101_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/common_shugen01_01_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Shugen0101_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/common_shugen01_03_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Shugen0103_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/common_shugen01_03_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Shugen0103_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_deadtree01_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Deadtree01_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_deadtree01_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Deadtree01_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_deadtree06_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Deadtree06_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_deadtree06_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Deadtree06_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_tree03_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Tree03_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/xiutz_tree03_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Tree03_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_shruds_04_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Shruds04_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_shruds_04_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Shruds04_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02a_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02a_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02a_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02a_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02b_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02b_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02b_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02b_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02c_lod1.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02c_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/lod/zw_tree02c_lod2.glb",
+    "target": "Vegetation/lod/Vegetation_Tree02c_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadgrass01_01.glb",
+    "target": "Vegetation/Vegetation_Deadgrass0101.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree01.glb",
+    "target": "Vegetation/Vegetation_Deadtree01.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree01a.glb",
+    "target": "Vegetation/Vegetation_Deadtree01a.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree02.glb",
+    "target": "Vegetation/Vegetation_Deadtree02.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree02a.glb",
+    "target": "Vegetation/Vegetation_Deadtree02a.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree03.glb",
+    "target": "Vegetation/Vegetation_Deadtree03.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree04.glb",
+    "target": "Vegetation/Vegetation_Deadtree04.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree05.glb",
+    "target": "Vegetation/Vegetation_Deadtree05.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_deadtree06.glb",
+    "target": "Vegetation/Vegetation_Deadtree06.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_flowers_xunyc.glb",
+    "target": "Vegetation/Vegetation_LavenderFlower.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_grass02_new.glb",
+    "target": "Vegetation/Vegetation_Grass02New.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_tree03.glb",
+    "target": "Vegetation/Vegetation_Tree03.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_yztree01.glb",
+    "target": "Vegetation/Vegetation_Yztree01.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_yztree02.glb",
+    "target": "Vegetation/Vegetation_Yztree02.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/xiutz_yztree03.glb",
+    "target": "Vegetation/Vegetation_Yztree03.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/zw_shruds_04.glb",
+    "target": "Vegetation/Vegetation_Shruds04.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/zw_tree02.glb",
+    "target": "Vegetation/Vegetation_Tree02.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/zw_tree02a.glb",
+    "target": "Vegetation/Vegetation_Tree02a.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/zw_tree02b.glb",
+    "target": "Vegetation/Vegetation_Tree02b.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/vegetation/zw_tree02c.glb",
+    "target": "Vegetation/Vegetation_Tree02c.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "new_props/wall/wall.glb",
+    "target": "Cover_Obstacles/Cover_Wall.glb",
+    "category": "Cover_Obstacles",
+    "is_lod": false
+  },
+  {
+    "source": "rock/lod/rock_s003_lod1.glb",
+    "target": "Rocks/lod/RockS003_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/lod/rock_s003_lod2.glb",
+    "target": "Rocks/lod/RockS003_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/lod/xiutz_stone1_lod1.glb",
+    "target": "Rocks/lod/Rock_Stone1_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/lod/xiutz_stone1_lod2.glb",
+    "target": "Rocks/lod/Rock_Stone1_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/lod/xiutz_stone5_lod1.glb",
+    "target": "Rocks/lod/Rock_Stone5_lod1.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/lod/xiutz_stone5_lod2.glb",
+    "target": "Rocks/lod/Rock_Stone5_lod2.glb",
+    "category": "Rocks",
+    "is_lod": true
+  },
+  {
+    "source": "rock/rock_s003.glb",
+    "target": "Rocks/RockS003.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "rock/xiutz_stone1.glb",
+    "target": "Rocks/Rock_Stone1.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "rock/xiutz_stone5.glb",
+    "target": "Rocks/Rock_Stone5.glb",
+    "category": "Rocks",
+    "is_lod": false
+  },
+  {
+    "source": "sky_test/sky_logon1.glb",
+    "target": "Environment_Sky/SkyLogon1.glb",
+    "category": "Environment_Sky",
+    "is_lod": false
+  },
+  {
+    "source": "sky_test/syk_0001.glb",
+    "target": "Environment_Sky/Sky_Syk0001.glb",
+    "category": "Environment_Sky",
+    "is_lod": false
+  },
+  {
+    "source": "vegetation/lod/vegetation_desert003a_lod1.glb",
+    "target": "Vegetation/lod/VegetationDesert003a_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "vegetation/lod/vegetation_desert003a_lod2.glb",
+    "target": "Vegetation/lod/VegetationDesert003a_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "vegetation/lod/vegetation_oasis006_lod1.glb",
+    "target": "Vegetation/lod/VegetationOasis006_lod1.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "vegetation/lod/vegetation_oasis006_lod2.glb",
+    "target": "Vegetation/lod/VegetationOasis006_lod2.glb",
+    "category": "Vegetation",
+    "is_lod": true
+  },
+  {
+    "source": "vegetation/vegetation_desert003a.glb",
+    "target": "Vegetation/VegetationDesert003a.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "vegetation/vegetation_oasis001b.glb",
+    "target": "Vegetation/VegetationOasis001b.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "vegetation/vegetation_oasis006.glb",
+    "target": "Vegetation/VegetationOasis006.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj002f_lod1.glb",
+    "target": "Props/lod/Prop_Wj002f_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj002f_lod2.glb",
+    "target": "Props/lod/Prop_Wj002f_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj006_lod1.glb",
+    "target": "Props/lod/Prop_Wj006_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj006_lod2.glb",
+    "target": "Props/lod/Prop_Wj006_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj016_lod1.glb",
+    "target": "Props/lod/Prop_Wj016_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj016_lod2.glb",
+    "target": "Props/lod/Prop_Wj016_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj016a_lod1.glb",
+    "target": "Props/lod/Prop_Wj016a_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj016a_lod2.glb",
+    "target": "Props/lod/Prop_Wj016a_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj021_lod1.glb",
+    "target": "Props/lod/Prop_Wj021_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj021_lod2.glb",
+    "target": "Props/lod/Prop_Wj021_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj033_lod1.glb",
+    "target": "Props/lod/Prop_Wj033_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj033_lod2.glb",
+    "target": "Props/lod/Prop_Wj033_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj034_lod1.glb",
+    "target": "Props/lod/Prop_Wj034_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj034_lod2.glb",
+    "target": "Props/lod/Prop_Wj034_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj035_lod1.glb",
+    "target": "Props/lod/Prop_Wj035_lod1.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/lod/xiutz_wj035_lod2.glb",
+    "target": "Props/lod/Prop_Wj035_lod2.glb",
+    "category": "Props",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz/xiutz_cao_01.glb",
+    "target": "Vegetation/Vegetation_Cao01.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_cao_02.glb",
+    "target": "Vegetation/Vegetation_Cao02.glb",
+    "category": "Vegetation",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj002f.glb",
+    "target": "Props/Prop_Wj002f.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj006.glb",
+    "target": "Props/Prop_Wj006.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj016.glb",
+    "target": "Props/Prop_Wj016.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj016a.glb",
+    "target": "Props/Prop_Wj016a.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj021.glb",
+    "target": "Props/Prop_Wj021.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj033.glb",
+    "target": "Props/Prop_Wj033.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj034.glb",
+    "target": "Props/Prop_Wj034.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz/xiutz_wj035.glb",
+    "target": "Props/Prop_Wj035.glb",
+    "category": "Props",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz_hcz/lod/xiutz_hcz021_lod1.glb",
+    "target": "Buildings/lod/Building_Hcz021_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz_hcz/lod/xiutz_hcz021_lod2.glb",
+    "target": "Buildings/lod/Building_Hcz021_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz_hcz/lod/xiutz_hcz022_lod1.glb",
+    "target": "Buildings/lod/Building_Hcz022_lod1.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz_hcz/lod/xiutz_hcz022_lod2.glb",
+    "target": "Buildings/lod/Building_Hcz022_lod2.glb",
+    "category": "Buildings",
+    "is_lod": true
+  },
+  {
+    "source": "xiutz_hcz/xiutz_hcz021.glb",
+    "target": "Buildings/Building_Hcz021.glb",
+    "category": "Buildings",
+    "is_lod": false
+  },
+  {
+    "source": "xiutz_hcz/xiutz_hcz022.glb",
+    "target": "Buildings/Building_Hcz022.glb",
+    "category": "Buildings",
+    "is_lod": false
+  }
+]

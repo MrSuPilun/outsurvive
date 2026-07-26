@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="outsurvive"
+run/main_scene="res://scenes/boot/boot_root.tscn"
+config/features=PackedStringArray("4.7")
+
+[autoload]
+
+BuildInfo="*res://src/shared/kernel/build_info.gd"
+AppKernel="*res://src/client/bootstrap/app_kernel.gd"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=2
+
+[outsurvive]
+
+build/build_id="local-dev"
+build/expected_engine_version={
+"build": "official",
+"major": 4,
+"minor": 7,
+"patch": 1,
+"status": "stable"
+}
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="mobile"

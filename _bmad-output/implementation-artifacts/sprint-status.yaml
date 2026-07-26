@@ -1,0 +1,208 @@
+# generated: 2026-07-26
+# last_updated: 2026-07-26
+# project: outsurvive
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created
+#   - in-progress → done: Manually when all stories reach 'done'
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but is not required
+#   - done: Retrospective completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' when its first Story is created.
+# - Stories may run in parallel only when their explicit dependencies allow it.
+# - Create Story validates a Story before promotion to ready-for-dev.
+# - Dev moves a Story to review before code review and done.
+
+generated: 2026-07-26
+last_updated: 2026-07-26
+project: outsurvive
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: in-progress
+  1-1-clean-godot-standard-local-bootstrap: in-progress
+  1-2-repository-va-module-dependency-boundaries: backlog
+  1-3-dependency-lock-upgrade-adr-va-sbom-foundation: backlog
+  1-4-reproducible-canonical-build-smoke: backlog
+  1-5-five-platform-build-smoke-expansion-va-signing-boundaries: backlog
+  1-6-asset-quarantine-va-promotion-validation: backlog
+  1-7-presenter-theme-va-accessible-ui-primitive-foundation: backlog
+  1-8-stringid-va-viet-anh-localization-scaffold: backlog
+  1-9-prototype-survivor-asset-intake-va-humanoid-rig: backlog
+  1-10-locomotion-animation-state-graph: backlog
+  1-11-upper-body-aim-va-lean-presentation-layer: backlog
+  1-12-character-parity-va-headless-package-evidence: backlog
+  1-13-gameplaycommand-ngu-nghia-va-fixed-tick-input-pipeline: backlog
+  1-14-ground-locomotion-va-sprint-trade-off: backlog
+  1-15-crouch-prone-va-lean-co-collision-guard: backlog
+  1-16-jump-vault-va-fall-damage-authoritative: backlog
+  1-17-swimming-diving-va-watervolume: backlog
+  1-18-camera-tpp-shoulder-swap-ads-va-anti-peek: backlog
+  1-19-context-interaction-va-arbitration: backlog
+  1-20-keyboard-mouse-bindings-remap-va-sensitivity-contract: backlog
+  1-21-touch-landscape-multitouch-va-interruption-safety: backlog
+  1-22-movement-validation-course-va-promotion-asset-be-mat-am-thanh: backlog
+  1-23-epic-1-five-platform-parity-gate: backlog
+  epic-1-retrospective: optional
+  epic-2: backlog
+  2-1-binary-gameplay-protocol-va-compatibility-handshake: backlog
+  2-2-fixed-30-hz-combat-sandbox-match-host: backlog
+  2-3-weapon-ammunition-va-attachment-gameplay-manifest: backlog
+  2-4-authoritative-weapon-action-ammo-va-reload-state: backlog
+  2-5-projectile-ballistics-va-swept-collision: backlog
+  2-6-health-hit-regions-va-armor-durability: backlog
+  2-7-recoil-spread-va-movement-modifiers: backlog
+  2-8-scope-breath-hold-zeroing-va-aim-punch: backlog
+  2-9-melee-combat-baseline: backlog
+  2-10-combat-presentation-va-promotion-audio-vu-khi: backlog
+  2-11-authority-mirror-prediction-va-reconciliation: backlog
+  2-12-server-confirmed-feedback-va-hit-trade-resolution: backlog
+  2-13-bounded-hitbox-history-va-lag-compensation: backlog
+  2-14-reusable-headless-client-harness: backlog
+  2-15-network-arena-8-client-combat-gate: backlog
+  epic-2-retrospective: optional
+  epic-3: backlog
+  3-1-stable-itemid-va-immutable-catalog-kernel: backlog
+  3-2-equipment-slots-backpack-capacity-va-load-constraints: backlog
+  3-3-atomic-inventory-mutations-va-server-confirmed-hold-actions: backlog
+  3-4-empty-start-world-loot-va-manual-pickup-policy: backlog
+  3-5-configurable-bounded-ammo-auto-pickup: backlog
+  3-6-healing-va-boost-commitment-actions: backlog
+  3-7-weighted-loot-generation-va-geography-tiers: backlog
+  3-8-loot-distribution-simulator-va-90-second-targets: backlog
+  3-9-airdrop-schedule-visibility-va-contents: backlog
+  3-10-throwable-capacity-va-bounded-trajectory-preview: backlog
+  3-11-four-authoritative-throwable-archetypes: backlog
+  3-12-survival-resource-promotion-evidence: backlog
+  epic-3-retrospective: optional
+  epic-4: backlog
+  4-1-guarded-application-va-standard-match-lifecycle: backlog
+  4-2-solo-duo-squad-roster-va-standard-ruleset: backlog
+  4-3-60-second-pre-match-waiting-room: backlog
+  4-4-flight-path-aircraft-drop-va-parachute: backlog
+  4-5-standard-phase-orchestration-va-match-duration: backlog
+  4-6-dbno-bleed-state-va-restrictions: backlog
+  4-7-revive-team-elimination-va-victory-rules: backlog
+  4-8-nine-phase-safe-zone-va-reveal-contract: backlog
+  4-9-teammate-only-spectator-voi-information-parity: backlog
+  4-10-leave-consequences-theo-aircraft-team-state: backlog
+  4-11-server-confirmed-match-results-va-statistics: backlog
+  4-12-results-actions-va-report-block-intent-entry: backlog
+  4-13-full-standard-match-loop-va-replay-gate: backlog
+  epic-4-retrospective: optional
+  epic-5: backlog
+  5-1-minimal-terrain-slice-contract-va-deterministic-bake: backlog
+  5-2-terrain-coastline-va-hydrology-slice-dung-texture-da-duyet: backlog
+  5-3-hierarchical-world-streaming-va-cell-leases: backlog
+  5-4-two-poi-layout-compounds-va-road-graph: backlog
+  5-5-modular-building-kit-va-two-poi-validator: backlog
+  5-6-cover-choke-va-final-circle-playability-validators: backlog
+  5-7-deterministic-weather-va-gameplay-modifiers: backlog
+  5-8-six-vehicle-archetypes-va-asset-contract: backlog
+  5-9-server-vehicle-physics-driving-fuel-tires-va-audio-events: backlog
+  5-10-vehicle-seats-enter-exit-va-camera: backlog
+  5-11-server-authoritative-vehicle-collision-damage: backlog
+  5-12-vehicle-fire-countdown-explosion-va-post-exit-cues: backlog
+  5-13-vung-thu-nghiem-2-2-km-promotion-evidence: backlog
+  epic-5-retrospective: optional
+  epic-6: backlog
+  6-1-platformgateway-account-session-va-degraded-capability-contract: backlog
+  6-2-party-roster-leader-va-ready-invalidation: backlog
+  6-3-cross-platform-invite-provider-contract: backlog
+  6-4-region-probing-va-high-latency-acknowledgement: backlog
+  6-5-matchmaking-queue-wait-policy-va-newcomer-soft-mmr: backlog
+  6-6-signed-input-family-pools-va-match-lock: backlog
+  6-7-no-silent-bot-va-experimental-bot-disclosure: backlog
+  6-8-matchallocator-va-one-process-per-match: backlog
+  6-9-linux-headless-container-va-lifecycle-hardening: backlog
+  6-10-online-observability-va-rollback-foundation: backlog
+  6-11-secure-join-seat-claim-va-compatibility-admission: backlog
+  6-12-team-voice-provider-spike-va-voiceprovider-adapter: backlog
+  6-13-eight-contextual-team-pings: backlog
+  6-14-friendly-fire-va-neutral-attribution: backlog
+  6-15-reconnect-policy-adr-va-secure-seat-contract: backlog
+  6-16-mobile-interruption-va-reconnect-state-machine: backlog
+  6-17-evidence-event-spine-va-authority-hardening: backlog
+  6-18-24-client-protocol-mixed-scale-gate: backlog
+  6-19-50-client-protocol-mixed-scale-gate: backlog
+  6-20-100-client-standard-online-gate: backlog
+  epic-6-retrospective: optional
+  epic-7: backlog
+  7-1-8-8-km-greybox-va-production-content-lock: backlog
+  7-2-full-map-terrain-coastline-va-hydrology-bake: backlog
+  7-3-18-poi-55-compounds-va-production-road-graph: backlog
+  7-4-production-modular-building-library: backlog
+  7-5-420-enterable-building-placements-va-hlod: backlog
+  7-6-loot-180-vehicle-spots-va-12-boat-docks: backlog
+  7-7-full-map-cover-route-va-choke-validation: backlog
+  7-8-navigation-streaming-audio-va-server-spatial-grids: backlog
+  7-9-full-map-weather-va-zone-playability-parity: backlog
+  7-10-signed-production-map-mobile-100-client-gate: backlog
+  epic-7-retrospective: optional
+  epic-8: backlog
+  8-1-field-instrument-theme-hardening-va-component-expansion: backlog
+  8-2-responsive-16-9-competitive-frame-va-safe-areas: backlog
+  8-3-viet-anh-localization-va-noto-production-hardening: backlog
+  8-4-lobby-ia-party-panel-va-offline-states: backlog
+  8-5-minimal-competitive-match-hud: backlog
+  8-6-overlay-lane-status-damage-va-contextual-commitments: backlog
+  8-7-non-pausing-desktop-mobile-inventory: backlog
+  8-8-full-map-phase-va-team-markers: backlog
+  8-9-atomic-settings-architecture-va-input-routing: backlog
+  8-10-accessibility-floor-color-blind-va-reduced-motion-flash: backlog
+  8-11-production-touch-layout-editor: backlog
+  8-12-competitive-audio-outputs-mix-va-music-timing: backlog
+  8-13-contextual-voice-permission-va-route-safety: backlog
+  8-14-system-va-team-ping-subtitles: backlog
+  8-15-training-grounds: backlog
+  8-16-optional-field-orientation-onboarding: backlog
+  8-17-non-pausing-pause-leave-va-focus-safe-routing: backlog
+  8-18-spectator-hud-map-damage-va-audio-parity: backlog
+  8-19-five-platform-ux-accessibility-acceptance-gate: backlog
+  epic-8-retrospective: optional
+  epic-9: backlog
+  9-1-idempotent-match-result-persistence: backlog
+  9-2-non-power-player-profile-statistics: backlog
+  9-3-weapon-mastery-without-power-skins-or-expiry: backlog
+  9-4-production-results-va-replay-summary-states: backlog
+  9-5-report-mvp-with-evidence-window-va-retry-receipt: backlog
+  9-6-immediate-local-block-separate-from-report: backlog
+  9-7-no-commerce-no-fomo-product-integrity-gates: backlog
+  9-8-profile-results-report-block-integrity-gate: backlog
+  epic-9-retrospective: optional
+  epic-10: backlog
+  10-1-windows-x64-release-qualification: backlog
+  10-2-linux-x64-client-release-qualification: backlog
+  10-3-macos-universal-2-signing-va-notarization: backlog
+  10-4-android-arm64-aab-va-device-qualification: backlog
+  10-5-ios-arm64-archive-va-testflight-qualification: backlog
+  10-6-desktop-performance-memory-va-load-time-gate: backlog
+  10-7-mobile-performance-memory-va-thermal-gate: backlog
+  10-8-100-player-server-load-va-correctness-soak: backlog
+  10-9-network-streaming-va-patch-size-hardening: backlog
+  10-10-security-privacy-retention-va-account-deletion: backlog
+  10-11-five-platform-release-candidate-acceptance: backlog
+  epic-10-retrospective: optional

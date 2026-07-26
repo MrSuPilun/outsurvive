@@ -1,0 +1,3278 @@
+[
+  {
+    "path": "Assault_Rifle/ACR_Rifle/Assault_Rifle_ACR_Rifle_Body_LOD_(000218).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "ACR_Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000218_3a253638",
+      "displayName": "pw_1053_ACR_dj_LOD2",
+      "logicalPath": null,
+      "gimFile": "000218_3a253638.gim",
+      "meshFile": "000717_ab66f172.mesh",
+      "materialFile": "000245_41c3880b.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/ACR_Rifle/Assault_Rifle_ACR_Rifle_Body_LOD_(000975).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "ACR_Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000975_e5c360c6",
+      "displayName": "pw_1053_ACR_dj_LOD1",
+      "logicalPath": null,
+      "gimFile": "000975_e5c360c6.gim",
+      "meshFile": "000360_5810b551.mesh",
+      "materialFile": "000228_3dbe863c.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/ACR_Rifle/Assault_Rifle_ACR_Rifle_Body_LOD_(001015).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "ACR_Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "001015_ef46701f",
+      "displayName": "pw_1053_ACR_dj_LOD0",
+      "logicalPath": "weapon/component/bq/bq/bq_06/bq_06.gim",
+      "gimFile": "001015_ef46701f.gim",
+      "meshFile": "000360_5810b551.mesh",
+      "materialFile": "000293_4cd08cd3.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_Body_Main_(000741).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000741_af228528",
+      "displayName": "M12_01",
+      "logicalPath": "weapon/component/bq/bq/bq_11/bq_11.gim",
+      "gimFile": "000741_af228528.gim",
+      "meshFile": "000946_e075ffd0.mesh",
+      "materialFile": "000874_cf9cd949.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_dj_Body_Main_(000178).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000178_2e60e21b",
+      "displayName": "M12_01_dj",
+      "logicalPath": "weapon/component/bq/bq/bq_11/dantou.gim",
+      "gimFile": "000178_2e60e21b.gim",
+      "meshFile": "000568_88f4ecc5.mesh",
+      "materialFile": "000151_2514d32b.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_dj_lod1_Body_LOD_(000465).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000465_6fe83b92",
+      "displayName": "M12_01_dj_lod1",
+      "logicalPath": null,
+      "gimFile": "000465_6fe83b92.gim",
+      "meshFile": "000861_cc30b823.mesh",
+      "materialFile": "000667_9ffd7b00.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_dj_lod2_Body_LOD_(000648).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000648_9b2e15cd",
+      "displayName": "M12_01_dj_lod2",
+      "logicalPath": null,
+      "gimFile": "000648_9b2e15cd.gim",
+      "meshFile": "000704_a802827a.mesh",
+      "materialFile": "000110_1b327159.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_lod1_Body_LOD_(000353).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000353_575179a9",
+      "displayName": "M12_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000353_575179a9.gim",
+      "meshFile": "000808_bee1696a.mesh",
+      "materialFile": "000555_85e4b765.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_M12_01_lod2_Body_LOD_(000386).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000386_5d90fa47",
+      "displayName": "M12_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000386_5d90fa47.gim",
+      "meshFile": "000623_9640191d.mesh",
+      "materialFile": "000804_be3e7815.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_Object002_Body_Main_(000416).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000416_632dc9cb",
+      "displayName": "Object002",
+      "logicalPath": null,
+      "gimFile": "000416_632dc9cb.gim",
+      "meshFile": "000310_504f006f.mesh",
+      "materialFile": "000624_964dcb6a.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_QBZ03_qs_lod1_Body_LOD_(000951).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000951_e182ade2",
+      "displayName": "QBZ03_qs_lod1",
+      "logicalPath": null,
+      "gimFile": "000951_e182ade2.gim",
+      "meshFile": "000284_49c444f2.mesh",
+      "materialFile": "000114_1c20791e.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_QBZ03_qt_lod0_Body_LOD_(000576).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000576_8b727853",
+      "displayName": "QBZ03_qt_lod0",
+      "logicalPath": null,
+      "gimFile": "000576_8b727853.gim",
+      "meshFile": "000679_a20501ad.mesh",
+      "materialFile": "000203_35c1f5d9.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_QBZ03_qt_lod2_Body_LOD_(000824).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000824_c1efb144",
+      "displayName": "QBZ03_qt_lod2",
+      "logicalPath": null,
+      "gimFile": "000824_c1efb144.gim",
+      "meshFile": "000939_df13c2c0.mesh",
+      "materialFile": "000053_0e4be5ca.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_SMG_VAL_Body_Main_(000708).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000708_a8bc07ce",
+      "displayName": "SMG_VAL",
+      "logicalPath": "weapon/component/bq/bq/bq_05/bq_qs_05.gim",
+      "gimFile": "000708_a8bc07ce.gim",
+      "meshFile": "000209_37bca5c6.mesh",
+      "materialFile": "000614_945c3064.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_SMG_VAL_lod1_SeaBone_Skin_Body_LOD_(000783).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000783_b8d5f003",
+      "displayName": "SMG_VAL_lod1",
+      "logicalPath": null,
+      "gimFile": "000783_b8d5f003.gim",
+      "meshFile": "000933_ddaad2e6.mesh",
+      "materialFile": "000989_e9ddea5b.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_SMG_VAL_lod2_Body_LOD_(000521).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000521_7d788a62",
+      "displayName": "SMG_VAL_lod2",
+      "logicalPath": null,
+      "gimFile": "000521_7d788a62.gim",
+      "meshFile": "000834_c42854d5.mesh",
+      "materialFile": "000510_79c30f02.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_01_Body_Main_(000419).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000419_63e69897",
+      "displayName": "bq_01",
+      "logicalPath": "weapon/component/bq/bq/bq_04/bq_qs_04.gim",
+      "gimFile": "000419_63e69897.gim",
+      "meshFile": "000385_5d7ef0a2.mesh",
+      "materialFile": "000221_3bb0fed0.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_01_lod1_Body_LOD_(000659).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000659_9d8c945f",
+      "displayName": "bq_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000659_9d8c945f.gim",
+      "meshFile": "000197_3519e72d.mesh",
+      "materialFile": "000749_b1d82f61.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_01_lod2_Body_LOD_(000693).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000693_a4751eaf",
+      "displayName": "bq_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000693_a4751eaf.gim",
+      "meshFile": "000045_0adaea6c.mesh",
+      "materialFile": "000597_919ed42a.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_dj_01_Magazine_Main_(000462).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000462_6f343900",
+      "displayName": "bq_dj_01",
+      "logicalPath": "weapon/component/bq/dj/bq_dj_01/bq_dj_01.gim",
+      "gimFile": "000462_6f343900.gim",
+      "meshFile": "000359_580fb96e.mesh",
+      "materialFile": "000330_52dd79e7.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_dj_01_lod2_Magazine_LOD_(000327).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000327_52c184b4",
+      "displayName": "bq_dj_01_lod2",
+      "logicalPath": "weapon/component/bq/dj/bq_dj_01/bq_dj_01_lod.gim",
+      "gimFile": "000327_52c184b4.gim",
+      "meshFile": "000127_1f2720ea.mesh",
+      "materialFile": "000794_bc6c97c2.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_dj_02_Magazine_Main_(000272).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000272_46ed1e05",
+      "displayName": "bq_dj_02",
+      "logicalPath": "weapon/component/bq/dj/bq_dj_02/bq_dj_02.gim",
+      "gimFile": "000272_46ed1e05.gim",
+      "meshFile": "000180_2fd93249.mesh",
+      "materialFile": "000646_9adfcf55.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_dj_02_lod2_Magazine_LOD_(000092).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000092_16c5fe3a",
+      "displayName": "bq_dj_02_lod2",
+      "logicalPath": "weapon/component/bq/dj/bq_dj_02/bq_dj_02_lod.gim",
+      "gimFile": "000092_16c5fe3a.gim",
+      "meshFile": "000470_70935cff.mesh",
+      "materialFile": "000422_6526913b.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_01_Scope_Main_(000097).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000097_17a5ef85",
+      "displayName": "bq_mj_01",
+      "logicalPath": null,
+      "gimFile": "000097_17a5ef85.gim",
+      "meshFile": "000629_97996de9.mesh",
+      "materialFile": "000187_31b8ebf3.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_01_Scope_Main_(000411).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000411_6234eb69",
+      "displayName": "bq_mj_01",
+      "logicalPath": "weapon/component/bq/mj/bq_mj_01/bq_mj_01.gim",
+      "gimFile": "000411_6234eb69.gim",
+      "meshFile": "000440_699bafa3.mesh",
+      "materialFile": "000480_7318dbea.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_01_lod2_Scope_LOD_(000292).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000292_4c979c85",
+      "displayName": "bq_mj_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000292_4c979c85.gim",
+      "meshFile": "000823_c1d6351f.mesh",
+      "materialFile": "000775_b77b7484.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_01_lod2_Scope_LOD_(000421).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000421_64a575c0",
+      "displayName": "bq_mj_01_lod2",
+      "logicalPath": "weapon/component/bq/mj/bq_mj_01/bq_mj_01_lod.gim",
+      "gimFile": "000421_64a575c0.gim",
+      "meshFile": "000763_b6213497.mesh",
+      "materialFile": "000583_8d1b1bb9.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_02_Scope_Main_(000937).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000937_deb1bd4c",
+      "displayName": "bq_mj_02",
+      "logicalPath": "weapon/component/bq/mj/bq_mj_02/bq_mj_02.gim",
+      "gimFile": "000937_deb1bd4c.gim",
+      "meshFile": "000912_d8c8a43a.mesh",
+      "materialFile": "000428_660fda7e.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_mj_02_lod2_Scope_LOD_(000377).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000377_5afb07bc",
+      "displayName": "bq_mj_02_lod2",
+      "logicalPath": "weapon/component/bq/mj/bq_mj_02/bq_mj_02_lod.gim",
+      "gimFile": "000377_5afb07bc.gim",
+      "meshFile": "000564_882ac866.mesh",
+      "materialFile": "000008_027e3898.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_Body_Main_(000426).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000426_659ef713",
+      "displayName": "bq_qs_01",
+      "logicalPath": "weapon/component/bq/bq/bq_02/bq_qs_02.gim",
+      "gimFile": "000426_659ef713.gim",
+      "meshFile": "000032_08bb70e8.mesh",
+      "materialFile": "001012_ee7661fc.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_Body_Main_(000595).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000595_90b47d88",
+      "displayName": "bq_qs_01",
+      "logicalPath": "weapon/component/bq/bq/bq_03/bq_qs_03.gim",
+      "gimFile": "000595_90b47d88.gim",
+      "meshFile": "000383_5d39e976.mesh",
+      "materialFile": "000236_401c4822.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_Body_Main_(000956).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000956_e1ff852e",
+      "displayName": "bq_qs_01",
+      "logicalPath": "weapon/component/bq/bq/bq_01/bq_01.gim",
+      "gimFile": "000956_e1ff852e.gim",
+      "meshFile": "000432_67c4a98b.mesh",
+      "materialFile": "000687_a3ad746e.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_LOD1_Body_LOD_(000680).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000680_a25d0284",
+      "displayName": "bq_qs_01_LOD1",
+      "logicalPath": null,
+      "gimFile": "000680_a25d0284.gim",
+      "meshFile": "001066_fdf0a8b8.mesh",
+      "materialFile": "000727_ace40f25.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_LOD2_Body_LOD_(001027).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "001027_f197c0be",
+      "displayName": "bq_qs_01_LOD2",
+      "logicalPath": null,
+      "gimFile": "001027_f197c0be.gim",
+      "meshFile": "000980_e71a92ce.mesh",
+      "materialFile": "000379_5b158254.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_SpecialOps_Skin_Body_Main_(001030).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "001030_f2822a90",
+      "displayName": "bq_qs_01",
+      "logicalPath": null,
+      "gimFile": "001030_f2822a90.gim",
+      "meshFile": "000432_67c4a98b.mesh",
+      "materialFile": "000475_71f01e82.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_WaterSplashing_Skin_Body_Main_(000364).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000364_5886f8a6",
+      "displayName": "bq_qs_01",
+      "logicalPath": null,
+      "gimFile": "000364_5886f8a6.gim",
+      "meshFile": "000432_67c4a98b.mesh",
+      "materialFile": "000714_ab2d1776.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_gulong_BoneDragon_Skin_Body_Main_(000642).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000642_999b73c1",
+      "displayName": "bq_qs_01_gulong",
+      "logicalPath": "weapon/component/bq/bq/bq_01_gulong/bq_01_gulong.gim",
+      "gimFile": "000642_999b73c1.gim",
+      "meshFile": "000927_dbccab45.mesh",
+      "materialFile": "000528_7ea1d68a.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_gulong_lod1_BoneDragon_Skin_Body_LOD_(000959).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000959_e2ba73d0",
+      "displayName": "bq_qs_01_gulong_lod1",
+      "logicalPath": null,
+      "gimFile": "000959_e2ba73d0.gim",
+      "meshFile": "000447_6af97a05.mesh",
+      "materialFile": "000109_1aff2448.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_gulong_lod2_BoneDragon_Skin_Body_LOD_(001025).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "001025_f17aef73",
+      "displayName": "bq_qs_01_gulong_lod2",
+      "logicalPath": null,
+      "gimFile": "001025_f17aef73.gim",
+      "meshFile": "001057_fa012058.mesh",
+      "materialFile": "000060_101967b8.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_lod1_Body_LOD_(000334).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000334_534eef2d",
+      "displayName": "bq_qs_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000334_534eef2d.gim",
+      "meshFile": "001070_ff9ff791.mesh",
+      "materialFile": "000671_a0cff090.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_lod1_Body_LOD_(000433).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000433_67d379dc",
+      "displayName": "bq_qs_01_lod1",
+      "logicalPath": "weapon/component/bq/bq/bq_01/bq_01_lod01.gim",
+      "gimFile": "000433_67d379dc.gim",
+      "meshFile": "000409_61d43ffe.mesh",
+      "materialFile": "000437_68ddc063.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_lod2_Body_LOD_(000810).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000810_bf2735d0",
+      "displayName": "bq_qs_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000810_bf2735d0.gim",
+      "meshFile": "000172_2c32b9bb.mesh",
+      "materialFile": "000077_13e4e123.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_01_lod2_Body_LOD_(000857).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000857_ca971b22",
+      "displayName": "bq_qs_01_lod2",
+      "logicalPath": "weapon/component/bq/bq/bq_01/bq_01_lod02.gim",
+      "gimFile": "000857_ca971b22.gim",
+      "meshFile": "000497_77b4600b.mesh",
+      "materialFile": "000634_981b69a8.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_03_yanmo_FlameDemon_Skin_Body_Main_(000399).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000399_5fa53518",
+      "displayName": "bq_qs_03_yanmo",
+      "logicalPath": "weapon/component/bq/bq/bq_03_yanmo/bq_qs_03_yanmo.gim",
+      "gimFile": "000399_5fa53518.gim",
+      "meshFile": "000631_97eb588d.mesh",
+      "materialFile": "000303_4f19a55d.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_03_yanmo_lod1_FlameDemon_Skin_Body_LOD_(000923).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000923_db113097",
+      "displayName": "bq_qs_03_yanmo_lod1",
+      "logicalPath": "weapon/component/bq/bq/bq_03_yanmo/bq_qs_03_yanmo_lod1.gim",
+      "gimFile": "000923_db113097.gim",
+      "meshFile": "001050_f72dbaba.mesh",
+      "materialFile": "000054_0e6a09e6.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_03_yanmo_lod_FlameDemon_Skin_Body_LOD_(000934).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000934_ddb853eb",
+      "displayName": "bq_qs_03_yanmo_lod",
+      "logicalPath": "weapon/component/bq/bq/bq_03_yanmo/bq_qs_03_yanmo_lod.gim",
+      "gimFile": "000934_ddb853eb.gim",
+      "meshFile": "000605_92b88ccb.mesh",
+      "materialFile": "000994_eb4f0e6e.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_04_haigu_SeaBone_Skin_Body_Main_(000179).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000179_2fb48cbd",
+      "displayName": "bq_qs_04_haigu",
+      "logicalPath": "weapon/component/bq/bq/bq_04_haigu/bq_qs_04_haigu.gim",
+      "gimFile": "000179_2fb48cbd.gim",
+      "meshFile": "000100_190715a9.mesh",
+      "materialFile": "000063_10a9da98.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qs_04_haigu_lod01_SeaBone_Skin_Body_LOD_(000085).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000085_15f4d486",
+      "displayName": "bq_qs_04_haigu_lod01",
+      "logicalPath": "weapon/component/bq/bq/bq_04_haigu/bq_qs_04_haigu_lod1.gim",
+      "gimFile": "000085_15f4d486.gim",
+      "meshFile": "000898_d5987905.mesh",
+      "materialFile": "000489_764e7dd3.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_Stock_Main_(000059).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000059_0ff43612",
+      "displayName": "bq_qt_01",
+      "logicalPath": null,
+      "gimFile": "000059_0ff43612.gim",
+      "meshFile": "000615_9497216f.mesh",
+      "materialFile": "000990_ea4eab96.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_Stock_Main_(000159).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000159_26c7d115",
+      "displayName": "bq_qt_01",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_03/bq_qt_03.gim",
+      "gimFile": "000159_26c7d115.gim",
+      "meshFile": "001052_f8dbf818.mesh",
+      "materialFile": "000169_2b67ca07.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_Stock_Main_(000918).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000918_d958cf34",
+      "displayName": "bq_qt_01",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_04/bq_qt_04.gim",
+      "gimFile": "000918_d958cf34.gim",
+      "meshFile": "000488_763e4fd9.mesh",
+      "materialFile": "000259_43d15b70.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_lod1_Stock_LOD_(000579).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000579_8ccc3738",
+      "displayName": "bq_qt_01_lod1",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_04/bq_qt_04_lod.gim",
+      "gimFile": "000579_8ccc3738.gim",
+      "meshFile": "000466_6ffcd08f.mesh",
+      "materialFile": "000929_dc120e22.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_lod2_Stock_LOD_(000420).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000420_640d5f5e",
+      "displayName": "bq_qt_01_lod2",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_03/bq_qt_03_lod.gim",
+      "gimFile": "000420_640d5f5e.gim",
+      "meshFile": "000046_0bddb888.mesh",
+      "materialFile": "000645_9a3dd759.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_01_lod_Stock_LOD_(000873).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000873_cf9adc89",
+      "displayName": "bq_qt_01_lod",
+      "logicalPath": null,
+      "gimFile": "000873_cf9adc89.gim",
+      "meshFile": "000782_b8d2c68e.mesh",
+      "materialFile": "000486_74632c36.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qt_02_lod2_Stock_LOD_(000967).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000967_e3a8f346",
+      "displayName": "bq_qt_02_lod2",
+      "logicalPath": null,
+      "gimFile": "000967_e3a8f346.gim",
+      "meshFile": "000772_b7158684.mesh",
+      "materialFile": "000338_54342efe.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qtb_01_Stock_Attachment_Main_(000764).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000764_b630059b",
+      "displayName": "bq_qtb_01",
+      "logicalPath": "weapon/component/bq/qtb/bq_qtb_01/bq_qtb_01.gim",
+      "gimFile": "000764_b630059b.gim",
+      "meshFile": "000673_a106d1d9.mesh",
+      "materialFile": "000006_02361d0b.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qtb_01_lod2_Stock_Attachment_LOD_(000013).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000013_02e740b3",
+      "displayName": "bq_qtb_01_lod2",
+      "logicalPath": "weapon/component/bq/qtb/bq_qtb_01/bq_qtb_01_lod.gim",
+      "gimFile": "000013_02e740b3.gim",
+      "meshFile": "000757_b3d44f26.mesh",
+      "materialFile": "000590_8ef2c5f1.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qtb_02_Stock_Attachment_Main_(000617).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000617_94e9716d",
+      "displayName": "bq_qtb_02",
+      "logicalPath": "weapon/component/bq/qtb/bq_qtb_02/bq_qtb_02.gim",
+      "gimFile": "000617_94e9716d.gim",
+      "meshFile": "000050_0cecea6f.mesh",
+      "materialFile": "000468_70381a59.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_qtb_02_lod2_Stock_Attachment_LOD_(000368).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000368_59667e1e",
+      "displayName": "bq_qtb_02_lod2",
+      "logicalPath": "weapon/component/bq/qtb/bq_qtb_02/bq_qtb_02_lod.gim",
+      "gimFile": "000368_59667e1e.gim",
+      "meshFile": "000832_c3ca2524.mesh",
+      "materialFile": "000222_3bc0a5a8.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_wb_01_Grip_Main_(000630).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000630_97d68128",
+      "displayName": "bq_wb_01",
+      "logicalPath": "weapon/component/bq/wb/bq_wb_01/bq_wb_01.gim",
+      "gimFile": "000630_97d68128.gim",
+      "meshFile": "000455_6da2a32d.mesh",
+      "materialFile": "000384_5d400e00.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_wb_01_lod2_Grip_LOD_(000051).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000051_0d066710",
+      "displayName": "bq_wb_01_lod2",
+      "logicalPath": "weapon/component/bq/wb/bq_wb_01/bq_wb_01_lod.gim",
+      "gimFile": "000051_0d066710.gim",
+      "meshFile": "000177_2e52bb72.mesh",
+      "materialFile": "001071_ffc437a6.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_xsq_01_Stock_Main_(000082).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000082_14ca08a6",
+      "displayName": "bq_xsq_01",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_01/bq_qt_01.gim",
+      "gimFile": "000082_14ca08a6.gim",
+      "meshFile": "001036_f3da954e.mesh",
+      "materialFile": "000734_ae3ba2db.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_bq_xsq_01_lod1_Stock_LOD_(000164).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000164_297c1ab2",
+      "displayName": "bq_xsq_01_lod1",
+      "logicalPath": "weapon/component/bq/qt/bq_qt_01/bq_qt_01_lod.gim",
+      "gimFile": "000164_297c1ab2.gim",
+      "meshFile": "000612_942a160e.mesh",
+      "materialFile": "000814_c03bc12f.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_cfq_qs_01_lod2_Body_LOD_(000317).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000317_5174eb7a",
+      "displayName": "cfq_qs_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000317_5174eb7a.gim",
+      "meshFile": "000578_8c1e748f.mesh",
+      "materialFile": "000326_528e238a.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_lod1_Body_LOD_(000525).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000525_7e4379fa",
+      "displayName": "lod1",
+      "logicalPath": null,
+      "gimFile": "000525_7e4379fa.gim",
+      "meshFile": "000266_45f1df69.mesh",
+      "materialFile": "000065_1115828a.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_lod2_Body_LOD_(000598).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000598_91b4dfaf",
+      "displayName": "lod2",
+      "logicalPath": null,
+      "gimFile": "000598_91b4dfaf.gim",
+      "meshFile": "000257_43b972f9.mesh",
+      "materialFile": "000194_33acb374.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_lod_Body_LOD_(000217).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000217_3a1ad8e9",
+      "displayName": "lod",
+      "logicalPath": "weapon/component/bq/bq/bq_10/bq_10.gim",
+      "gimFile": "000217_3a1ad8e9.gim",
+      "meshFile": "000817_c111fcba.mesh",
+      "materialFile": "000298_4d8f1f78.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1045_AN94_dj_lod0_Body_LOD_(000543).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000543_8295327e",
+      "displayName": "pw_1045_AN94_dj_lod0",
+      "logicalPath": "weapon/component/bq/bq/bq_07/bq_07.gim",
+      "gimFile": "000543_8295327e.gim",
+      "meshFile": "001058_fab14c6a.mesh",
+      "materialFile": "001019_f0053947.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1045_AN94_dj_lod2_Body_LOD_(000233).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000233_3f2fc32e",
+      "displayName": "pw_1045_AN94_dj_lod2",
+      "logicalPath": null,
+      "gimFile": "000233_3f2fc32e.gim",
+      "meshFile": "000546_8350096c.mesh",
+      "materialFile": "000523_7e1c3f28.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1045_AN94_lod1_Body_LOD_(000380).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000380_5b30c69c",
+      "displayName": "pw_1045_AN94_lod1",
+      "logicalPath": null,
+      "gimFile": "000380_5b30c69c.gim",
+      "meshFile": "000827_c2ef49de.mesh",
+      "materialFile": "000103_19f1b553.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1054_TAR21_dj_lod1_Body_LOD_(000315).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000315_50df27a3",
+      "displayName": "pw_1054_TAR21_dj_lod1",
+      "logicalPath": null,
+      "gimFile": "000315_50df27a3.gim",
+      "meshFile": "000587_8e5bfd92.mesh",
+      "materialFile": "000514_7bf587cd.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1054_TAR21_dj_lod2_Body_LOD_(000722).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000722_aba8de09",
+      "displayName": "pw_1054_TAR21_dj_lod2",
+      "logicalPath": null,
+      "gimFile": "000722_aba8de09.gim",
+      "meshFile": "000009_0281c008.mesh",
+      "materialFile": "000731_ad885382.mtg"
+    }
+  },
+  {
+    "path": "Assault_Rifle/Rifle/Assault_Rifle_pw_1054_TAR21_lod0_Body_LOD_(000255).glb",
+    "category": "Assault_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000255_42c629b3",
+      "displayName": "pw_1054_TAR21_lod0",
+      "logicalPath": null,
+      "gimFile": "000255_42c629b3.gim",
+      "meshFile": "000331_531204e3.mesh",
+      "materialFile": "000534_805fe6cd.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Axe/Melee_Prop_Axe_LOD_(000418).glb",
+    "category": "Melee_Special",
+    "subcategory": "Axe",
+    "is_lod": true,
+    "raw": {
+      "id": "000418_63cf2127",
+      "displayName": "jf_lod2",
+      "logicalPath": null,
+      "gimFile": "000418_63cf2127.gim",
+      "meshFile": "000644_9a07ecdd.mesh",
+      "materialFile": "000829_c3325bb1.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Axe/Melee_Prop_Axe_LOD_(000748).glb",
+    "category": "Melee_Special",
+    "subcategory": "Axe",
+    "is_lod": true,
+    "raw": {
+      "id": "000748_b1cccc85",
+      "displayName": "jf_lod",
+      "logicalPath": "weapon/component/lbq/jf/jf_lod.gim",
+      "gimFile": "000748_b1cccc85.gim",
+      "meshFile": "000396_5ef73134.mesh",
+      "materialFile": "000649_9b801d15.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Axe/Melee_Prop_Axe_Main_(000476).glb",
+    "category": "Melee_Special",
+    "subcategory": "Axe",
+    "is_lod": false,
+    "raw": {
+      "id": "000476_71fcfb0a",
+      "displayName": "jf",
+      "logicalPath": "weapon/component/lbq/jf/jf.gim",
+      "gimFile": "000476_71fcfb0a.gim",
+      "meshFile": "000371_59c37bfc.mesh",
+      "materialFile": "000562_87d809a4.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Baton_Prop/Melee_Prop_Baton_Prop_LOD_(000191).glb",
+    "category": "Melee_Special",
+    "subcategory": "Baton_Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000191_324e3b35",
+      "displayName": "props_lod",
+      "logicalPath": null,
+      "gimFile": "000191_324e3b35.gim",
+      "meshFile": "000509_7998cd3e.mesh",
+      "materialFile": "000859_cbc9d1a4.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Baton_Prop/Melee_Prop_Baton_Prop_LOD_(000570).glb",
+    "category": "Melee_Special",
+    "subcategory": "Baton_Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000570_8969c9be",
+      "displayName": "jq_lod1",
+      "logicalPath": null,
+      "gimFile": "000570_8969c9be.gim",
+      "meshFile": "000252_428c28e7.mesh",
+      "materialFile": "000442_6a2513f7.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Baton_Prop/Melee_Prop_Baton_Prop_Main_(000828).glb",
+    "category": "Melee_Special",
+    "subcategory": "Baton_Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000828_c3002bac",
+      "displayName": "props",
+      "logicalPath": "weapon/component/lbq/jiaobian/jiaobian.gim",
+      "gimFile": "000828_c3002bac.gim",
+      "meshFile": "000744_b0e99efa.mesh",
+      "materialFile": "000729_ad4b8014.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_LOD_(000688).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": true,
+    "raw": {
+      "id": "000688_a4083303",
+      "displayName": "Cylinder_lod1",
+      "logicalPath": null,
+      "gimFile": "000688_a4083303.gim",
+      "meshFile": "000788_ba01d7a4.mesh",
+      "materialFile": "000952_e18939a7.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_LOD_(000702).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": true,
+    "raw": {
+      "id": "000702_a73cdd53",
+      "displayName": "Cylinder_lod2",
+      "logicalPath": null,
+      "gimFile": "000702_a73cdd53.gim",
+      "meshFile": "001004_ed48b11b.mesh",
+      "materialFile": "000158_26b9160a.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_Main_(000021).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": false,
+    "raw": {
+      "id": "000021_060ee0bf",
+      "displayName": "Cylinder",
+      "logicalPath": "weapon/component/lbq/pdg/pdg.gim",
+      "gimFile": "000021_060ee0bf.gim",
+      "meshFile": "000184_30cd9622.mesh",
+      "materialFile": "000373_59fbb3f3.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_Yanxuan_Edition_LOD_(000336).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": true,
+    "raw": {
+      "id": "000336_53e6cc18",
+      "displayName": "props_lod2",
+      "logicalPath": null,
+      "gimFile": "000336_53e6cc18.gim",
+      "meshFile": "000603_929e9185.mesh",
+      "materialFile": "000019_05c770e8.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_Yanxuan_Edition_Main_(000354).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": false,
+    "raw": {
+      "id": "000354_57926906",
+      "displayName": "Cylinder",
+      "logicalPath": "weapon/component/lbq/pdg_yanxuan/pdg_yanxuan.gim",
+      "gimFile": "000354_57926906.gim",
+      "meshFile": "000747_b16d1bc0.mesh",
+      "materialFile": "000134_203eb165.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Frying_Pan/Melee_Prop_Frying_Pan_Yanxuan_Edition_Main_(001017).glb",
+    "category": "Melee_Special",
+    "subcategory": "Frying_Pan",
+    "is_lod": false,
+    "raw": {
+      "id": "001017_efa2f38f",
+      "displayName": "wuqi",
+      "logicalPath": null,
+      "gimFile": "001017_efa2f38f.gim",
+      "meshFile": "000312_507a6f6f.mesh",
+      "materialFile": "000726_accae344.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Hammer/Melee_Prop_Hammer_LOD_(000461).glb",
+    "category": "Melee_Special",
+    "subcategory": "Hammer",
+    "is_lod": true,
+    "raw": {
+      "id": "000461_6eddfd9a",
+      "displayName": "wanjuqichui_LOD1",
+      "logicalPath": null,
+      "gimFile": "000461_6eddfd9a.gim",
+      "meshFile": "000067_1184bbfd.mesh",
+      "materialFile": "001003_ed2f9130.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Hammer/Melee_Prop_Hammer_LOD_(001016).glb",
+    "category": "Melee_Special",
+    "subcategory": "Hammer",
+    "is_lod": true,
+    "raw": {
+      "id": "001016_ef976ab1",
+      "displayName": "polySurface071",
+      "logicalPath": null,
+      "gimFile": "001016_ef976ab1.gim",
+      "meshFile": "001018_efb599b5.mesh",
+      "materialFile": "000544_829cc14a.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Hammer/Melee_Prop_Hammer_Main_(000666).glb",
+    "category": "Melee_Special",
+    "subcategory": "Hammer",
+    "is_lod": false,
+    "raw": {
+      "id": "000666_9fed03c0",
+      "displayName": "wanjuqichui",
+      "logicalPath": "weapon/component/lbq/cz/cz.gim",
+      "gimFile": "000666_9fed03c0.gim",
+      "meshFile": "000047_0bee42df.mesh",
+      "materialFile": "000620_95d50f9b.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_Cylinder_lod1_LOD_(000604).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000604_92b281f4",
+      "displayName": "Cylinder_lod1",
+      "logicalPath": null,
+      "gimFile": "000604_92b281f4.gim",
+      "meshFile": "000860_cc0361d1.mesh",
+      "materialFile": "000878_d0ec36e6.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_Cylinder_lod2_LOD_(000837).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000837_c481e71b",
+      "displayName": "Cylinder_lod2",
+      "logicalPath": null,
+      "gimFile": "000837_c481e71b.gim",
+      "meshFile": "000552_8560376c.mesh",
+      "materialFile": "000554_85d1b754.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_bqg_Main_(000309).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000309_502951c3",
+      "displayName": "bqg",
+      "logicalPath": "weapon/component/lbq/bqg/bqg.gim",
+      "gimFile": "000309_502951c3.gim",
+      "meshFile": "000391_5e1f13d5.mesh",
+      "materialFile": "000723_abd4bd71.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_bqg_lod_LOD_(000871).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000871_ced25695",
+      "displayName": "bqg_lod",
+      "logicalPath": "weapon/component/lbq/bqg/bqg_lod.gim",
+      "gimFile": "000871_ced25695.gim",
+      "meshFile": "000472_70d10eb1.mesh",
+      "materialFile": "000000_003d842a.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_jgb_Main_(000867).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000867_cd6d8068",
+      "displayName": "jgb",
+      "logicalPath": "weapon/component/lbq/jgb/jgb.gim",
+      "gimFile": "000867_cd6d8068.gim",
+      "meshFile": "000938_decfa1f5.mesh",
+      "materialFile": "001048_f72a5f36.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_jgb_lod01_LOD_(000577).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000577_8ba9292e",
+      "displayName": "jgb_lod01",
+      "logicalPath": null,
+      "gimFile": "000577_8ba9292e.gim",
+      "meshFile": "000938_decfa1f5.mesh",
+      "materialFile": "000304_4f633ebb.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_jq_Main_(000348).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000348_563eba97",
+      "displayName": "jq",
+      "logicalPath": "weapon/component/lbq/jq/jq.gim",
+      "gimFile": "000348_563eba97.gim",
+      "meshFile": "000701_a7382938.mesh",
+      "materialFile": "000529_7edb6afe.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_jq_lod2_LOD_(000223).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000223_3c6bd45d",
+      "displayName": "jq_lod2",
+      "logicalPath": "weapon/component/lbq/jq/jq_lod1.gim",
+      "gimFile": "000223_3c6bd45d.gim",
+      "meshFile": "000040_0a053e2b.mesh",
+      "materialFile": "000536_80e3a439.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_polySurface070_Main_(000802).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000802_bdf61721",
+      "displayName": "polySurface070",
+      "logicalPath": "weapon/component/lbq/dmsg/dmsg.gim",
+      "gimFile": "000802_bdf61721.gim",
+      "meshFile": "000818_c1394a92.mesh",
+      "materialFile": "000125_1ef8a3b3.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_qg_Main_(000278).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": false,
+    "raw": {
+      "id": "000278_488022e7",
+      "displayName": "qg",
+      "logicalPath": "weapon/component/lbq/qg/qg.gim",
+      "gimFile": "000278_488022e7.gim",
+      "meshFile": "000972_e516482a.mesh",
+      "materialFile": "000821_c1810b05.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_qg_lod1_LOD_(000847).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000847_c742d731",
+      "displayName": "qg_lod1",
+      "logicalPath": "weapon/component/lbq/qg/qg_lod1.gim",
+      "gimFile": "000847_c742d731.gim",
+      "meshFile": "000400_5fa81e39.mesh",
+      "materialFile": "000530_7f49e978.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_qg_lod_LOD_(000943).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000943_dfc0f366",
+      "displayName": "qg_lod",
+      "logicalPath": "weapon/component/lbq/qg/qg_lod.gim",
+      "gimFile": "000943_dfc0f366.gim",
+      "meshFile": "000658_9d19bcd5.mesh",
+      "materialFile": "000926_db9b41fd.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Prop/Melee_Prop_wanjuqichui_LOD2_LOD_(000768).glb",
+    "category": "Melee_Special",
+    "subcategory": "Prop",
+    "is_lod": true,
+    "raw": {
+      "id": "000768_b6d0fbb0",
+      "displayName": "wanjuqichui_LOD2",
+      "logicalPath": null,
+      "gimFile": "000768_b6d0fbb0.gim",
+      "meshFile": "000271_46c2f351.mesh",
+      "materialFile": "000707_a88f5fc6.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Screaming_Chicken/Melee_Prop_Screaming_Chicken_LOD_(000295).glb",
+    "category": "Melee_Special",
+    "subcategory": "Screaming_Chicken",
+    "is_lod": true,
+    "raw": {
+      "id": "000295_4cddfa11",
+      "displayName": "CJJ_LOD2",
+      "logicalPath": "weapon/component/lbq/cjj/cjj_lod02.gim",
+      "gimFile": "000295_4cddfa11.gim",
+      "meshFile": "000091_16928f77.mesh",
+      "materialFile": "001068_fec15c78.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Screaming_Chicken/Melee_Prop_Screaming_Chicken_LOD_(000765).glb",
+    "category": "Melee_Special",
+    "subcategory": "Screaming_Chicken",
+    "is_lod": true,
+    "raw": {
+      "id": "000765_b63cdcdb",
+      "displayName": "CJJ_LOD1",
+      "logicalPath": "weapon/component/lbq/cjj/cjj_lod01.gim",
+      "gimFile": "000765_b63cdcdb.gim",
+      "meshFile": "000166_2a17e64e.mesh",
+      "materialFile": "000973_e567b050.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Screaming_Chicken/Melee_Prop_Screaming_Chicken_Main_(000713).glb",
+    "category": "Melee_Special",
+    "subcategory": "Screaming_Chicken",
+    "is_lod": false,
+    "raw": {
+      "id": "000713_aa7ed1c6",
+      "displayName": "CJJ",
+      "logicalPath": "weapon/component/lbq/cjj/cjj.gim",
+      "gimFile": "000713_aa7ed1c6.gim",
+      "meshFile": "000982_e76cfba1.mesh",
+      "materialFile": "000809_beff9893.mtg"
+    }
+  },
+  {
+    "path": "Melee_Special/Toilet_Brush/Melee_Prop_Toilet_Brush_Main_(000090).glb",
+    "category": "Melee_Special",
+    "subcategory": "Toilet_Brush",
+    "is_lod": false,
+    "raw": {
+      "id": "000090_166bf0de",
+      "displayName": "wuqi",
+      "logicalPath": "weapon/component/lbq/wsd/wsd.gim",
+      "gimFile": "000090_166bf0de.gim",
+      "meshFile": "000339_54523b88.mesh",
+      "materialFile": "000296_4cf94f33.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sl/Pistol_sl_lod2_Magazine_LOD_(000944).glb",
+    "category": "Pistol",
+    "subcategory": "sl",
+    "is_lod": true,
+    "raw": {
+      "id": "000944_dff14e7b",
+      "displayName": "sl_lod2",
+      "logicalPath": null,
+      "gimFile": "000944_dff14e7b.gim",
+      "meshFile": "000865_ccf58a43.mesh",
+      "materialFile": "001053_f95495fe.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_01_Main_(000253).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": false,
+    "raw": {
+      "id": "000253_428f7c55",
+      "displayName": "sq_01",
+      "logicalPath": "weapon/component/sq/sq/sq_01/sq_01.gim",
+      "gimFile": "000253_428f7c55.gim",
+      "meshFile": "000311_5068d4fb.mesh",
+      "materialFile": "000438_68e9a790.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_01_lod1_LOD_(000407).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000407_6124b0aa",
+      "displayName": "sq_01_lod1",
+      "logicalPath": "weapon/component/sq/sq/sq_01/sq_01_lod01.gim",
+      "gimFile": "000407_6124b0aa.gim",
+      "meshFile": "001013_ee811b76.mesh",
+      "materialFile": "000558_86c50efb.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_01_lod2_LOD_(000715).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000715_ab410999",
+      "displayName": "sq_01_lod2",
+      "logicalPath": "weapon/component/sq/sq/sq_01/sq_01_lod02.gim",
+      "gimFile": "000715_ab410999.gim",
+      "meshFile": "000958_e2adb9ac.mesh",
+      "materialFile": "000889_d3c3c633.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_02_Main_(000960).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": false,
+    "raw": {
+      "id": "000960_e2e88991",
+      "displayName": "sq_02",
+      "logicalPath": null,
+      "gimFile": "000960_e2e88991.gim",
+      "meshFile": "000454_6d4174be.mesh",
+      "materialFile": "000434_683a6409.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_02_lod1_LOD_(000258).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000258_43bf5018",
+      "displayName": "sq_02_lod1",
+      "logicalPath": null,
+      "gimFile": "000258_43bf5018.gim",
+      "meshFile": "000467_70362c6d.mesh",
+      "materialFile": "000369_59a213be.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_02_lod2_LOD_(000225).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000225_3d4396a0",
+      "displayName": "sq_02_lod2",
+      "logicalPath": null,
+      "gimFile": "000225_3d4396a0.gim",
+      "meshFile": "001063_fca9c36d.mesh",
+      "materialFile": "000677_a1ae34e1.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_03_Main_(000112).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": false,
+    "raw": {
+      "id": "000112_1b812b25",
+      "displayName": "sq_03",
+      "logicalPath": "weapon/component/sq/sq/sq_03/sq_03.gim",
+      "gimFile": "000112_1b812b25.gim",
+      "meshFile": "000872_ced58919.mesh",
+      "materialFile": "000750_b1ebf4fc.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_03_lod1_LOD_(000968).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000968_e3ce2c28",
+      "displayName": "sq_03_lod1",
+      "logicalPath": "weapon/component/sq/sq/sq_03/sq_03_lod01.gim",
+      "gimFile": "000968_e3ce2c28.gim",
+      "meshFile": "000660_9df1350f.mesh",
+      "materialFile": "000084_15bc2140.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_03_lod2_LOD_(000075).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000075_13a0ee63",
+      "displayName": "sq_03_lod2",
+      "logicalPath": "weapon/component/sq/sq/sq_03/sq_03_lod02.gim",
+      "gimFile": "000075_13a0ee63.gim",
+      "meshFile": "001021_f10fbb20.mesh",
+      "materialFile": "000347_55f26813.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_dj_01_Magazine_Main_(000394).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": false,
+    "raw": {
+      "id": "000394_5eef05be",
+      "displayName": "sq_dj_01",
+      "logicalPath": null,
+      "gimFile": "000394_5eef05be.gim",
+      "meshFile": "000352_5712b429.mesh",
+      "materialFile": "000351_56e3ae58.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_dj_01_lod2_Magazine_LOD_(000018).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000018_05949a88",
+      "displayName": "sq_dj_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000018_05949a88.gim",
+      "meshFile": "000281_491631f0.mesh",
+      "materialFile": "000800_bde74235.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_dj_03_Magazine_Main_(000048).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": false,
+    "raw": {
+      "id": "000048_0c5ca3bb",
+      "displayName": "sq_dj_03",
+      "logicalPath": null,
+      "gimFile": "000048_0c5ca3bb.gim",
+      "meshFile": "000884_d2e24c24.mesh",
+      "materialFile": "000161_28215ece.mtg"
+    }
+  },
+  {
+    "path": "Pistol/sq/Pistol_sq_dj_03_lod2_Magazine_LOD_(000663).glb",
+    "category": "Pistol",
+    "subcategory": "sq",
+    "is_lod": true,
+    "raw": {
+      "id": "000663_9e87ed7c",
+      "displayName": "sq_dj_03_lod2",
+      "logicalPath": null,
+      "gimFile": "000663_9e87ed7c.gim",
+      "meshFile": "000518_7cf16909.mesh",
+      "materialFile": "000533_803b0d32.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/Saiga12_Shotgun/Shotgun_Saiga12_Shotgun_Body_LOD_(000215).glb",
+    "category": "Shotgun",
+    "subcategory": "Saiga12_Shotgun",
+    "is_lod": true,
+    "raw": {
+      "id": "000215_39ae4775",
+      "displayName": "SG_saiga12_lod1",
+      "logicalPath": null,
+      "gimFile": "000215_39ae4775.gim",
+      "meshFile": "000318_51aedfc3.mesh",
+      "materialFile": "000299_4da5baf9.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/Saiga12_Shotgun/Shotgun_Saiga12_Shotgun_Body_LOD_(000559).glb",
+    "category": "Shotgun",
+    "subcategory": "Saiga12_Shotgun",
+    "is_lod": true,
+    "raw": {
+      "id": "000559_8705100b",
+      "displayName": "SG_saiga12_lod2",
+      "logicalPath": null,
+      "gimFile": "000559_8705100b.gim",
+      "meshFile": "000273_47e301d5.mesh",
+      "materialFile": "000799_bd93f28f.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/Saiga12_Shotgun/Shotgun_Saiga12_Shotgun_Body_Main_(000083).glb",
+    "category": "Shotgun",
+    "subcategory": "Saiga12_Shotgun",
+    "is_lod": false,
+    "raw": {
+      "id": "000083_15600ab4",
+      "displayName": "SG_saiga12",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_04/sdq_04.gim",
+      "gimFile": "000083_15600ab4.gim",
+      "meshFile": "000626_96a86eb6.mesh",
+      "materialFile": "000588_8ecb93bf.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/Toilet_Brush/Shotgun_Toilet_Brush_Magazine_LOD_(000186).glb",
+    "category": "Shotgun",
+    "subcategory": "Toilet_Brush",
+    "is_lod": true,
+    "raw": {
+      "id": "000186_31ad9740",
+      "displayName": "sdq_dj_01_lod",
+      "logicalPath": null,
+      "gimFile": "000186_31ad9740.gim",
+      "meshFile": "000949_e146f92c.mesh",
+      "materialFile": "001028_f22fd5db.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/Toilet_Brush/Shotgun_Toilet_Brush_Magazine_Main_(000402).glb",
+    "category": "Shotgun",
+    "subcategory": "Toilet_Brush",
+    "is_lod": false,
+    "raw": {
+      "id": "000402_5fc095b6",
+      "displayName": "sdq_dj_01",
+      "logicalPath": null,
+      "gimFile": "000402_5fc095b6.gim",
+      "meshFile": "000165_29e26d41.mesh",
+      "materialFile": "000214_3974d21b.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_01_Body_Main_(000145).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000145_23a57910",
+      "displayName": "sdq_01",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_02/sdq_02.gim",
+      "gimFile": "000145_23a57910.gim",
+      "meshFile": "000569_8931afc6.mesh",
+      "materialFile": "000230_3eae8a60.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_01_lod1_Body_LOD_(000325).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000325_524bf4d2",
+      "displayName": "sdq_01_lod1",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_02/sdq_02_lod01.gim",
+      "gimFile": "000325_524bf4d2.gim",
+      "meshFile": "000238_409133c0.mesh",
+      "materialFile": "001042_f4ea6c25.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_01_lod2_Body_LOD_(000596).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000596_90e52e57",
+      "displayName": "sdq_01_lod2",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_02/sdq_02_lod02.gim",
+      "gimFile": "000596_90e52e57.gim",
+      "meshFile": "000443_6a40672a.mesh",
+      "materialFile": "000756_b3516376.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_02_Body_Main_(000321).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000321_51fec751",
+      "displayName": "sdq_02",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_01/sdq_01.gim",
+      "gimFile": "000321_51fec751.gim",
+      "meshFile": "000192_336cf25a.mesh",
+      "materialFile": "000654_9cae5b2d.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_02_WaterSplashing_Skin_Body_Main_(000199).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000199_3530e0ab",
+      "displayName": "sdq_02",
+      "logicalPath": null,
+      "gimFile": "000199_3530e0ab.gim",
+      "meshFile": "000192_336cf25a.mesh",
+      "materialFile": "001002_ed219768.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_02_lod1_Body_LOD_(000998).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000998_ec1be929",
+      "displayName": "sdq_02_lod1",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_01/sdq_01_lod01.gim",
+      "gimFile": "000998_ec1be929.gim",
+      "meshFile": "000651_9bfe012f.mesh",
+      "materialFile": "000122_1e39fceb.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_02_lod2_Body_LOD_(000244).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000244_41bd9a7d",
+      "displayName": "sdq_02_lod2",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_01/sdq_01_lod02.gim",
+      "gimFile": "000244_41bd9a7d.gim",
+      "meshFile": "000249_4221029c.mesh",
+      "materialFile": "000963_e338287e.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_03_Body_Main_(000532).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000532_7fe7b1df",
+      "displayName": "sdq_03",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_03/sdq_03.gim",
+      "gimFile": "000532_7fe7b1df.gim",
+      "meshFile": "000751_b207582b.mesh",
+      "materialFile": "000797_bd47b14a.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_03_lod1_Body_LOD_(000758).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000758_b4e9088e",
+      "displayName": "sdq_03_lod1",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_03/sdq_03_lod01.gim",
+      "gimFile": "000758_b4e9088e.gim",
+      "meshFile": "000275_481589bf.mesh",
+      "materialFile": "000181_300d6c3a.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_03_lod2_Body_LOD_(001006).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "001006_eda9088d",
+      "displayName": "sdq_03_lod2",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_03/sdq_03_lod02.gim",
+      "gimFile": "001006_eda9088d.gim",
+      "meshFile": "000196_34eec1cd.mesh",
+      "materialFile": "000080_1449ae27.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_05_Body_Main_(000953).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000953_e190308d",
+      "displayName": "sdq_05",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_05/sdq_05.gim",
+      "gimFile": "000953_e190308d.gim",
+      "meshFile": "000538_8163aeb8.mesh",
+      "materialFile": "000983_e8ac1f27.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_05_lod1_Body_LOD_(000270).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000270_46665584",
+      "displayName": "sdq_05_lod1",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_05/sdq_05_lod01.gim",
+      "gimFile": "000270_46665584.gim",
+      "meshFile": "000950_e1776bc3.mesh",
+      "materialFile": "000812_bf978b5c.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_05_lod2_Body_LOD_(000448).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000448_6bac2bc7",
+      "displayName": "sdq_05_lod2",
+      "logicalPath": "weapon/component/sdq/sdq/sdq_05/sdq_05_lod02.gim",
+      "gimFile": "000448_6bac2bc7.gim",
+      "meshFile": "000010_02ab708e.mesh",
+      "materialFile": "000786_b96b7a7a.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_dj_02_Magazine_Main_(000022).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": false,
+    "raw": {
+      "id": "000022_064cfecb",
+      "displayName": "sdq_dj_02",
+      "logicalPath": "weapon/component/sdq/dj/sdq_dj_01/sdq_dj_01.gim",
+      "gimFile": "000022_064cfecb.gim",
+      "meshFile": "000517_7cd4c5a0.mesh",
+      "materialFile": "000499_77fe0672.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/sdq/Shotgun_sdq_dj_02_lod_Magazine_LOD_(000052).glb",
+    "category": "Shotgun",
+    "subcategory": "sdq",
+    "is_lod": true,
+    "raw": {
+      "id": "000052_0d60eebb",
+      "displayName": "sdq_dj_02_lod",
+      "logicalPath": "weapon/component/sdq/dj/sdq_dj_01/sdq_dj_01_lod.gim",
+      "gimFile": "000052_0d60eebb.gim",
+      "meshFile": "000308_4f997b5e.mesh",
+      "materialFile": "000263_44abb8d5.mtg"
+    }
+  },
+  {
+    "path": "Shotgun/wuqi/Shotgun_wuqi_Magazine_Main_(000725).glb",
+    "category": "Shotgun",
+    "subcategory": "wuqi",
+    "is_lod": false,
+    "raw": {
+      "id": "000725_ac2639d8",
+      "displayName": "wuqi",
+      "logicalPath": null,
+      "gimFile": "000725_ac2639d8.gim",
+      "meshFile": "000766_b656c118.mesh",
+      "materialFile": "000012_02e4fac6.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object001_Stock_Main_(000610).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000610_93728455",
+      "displayName": "Object001",
+      "logicalPath": null,
+      "gimFile": "000610_93728455.gim",
+      "meshFile": "000903_d689cb70.mesh",
+      "materialFile": "000131_1fa58b15.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object002_Stock_LOD_(000139).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000139_223b9903",
+      "displayName": "Object002",
+      "logicalPath": "weapon/component/jjq/qt/qt_jmj_03/qt_jmj_03_lod01.gim",
+      "gimFile": "000139_223b9903.gim",
+      "meshFile": "000237_4086fd96.mesh",
+      "materialFile": "000870_ce4bd18e.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object002_Stock_LOD_(000862).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000862_cc75d9a3",
+      "displayName": "Object002",
+      "logicalPath": "weapon/component/jjq/qt/qt_jmj_02/qt_jmj_02_lod.gim",
+      "gimFile": "000862_cc75d9a3.gim",
+      "meshFile": "000343_558b82e2.mesh",
+      "materialFile": "000287_4b1270a0.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object003_Stock_Main_(000453).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000453_6c9f3324",
+      "displayName": "Object003",
+      "logicalPath": null,
+      "gimFile": "000453_6c9f3324.gim",
+      "meshFile": "000335_5357794e.mesh",
+      "materialFile": "000780_b861f01d.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object003_Stock_Main_(000668).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000668_a017465b",
+      "displayName": "Object003",
+      "logicalPath": null,
+      "gimFile": "000668_a017465b.gim",
+      "meshFile": "000992_eaa24a65.mesh",
+      "materialFile": "000565_8846318b.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_Object003_Stock_Main_(000721).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000721_ab974bff",
+      "displayName": "Object003",
+      "logicalPath": "weapon/component/jjq/qt/qt_jmj_03/qt_jmj_03.gim",
+      "gimFile": "000721_ab974bff.gim",
+      "meshFile": "000335_5357794e.mesh",
+      "materialFile": "001020_f0cd84c6.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_SR_M110_Body_Main_(000806).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000806_be4ea296",
+      "displayName": "SR_M110",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_03/jjq_03.gim",
+      "gimFile": "000806_be4ea296.gim",
+      "meshFile": "000044_0aa83e27.mesh",
+      "materialFile": "000609_9335f957.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_SR_M110_Body_Main_(000819).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000819_c140ce44",
+      "displayName": "SR_M110",
+      "logicalPath": null,
+      "gimFile": "000819_c140ce44.gim",
+      "meshFile": "000044_0aa83e27.mesh",
+      "materialFile": "000068_11978a2f.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_SR_M110_lod1_WaterSplashing_Skin_Body_LOD_(000625).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000625_96630a01",
+      "displayName": "SR_M110_lod1",
+      "logicalPath": null,
+      "gimFile": "000625_96630a01.gim",
+      "meshFile": "000636_98a5bb9a.mesh",
+      "materialFile": "000515_7c877dd9.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_SR_M110_lod2_Body_LOD_(000527).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000527_7e94e481",
+      "displayName": "SR_M110_lod2",
+      "logicalPath": null,
+      "gimFile": "000527_7e94e481.gim",
+      "meshFile": "000981_e7295294.mesh",
+      "materialFile": "000015_038a7c37.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_TP_qub88_dj_lod0_Body_LOD_(000880).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000880_d136c998",
+      "displayName": "TP_qub88_dj_lod0",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_05/jjq_05.gim",
+      "gimFile": "000880_d136c998.gim",
+      "meshFile": "000592_8f67bc0e.mesh",
+      "materialFile": "000761_b5ba7782.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_TP_qub88_lod1_Body_LOD_(000845).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000845_c68bcb9f",
+      "displayName": "TP_qub88_lod1",
+      "logicalPath": null,
+      "gimFile": "000845_c68bcb9f.gim",
+      "meshFile": "000592_8f67bc0e.mesh",
+      "materialFile": "000502_786ee1a1.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_TP_qub88_lod2_Body_LOD_(000876).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000876_cff62f2b",
+      "displayName": "TP_qub88_lod2",
+      "logicalPath": null,
+      "gimFile": "000876_cff62f2b.gim",
+      "meshFile": "000856_c95c0888.mesh",
+      "materialFile": "000363_58520188.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_01_Main_(000487).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000487_75ee2b63",
+      "displayName": "jjq_01",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_01/jjq_01.gim",
+      "gimFile": "000487_75ee2b63.gim",
+      "meshFile": "000522_7d9d2990.mesh",
+      "materialFile": "000096_177bd6e8.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_01_lod1_LOD_(000966).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000966_e3a1d4c2",
+      "displayName": "jjq_01_lod1",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_01/jjq_01_lod01.gim",
+      "gimFile": "000966_e3a1d4c2.gim",
+      "meshFile": "000548_83889618.mesh",
+      "materialFile": "000439_6943e783.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_01_lod2_LOD_(000779).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000779_b7ee8e48",
+      "displayName": "jjq_01_lod2",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_01/jjq_01_lod02.gim",
+      "gimFile": "000779_b7ee8e48.gim",
+      "meshFile": "000733_ae29fa8f.mesh",
+      "materialFile": "001038_f4314a3b.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_02_Body_Main_(000168).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000168_2aab1e13",
+      "displayName": "jjq_02",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_02/jjq_02.gim",
+      "gimFile": "000168_2aab1e13.gim",
+      "meshFile": "000395_5ef61065.mesh",
+      "materialFile": "000320_51fc99c7.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_02_Body_Main_(000851).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000851_c882479a",
+      "displayName": "jjq_02",
+      "logicalPath": null,
+      "gimFile": "000851_c882479a.gim",
+      "meshFile": "000395_5ef61065.mesh",
+      "materialFile": "000761_b5ba7782.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_02_lod1_Body_LOD_(000322).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000322_520db4b4",
+      "displayName": "jjq_02_lod1",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_02/jjq_02_lod01.gim",
+      "gimFile": "000322_520db4b4.gim",
+      "meshFile": "000246_41cb09e9.mesh",
+      "materialFile": "000268_46329976.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_02_lod1_Body_LOD_(000449).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000449_6bb3fe15",
+      "displayName": "jjq_02_lod1",
+      "logicalPath": null,
+      "gimFile": "000449_6bb3fe15.gim",
+      "meshFile": "000246_41cb09e9.mesh",
+      "materialFile": "000888_d348cf2a.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_04_Body_Main_(000120).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000120_1df15b58",
+      "displayName": "jjq_04",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_04/jjq_04.gim",
+      "gimFile": "000120_1df15b58.gim",
+      "meshFile": "000957_e26b50e5.mesh",
+      "materialFile": "000378_5b036db6.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_04_lod2_Body_LOD_(000493).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000493_76b2dd83",
+      "displayName": "jjq_04_lod2",
+      "logicalPath": null,
+      "gimFile": "000493_76b2dd83.gim",
+      "meshFile": "001069_ff0ada95.mesh",
+      "materialFile": "001046_f6401750.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_04_lod2_Body_LOD_(000637).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000637_98c89f9d",
+      "displayName": "jjq_04_lod2",
+      "logicalPath": "weapon/component/jjq/jjq/jjq_04/jjq_04_lod02.gim",
+      "gimFile": "000637_98c89f9d.gim",
+      "meshFile": "001069_ff0ada95.mesh",
+      "materialFile": "000831_c3bc938f.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_01_Magazine_Main_(000121).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000121_1e0a871e",
+      "displayName": "jjq_jmj_01",
+      "logicalPath": null,
+      "gimFile": "000121_1e0a871e.gim",
+      "meshFile": "000769_b6fa4f92.mesh",
+      "materialFile": "000742_afa1cf41.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_01_Sniper_Scope_Main_(000307).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000307_4f96752e",
+      "displayName": "jjq_jmj_01",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_01/jjq_jmj_01.gim",
+      "gimFile": "000307_4f96752e.gim",
+      "meshFile": "000846_c737aa06.mesh",
+      "materialFile": "000970_e4a71150.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_01_lod2_Sniper_Scope_LOD_(000116).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000116_1d50bed8",
+      "displayName": "jjq_jmj_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000116_1d50bed8.gim",
+      "meshFile": "000142_235fb272.mesh",
+      "materialFile": "000690_a44473ae.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_01_lod2_Sniper_Scope_LOD_(000621).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000621_95ef5e79",
+      "displayName": "jjq_jmj_01_lod2",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_01/jjq_jmj_01_lod.gim",
+      "gimFile": "000621_95ef5e79.gim",
+      "meshFile": "000457_6e5190b5.mesh",
+      "materialFile": "000676_a193f631.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_02_Sniper_Scope_Main_(000593).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000593_9025198d",
+      "displayName": "jjq_jmj_02",
+      "logicalPath": null,
+      "gimFile": "000593_9025198d.gim",
+      "meshFile": "000496_76ed2afd.mesh",
+      "materialFile": "001051_f84961dc.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_02_Sniper_Scope_Main_(000737).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000737_aeaf0c83",
+      "displayName": "jjq_jmj_02",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_02/jjq_jmj_02.gim",
+      "gimFile": "000737_aeaf0c83.gim",
+      "meshFile": "000790_bb69e66a.mesh",
+      "materialFile": "000971_e4e498f9.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_02_lod2_Sniper_Scope_LOD_(000563).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000563_87f0aef9",
+      "displayName": "jjq_jmj_02_lod2",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_02/jjq_jmj_02_lod.gim",
+      "gimFile": "000563_87f0aef9.gim",
+      "meshFile": "000361_583cfae9.mesh",
+      "materialFile": "000382_5d21ce10.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_02_lod2_Sniper_Scope_LOD_(001067).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "001067_fe016036",
+      "displayName": "jjq_jmj_02_lod2",
+      "logicalPath": null,
+      "gimFile": "001067_fe016036.gim",
+      "meshFile": "000105_1a5a9a13.mesh",
+      "materialFile": "000838_c4875d9c.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_03_Sniper_Scope_Main_(000328).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000328_52c2ce30",
+      "displayName": "jjq_jmj_03",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_03/jjq_jmj_03.gim",
+      "gimFile": "000328_52c2ce30.gim",
+      "meshFile": "000985_e8e12e79.mesh",
+      "materialFile": "000670_a08d8b4f.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_jmj_03_lod2_Sniper_Scope_LOD_(000358).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000358_5806a9ca",
+      "displayName": "jjq_jmj_03_lod2",
+      "logicalPath": "weapon/component/jjq/jmj/jjq_jmj_03/jjq_jmj_03_lod.gim",
+      "gimFile": "000358_5806a9ca.gim",
+      "meshFile": "000425_65986b3d.mesh",
+      "materialFile": "000974_e5aab50b.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_qt_01_Stock_Main_(000201).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000201_357f1e67",
+      "displayName": "jjq_qt_01",
+      "logicalPath": null,
+      "gimFile": "000201_357f1e67.gim",
+      "meshFile": "000811_bf409e83.mesh",
+      "materialFile": "000478_7251308e.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_qt_01_lod_Stock_LOD_(000148).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000148_241930af",
+      "displayName": "jjq_qt_01_lod",
+      "logicalPath": "weapon/component/jjq/qt/qt_jmj_01/qt_jmj_01_lod.gim",
+      "gimFile": "000148_241930af.gim",
+      "meshFile": "000811_bf409e83.mesh",
+      "materialFile": "000526_7e8fa54a.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_tsb_01_Carry_Handle_Main_(000965).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000965_e348e083",
+      "displayName": "jjq_tsb_01",
+      "logicalPath": "weapon/component/jjq/tsb/qt_tsb_01/qt_tsb_01.gim",
+      "gimFile": "000965_e348e083.gim",
+      "meshFile": "000905_d716f562.mesh",
+      "materialFile": "000869_ce36be34.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_jjq_tsb_01_lod_Carry_Handle_LOD_(000173).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": true,
+    "raw": {
+      "id": "000173_2d01cb4a",
+      "displayName": "jjq_tsb_01_lod",
+      "logicalPath": "weapon/component/jjq/tsb/qt_tsb_01/qt_tsb_01_lod.gim",
+      "gimFile": "000173_2d01cb4a.gim",
+      "meshFile": "000675_a16e5d78.mesh",
+      "materialFile": "000025_06e191a5.mtg"
+    }
+  },
+  {
+    "path": "Sniper_Rifle/Rifle/Sniper_Rifle_polySurface072_Stock_Main_(000290).glb",
+    "category": "Sniper_Rifle",
+    "subcategory": "Rifle",
+    "is_lod": false,
+    "raw": {
+      "id": "000290_4b8736f4",
+      "displayName": "polySurface072",
+      "logicalPath": null,
+      "gimFile": "000290_4b8736f4.gim",
+      "meshFile": "000087_1610cd7f.mesh",
+      "materialFile": "000157_26991fa7.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Kriss_Vector/SMG_Kriss_Vector_Body_LOD_(000224).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Kriss_Vector",
+    "is_lod": true,
+    "raw": {
+      "id": "000224_3cfdc28f",
+      "displayName": "SMG_KRISS_SUPERV_lod2",
+      "logicalPath": null,
+      "gimFile": "000224_3cfdc28f.gim",
+      "meshFile": "000155_26372d83.mesh",
+      "materialFile": "000329_52c47c3b.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Kriss_Vector/SMG_Kriss_Vector_Body_LOD_(000313).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Kriss_Vector",
+    "is_lod": true,
+    "raw": {
+      "id": "000313_50be4751",
+      "displayName": "SMG_KRISS_SUPERV_lod1",
+      "logicalPath": null,
+      "gimFile": "000313_50be4751.gim",
+      "meshFile": "000205_375011e0.mesh",
+      "materialFile": "000031_08996535.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Kriss_Vector/SMG_Kriss_Vector_Body_Main_(000123).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Kriss_Vector",
+    "is_lod": false,
+    "raw": {
+      "id": "000123_1e40ea43",
+      "displayName": "SMG_KRISS_SUPERV",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_06/cfq_06.gim",
+      "gimFile": "000123_1e40ea43.gim",
+      "meshFile": "000150_24c995e4.mesh",
+      "materialFile": "000481_732324ad.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/MP5_SD/SMG_MP5_SD_Body_LOD_(000115).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "MP5_SD",
+    "is_lod": true,
+    "raw": {
+      "id": "000115_1cf12d59",
+      "displayName": "pw_1052_MP5SD_qtb_LOD0",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_07/cfq_07.gim",
+      "gimFile": "000115_1cf12d59.gim",
+      "meshFile": "000003_00b8dd02.mesh",
+      "materialFile": "000877_d09bfd54.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/MP5_SD/SMG_MP5_SD_Body_LOD_(000124).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "MP5_SD",
+    "is_lod": true,
+    "raw": {
+      "id": "000124_1ee6fbcf",
+      "displayName": "pw_1052_MP5SD_qtb_LOD2",
+      "logicalPath": null,
+      "gimFile": "000124_1ee6fbcf.gim",
+      "meshFile": "000710_a9ca70fa.mesh",
+      "materialFile": "000113_1bcc4d47.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/MP5_SD/SMG_MP5_SD_Body_LOD_(000697).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "MP5_SD",
+    "is_lod": true,
+    "raw": {
+      "id": "000697_a610eccb",
+      "displayName": "pw_1052_MP5SD_qtb_LOD1",
+      "logicalPath": null,
+      "gimFile": "000697_a610eccb.gim",
+      "meshFile": "000740_af103fcf.mesh",
+      "materialFile": "000286_4ae69173.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/P90_SMG/SMG_P90_SMG_Body_LOD_(000106).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "P90_SMG",
+    "is_lod": true,
+    "raw": {
+      "id": "000106_1a5caa08",
+      "displayName": "SMG_P90_lod2",
+      "logicalPath": null,
+      "gimFile": "000106_1a5caa08.gim",
+      "meshFile": "000855_c92e21ea.mesh",
+      "materialFile": "000081_14a660cb.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/P90_SMG/SMG_P90_SMG_Body_LOD_(000250).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "P90_SMG",
+    "is_lod": true,
+    "raw": {
+      "id": "000250_4228d873",
+      "displayName": "SMG_P90_lod1",
+      "logicalPath": null,
+      "gimFile": "000250_4228d873.gim",
+      "meshFile": "001000_ec8b56f5.mesh",
+      "materialFile": "000089_1644c367.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Plane001/SMG_Plane001_Suppressor_Main_(000893).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Plane001",
+    "is_lod": false,
+    "raw": {
+      "id": "000893_d4d6b2e2",
+      "displayName": "Plane001",
+      "logicalPath": null,
+      "gimFile": "000893_d4d6b2e2.gim",
+      "meshFile": "000276_4834a539.mesh",
+      "materialFile": "000069_11aeff93.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Thompson_SMG/SMG_Thompson_SMG_BlackGold_Skin_Body_Main_(000078).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Thompson_SMG",
+    "is_lod": false,
+    "raw": {
+      "id": "000078_141ead87",
+      "displayName": "cfq_qs_01",
+      "logicalPath": null,
+      "gimFile": "000078_141ead87.gim",
+      "meshFile": "000650_9bc732e8.mesh",
+      "materialFile": "000375_5a32472f.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Thompson_SMG/SMG_Thompson_SMG_BlackGold_Skin_Main_(000745).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Thompson_SMG",
+    "is_lod": false,
+    "raw": {
+      "id": "000745_b129b9fc",
+      "displayName": "tomson",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_02_heijin/cfq_02_heijin.gim",
+      "gimFile": "000745_b129b9fc.gim",
+      "meshFile": "000264_459fbe53.mesh",
+      "materialFile": "000376_5a3873c6.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Thompson_SMG/SMG_Thompson_SMG_Body_LOD_(000404).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Thompson_SMG",
+    "is_lod": true,
+    "raw": {
+      "id": "000404_6082abe5",
+      "displayName": "tomson_lod1",
+      "logicalPath": null,
+      "gimFile": "000404_6082abe5.gim",
+      "meshFile": "000539_81c31b32.mesh",
+      "materialFile": "000066_1161e012.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Thompson_SMG/SMG_Thompson_SMG_WaterSplashing_Skin_Body_LOD_(000324).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Thompson_SMG",
+    "is_lod": true,
+    "raw": {
+      "id": "000324_5225001f",
+      "displayName": "tomson_lod2",
+      "logicalPath": null,
+      "gimFile": "000324_5225001f.gim",
+      "meshFile": "000033_08e88198.mesh",
+      "materialFile": "001005_ed4a148f.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Tompson/SMG_Tompson_0_Body_Main_(000431).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Tompson",
+    "is_lod": false,
+    "raw": {
+      "id": "000431_671f47df",
+      "displayName": "Tompson_0",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_02_shizi/cfq_02_01.gim",
+      "gimFile": "000431_671f47df.gim",
+      "meshFile": "000167_2a86942e.mesh",
+      "materialFile": "000594_90587201.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/Tompson/SMG_Tompson_fe_0_Body_Main_(000541).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "Tompson",
+    "is_lod": false,
+    "raw": {
+      "id": "000541_8283d0b3",
+      "displayName": "Tompson_fe_0",
+      "logicalPath": null,
+      "gimFile": "000541_8283d0b3.gim",
+      "meshFile": "001035_f3bf1593.mesh",
+      "materialFile": "001024_f14cd2f4.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_01_Body_Main_(000776).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000776_b77c407e",
+      "displayName": "cfq_01",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_04/cfq_04.gim",
+      "gimFile": "000776_b77c407e.gim",
+      "meshFile": "000342_552bec02.mesh",
+      "materialFile": "000240_41175787.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_01_lod1_Body_LOD_(000037).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000037_09a7a503",
+      "displayName": "cfq_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000037_09a7a503.gim",
+      "meshFile": "000261_444129f8.mesh",
+      "materialFile": "000547_8387fa81.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_01_lod2_Body_LOD_(000647).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000647_9aeb3971",
+      "displayName": "cfq_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000647_9aeb3971.gim",
+      "meshFile": "000073_1347ef1f.mesh",
+      "materialFile": "000585_8dbe886b.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_05_Body_Main_(000413).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000413_6276646d",
+      "displayName": "cfq_05",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_05/cfq_05.gim",
+      "gimFile": "000413_6276646d.gim",
+      "meshFile": "000174_2d518bb6.mesh",
+      "materialFile": "000883_d2d9ab68.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_Body_Main_(000256).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000256_42e1f896",
+      "displayName": "cfq_qs_01",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_02/cfq_02.gim",
+      "gimFile": "000256_42e1f896.gim",
+      "meshFile": "000650_9bc732e8.mesh",
+      "materialFile": "000242_417d4dfc.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_Body_Main_(000535).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000535_8091db23",
+      "displayName": "cfq_qs_01",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_01/cfq_01.gim",
+      "gimFile": "000535_8091db23.gim",
+      "meshFile": "001047_f6ff76a8.mesh",
+      "materialFile": "000830_c34f631a.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_Body_Main_(000752).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000752_b251fa0d",
+      "displayName": "cfq_qs_01",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_03/cfq_03.gim",
+      "gimFile": "000752_b251fa0d.gim",
+      "meshFile": "000850_c86d82ac.mesh",
+      "materialFile": "000915_d9103a4f.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_LOD1_Body_LOD_(000027).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000027_0799399a",
+      "displayName": "cfq_qs_01_LOD1",
+      "logicalPath": null,
+      "gimFile": "000027_0799399a.gim",
+      "meshFile": "000211_37e37b38.mesh",
+      "materialFile": "000897_d596eb28.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_LOD2_Body_LOD_(000102).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000102_196a2010",
+      "displayName": "cfq_qs_01_LOD2",
+      "logicalPath": null,
+      "gimFile": "000102_196a2010.gim",
+      "meshFile": "000061_101d8da1.mesh",
+      "materialFile": "000392_5e71ccfa.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_Lightning_Skin_Body_Main_(000029).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000029_081e0580",
+      "displayName": "cfq_qs_01",
+      "logicalPath": null,
+      "gimFile": "000029_081e0580.gim",
+      "meshFile": "000650_9bc732e8.mesh",
+      "materialFile": "000095_17585822.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_lod1_Body_LOD_(000387).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000387_5da04d6f",
+      "displayName": "cfq_qs_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000387_5da04d6f.gim",
+      "meshFile": "000381_5c073592.mesh",
+      "materialFile": "000357_57d64391.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_lod1_Body_LOD_(000632).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000632_98045036",
+      "displayName": "cfq_qs_01_lod1",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_01/cfq_01_lod01.gim",
+      "gimFile": "000632_98045036.gim",
+      "meshFile": "000941_df46fa69.mesh",
+      "materialFile": "000056_0ec97bba.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qs_01_lod2_Body_LOD_(001041).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "001041_f4d56a86",
+      "displayName": "cfq_qs_01_lod2",
+      "logicalPath": "weapon/component/cfq/cfq/cfq_01/cfq_01_lod02.gim",
+      "gimFile": "001041_f4d56a86.gim",
+      "meshFile": "000042_0a68d2af.mesh",
+      "materialFile": "000004_01312e04.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qt_002_Stock_Main_(000064).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000064_10f04b8d",
+      "displayName": "cfq_qt_002",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_03/cfq_qt_03.gim",
+      "gimFile": "000064_10f04b8d.gim",
+      "meshFile": "000226_3d6e4533.mesh",
+      "materialFile": "000746_b15b82f1.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qt_003_Stock_LOD_(000513).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000513_79eda85e",
+      "displayName": "cfq_qt_003",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_03/cfq_qt_03_lod.gim",
+      "gimFile": "000513_79eda85e.gim",
+      "meshFile": "000260_442739af.mesh",
+      "materialFile": "000072_12f69de6.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qt_01_LOD2_Stock_LOD_(000016).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000016_0483eb03",
+      "displayName": "cfq_qt_01_LOD2",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_02/cfq_qt_02_lod.gim",
+      "gimFile": "000016_0483eb03.gim",
+      "meshFile": "001040_f4bf3b4a.mesh",
+      "materialFile": "000656_9ce42233.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_qt_01_Stock_Main_(000608).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000608_93144d94",
+      "displayName": "cfq_qt_01",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_02/cfq_qt_02.gim",
+      "gimFile": "000608_93144d94.gim",
+      "meshFile": "000023_06607fd8.mesh",
+      "materialFile": "000193_33853a1f.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_Body_Main_(000979).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000979_e66931ac",
+      "displayName": "cfq_xsq_01",
+      "logicalPath": null,
+      "gimFile": "000979_e66931ac.gim",
+      "meshFile": "000137_22059c59.mesh",
+      "materialFile": "000314_50c6abf2.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_Stock_Main_(000842).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000842_c52858ac",
+      "displayName": "cfq_xsq_01",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_01/cfq_qt_01.gim",
+      "gimFile": "000842_c52858ac.gim",
+      "meshFile": "001034_f3a1f726.mesh",
+      "materialFile": "000210_37c457f0.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_Suppressor_Main_(000345).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": false,
+    "raw": {
+      "id": "000345_55e26f24",
+      "displayName": "cfq_xsq_01",
+      "logicalPath": null,
+      "gimFile": "000345_55e26f24.gim",
+      "meshFile": "000430_6668b3e1.mesh",
+      "materialFile": "000996_ebbd1319.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_lod1_Stock_LOD_(001062).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "001062_fc792335",
+      "displayName": "cfq_xsq_01_lod1",
+      "logicalPath": "weapon/component/cfq/qt/cfq_qt_01/cfq_qt_01_lod.gim",
+      "gimFile": "001062_fc792335.gim",
+      "meshFile": "001043_f5428765.mesh",
+      "materialFile": "000640_995d0817.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_lod1_Suppressor_LOD_(000875).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000875_cfcb5d27",
+      "displayName": "cfq_xsq_01_lod1",
+      "logicalPath": null,
+      "gimFile": "000875_cfcb5d27.gim",
+      "meshFile": "000773_b71d9bed.mesh",
+      "materialFile": "000607_930063f4.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/cfq/SMG_cfq_xsq_01_lod2_Suppressor_LOD_(000479).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "cfq",
+    "is_lod": true,
+    "raw": {
+      "id": "000479_72ac34d5",
+      "displayName": "cfq_xsq_01_lod2",
+      "logicalPath": null,
+      "gimFile": "000479_72ac34d5.gim",
+      "meshFile": "000227_3d94a0e7.mesh",
+      "materialFile": "000195_33aee526.mtg"
+    }
+  },
+  {
+    "path": "Submachine_Gun/pw/SMG_pw_1038Tompson_feihu_lod1_0_Body_LOD_(000628).glb",
+    "category": "Submachine_Gun",
+    "subcategory": "pw",
+    "is_lod": true,
+    "raw": {
+      "id": "000628_96dfdd31",
+      "displayName": "pw_1038 Tompson_feihu_lod1_0",
+      "logicalPath": null,
+      "gimFile": "000628_96dfdd31.gim",
+      "meshFile": "001054_f985fbc3.mesh",
+      "materialFile": "000483_73f33540.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000346).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000346_55e61d2f",
+      "displayName": "1022_RPG7_B_lod0",
+      "logicalPath": "weapon/component/sl/rpg7/dantou.gim",
+      "gimFile": "000346_55e61d2f.gim",
+      "meshFile": "000581_8d01a8d8.mesh",
+      "materialFile": "000039_09ef7b3d.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000516).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000516_7cd3a6be",
+      "displayName": "1022_RPG7_lod0",
+      "logicalPath": "weapon/component/sl/rpg7/rpg7.gim",
+      "gimFile": "000516_7cd3a6be.gim",
+      "meshFile": "000700_a690ad15.mesh",
+      "materialFile": "000928_dbd40fe2.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000560).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000560_87ad00d4",
+      "displayName": "1022_RPG7_lod2",
+      "logicalPath": null,
+      "gimFile": "000560_87ad00d4.gim",
+      "meshFile": "000700_a690ad15.mesh",
+      "materialFile": "000011_02b8a6dd.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000685).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000685_a3636839",
+      "displayName": "1022_RPG7_B_lod2",
+      "logicalPath": null,
+      "gimFile": "000685_a3636839.gim",
+      "meshFile": "000410_61e75d38.mesh",
+      "materialFile": "001029_f2719987.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000853).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000853_c89ca41e",
+      "displayName": "1022_RPG7_B_lod1",
+      "logicalPath": null,
+      "gimFile": "000853_c89ca41e.gim",
+      "meshFile": "000581_8d01a8d8.mesh",
+      "materialFile": "000283_49c11d62.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/RPG7_Launcher/Heavy_Throwable_RPG7_Launcher_LOD_(000924).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "RPG7_Launcher",
+    "is_lod": true,
+    "raw": {
+      "id": "000924_db3ac377",
+      "displayName": "1022_RPG7_lod1",
+      "logicalPath": null,
+      "gimFile": "000924_db3ac377.gim",
+      "meshFile": "000841_c4e8bd80.mesh",
+      "materialFile": "000618_951bc418.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_pingzi_Main_(000138).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": false,
+    "raw": {
+      "id": "000138_2236faac",
+      "displayName": "pingzi",
+      "logicalPath": "weapon/component/sl/sl_05/sl_05.gim",
+      "gimFile": "000138_2236faac.gim",
+      "meshFile": "000843_c552e293.mesh",
+      "materialFile": "001039_f485cb51.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_pingzi_lod_1_LOD_(000198).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000198_35250fee",
+      "displayName": "pingzi_lod_1",
+      "logicalPath": "weapon/component/sl/sl_05/sl_05_lod.gim",
+      "gimFile": "000198_35250fee.gim",
+      "meshFile": "000901_d62727e4.mesh",
+      "materialFile": "000108_1afe292b.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_01_Main_(000231).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": false,
+    "raw": {
+      "id": "000231_3ecaaff0",
+      "displayName": "sl_01",
+      "logicalPath": "weapon/component/sl/sl_01/sl_01.gim",
+      "gimFile": "000231_3ecaaff0.gim",
+      "meshFile": "000101_1907593c.mesh",
+      "materialFile": "000511_79c90d2c.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_01_lod2_LOD_(000906).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000906_d74b8296",
+      "displayName": "sl_01_lod2",
+      "logicalPath": "weapon/component/sl/sl_01/sl_01_lod.gim",
+      "gimFile": "000906_d74b8296.gim",
+      "meshFile": "000942_dfbd1f4e.mesh",
+      "materialFile": "000643_99edd8d3.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_02_Main_(000030).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": false,
+    "raw": {
+      "id": "000030_088499de",
+      "displayName": "sl_02",
+      "logicalPath": "weapon/component/sl/sl_02/sl_02.gim",
+      "gimFile": "000030_088499de.gim",
+      "meshFile": "000079_14336d10.mesh",
+      "materialFile": "000894_d516e853.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_02_lod2_LOD_(000156).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000156_2655c04c",
+      "displayName": "sl_02_lod2",
+      "logicalPath": "weapon/component/sl/sl_02/sl_02_lod.gim",
+      "gimFile": "000156_2655c04c.gim",
+      "meshFile": "000398_5f02d2d8.mesh",
+      "materialFile": "000519_7d26044e.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_03_LOD_(000074).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000074_1398a303",
+      "displayName": "sl_03",
+      "logicalPath": "weapon/component/sl/sl_03/sl_03_lod.gim",
+      "gimFile": "000074_1398a303.gim",
+      "meshFile": "000213_395e3644.mesh",
+      "materialFile": "000738_aeb1780d.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_03_lod2_LOD_(000332).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000332_53214adf",
+      "displayName": "sl_03_lod2",
+      "logicalPath": "weapon/component/sl/sl_03/sl_03.gim",
+      "gimFile": "000332_53214adf.gim",
+      "meshFile": "000863_cca02814.mesh",
+      "materialFile": "000887_d3320d3e.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_04_LOD0_LOD_(001007).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "001007_edd1bb31",
+      "displayName": "sl_04_LOD0",
+      "logicalPath": "weapon/component/sl/sl_04/sl_04.gim",
+      "gimFile": "001007_edd1bb31.gim",
+      "meshFile": "000549_839bb02c.mesh",
+      "materialFile": "000153_256f30ea.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_04_LOD1_LOD_(000736).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000736_ae47c6a8",
+      "displayName": "sl_04_LOD1",
+      "logicalPath": "weapon/component/sl/sl_04/sl_04_lod.gim",
+      "gimFile": "000736_ae47c6a8.gim",
+      "meshFile": "000508_796d2130.mesh",
+      "materialFile": "000014_033e7119.mtg"
+    }
+  },
+  {
+    "path": "Throwable_Heavy/Throwable/Heavy_Throwable_sl_lod0_LOD_(000427).glb",
+    "category": "Throwable_Heavy",
+    "subcategory": "Throwable",
+    "is_lod": true,
+    "raw": {
+      "id": "000427_65f6263e",
+      "displayName": "sl_lod0",
+      "logicalPath": "weapon/component/sl/sl_06/sl_06.gim",
+      "gimFile": "000427_65f6263e.gim",
+      "meshFile": "000940_df1cb0fd.mesh",
+      "materialFile": "000652_9c16f584.mtg"
+    }
+  }
+]

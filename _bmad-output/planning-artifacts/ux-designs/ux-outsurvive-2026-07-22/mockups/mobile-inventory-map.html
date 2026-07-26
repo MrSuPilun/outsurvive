@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>OutSurvive — Mobile Inventory & Map Delta</title>
+  <style>
+    :root{--base:#161b18;--panel:rgba(16,20,16,.94);--raised:#202720;--text:#e7e3d5;--muted:#b9c0b7;--line:#6b786e;--amber:#d6a84b;--cyan:#73afc7;--danger:#dc6652;--safe:14px;font-family:"Noto Sans",system-ui,sans-serif;color:var(--text)}
+    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;background:var(--base);overflow:hidden}body{padding:max(var(--safe),env(safe-area-inset-top)) max(var(--safe),env(safe-area-inset-right)) max(var(--safe),env(safe-area-inset-bottom)) max(var(--safe),env(safe-area-inset-left));background:linear-gradient(165deg,#879184 0 22%,#4b5a4a 23% 54%,#7b6b54 55% 70%,#364538 71%)}
+    header{position:absolute;z-index:9;top:max(var(--safe),env(safe-area-inset-top));left:50%;transform:translateX(-50%);padding:6px 12px;background:rgba(16,20,16,.92);border:1px solid var(--line);font:700 clamp(9px,1vw,13px)/1.1 monospace;letter-spacing:.07em;white-space:nowrap}
+    .gallery{height:100%;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-top:34px}.state{position:relative;min-width:0;overflow:hidden;border:1px dashed rgba(214,168,75,.7);background:rgba(5,8,6,.16)}.tag{position:absolute;z-index:8;top:8px;left:8px;padding:5px 8px;background:var(--panel);border-left:3px solid var(--amber);font:700 clamp(8px,.85vw,12px)/1 monospace;letter-spacing:.07em}
+    .inventory-panel{position:absolute;left:0;top:0;bottom:0;width:62%;padding:clamp(36px,5vh,62px) 10px 10px;background:var(--panel);border-right:1px solid var(--line)}.world-strip{position:absolute;left:62%;right:0;top:0;bottom:0;display:grid;place-items:center;color:rgba(231,227,213,.82);font:700 clamp(9px,1vw,13px)/1.3 monospace;text-align:center}.world-strip:before{content:"";position:absolute;inset:18% 22%;background:#30372f;clip-path:polygon(45% 0,60% 0,100% 100%,0 100%);opacity:.75}.world-strip span{z-index:1;background:rgba(16,20,16,.78);padding:7px}
+    .tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:8px}.tab{min-height:48px;display:grid;place-items:center;background:var(--raised);border:1px solid #3f4942;font-size:clamp(8px,.8vw,11px);font-weight:700}.tab.active{border-color:var(--amber);color:var(--amber)}.capacity{display:flex;justify-content:space-between;color:var(--muted);font:600 clamp(8px,.8vw,11px)/1 monospace;margin:7px 2px}.items{display:grid;gap:5px}.item{min-height:48px;padding:7px;display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:6px;background:var(--raised);border:1px solid #3f4942;font-size:clamp(8px,.85vw,12px)}.icon{width:32px;height:28px;display:grid;place-items:center;border:1px solid var(--line);color:var(--amber);font:700 10px/1 monospace}.item small{display:block;color:var(--muted)}.action{min-width:48px;min-height:48px;border:1px solid var(--amber);background:#161b18;color:var(--text);font-weight:700}.close{position:absolute;right:8px;top:8px;z-index:9;width:64px;height:64px;border:2px solid var(--amber);background:var(--panel);color:var(--text);font-weight:800}
+    .map-state{background:linear-gradient(40deg,#23362c,#53634e)}.map-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(231,227,213,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(231,227,213,.08) 1px,transparent 1px);background-size:8% 8%}.island{position:absolute;inset:12% 12% 10%;background:#536c54;clip-path:polygon(8% 45%,22% 12%,57% 5%,91% 23%,96% 59%,73% 91%,34% 84%,5% 68%)}.zone-current{position:absolute;left:26%;top:22%;width:52%;aspect-ratio:1;border:3px solid var(--cyan);border-radius:50%}.zone-next{position:absolute;left:44%;top:34%;width:28%;aspect-ratio:1;border:2px dashed var(--cyan);border-radius:50%}.flight{position:absolute;left:8%;right:7%;top:52%;height:2px;background:var(--amber);transform:rotate(-12deg)}.marker{position:absolute;left:57%;top:42%;width:32px;height:32px;display:grid;place-items:center;background:var(--panel);border:2px solid var(--amber);border-radius:50%;font-weight:800}.phase{position:absolute;right:80px;top:8px;padding:8px 10px;background:var(--panel);border:1px solid var(--line);font:700 clamp(8px,.9vw,12px)/1.2 monospace}.gesture{position:absolute;left:10px;bottom:10px;max-width:58%;padding:8px 10px;background:var(--panel);border:1px solid var(--line);font:600 clamp(8px,.8vw,11px)/1.35 monospace}.damage{position:absolute;left:50%;top:5%;width:26%;height:20%;transform:translateX(-50%);border-top:6px solid var(--danger);border-radius:50%;filter:drop-shadow(0 0 2px #080a09)}
+    footer{position:absolute;z-index:9;bottom:max(var(--safe),env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);padding:4px 8px;color:var(--muted);background:rgba(16,20,16,.86);font:500 clamp(7px,.7vw,9px)/1 monospace;white-space:nowrap}
+    @media(max-aspect-ratio:1.5/1){.gallery{grid-template-columns:1fr;grid-template-rows:1fr 1fr;gap:8px}.inventory-panel{width:62%}.tabs .tab{min-height:38px}.item{min-height:36px}.action{min-height:36px}.world-strip{left:62%}.map-state .close{width:58px;height:58px}.phase{right:72px}}
+  </style>
+</head>
+<body>
+  <header>MOBILE DELTA REFERENCE · TWO NON-PAUSING STATES</header>
+  <main class="gallery">
+    <section class="state inventory-state" aria-label="Mobile Inventory state">
+      <div class="tag">STATE A · INVENTORY · PANEL 62% / WORLD 38%</div>
+      <div class="inventory-panel">
+        <nav class="tabs"><div class="tab">NEARBY</div><div class="tab active">BACKPACK</div><div class="tab">EQUIPMENT</div></nav>
+        <div class="capacity"><span>CAPACITY</span><b>146 / 180</b></div>
+        <div class="items">
+          <div class="item"><span class="icon">5.56</span><span>5.56 MM<small>30 viên · 15 sức chứa</small></span><button class="action">DROP</button></div>
+          <div class="item"><span class="icon">MED</span><span>TÚI CỨU THƯƠNG<small>2 · dùng 6,0 giây</small></span><button class="action">USE</button></div>
+          <div class="item"><span class="icon">SMK</span><span>LỰU ĐẠN KHÓI<small>1 · utility</small></span><button class="action">EQUIP</button></div>
+        </div>
+      </div>
+      <div class="world-strip"><span>WORLD RISK<br>38% · AUDIO LIVE</span></div>
+      <button class="close" aria-label="Đóng Inventory">CLOSE</button>
+    </section>
+    <section class="state map-state" aria-label="Mobile Map state">
+      <div class="tag">STATE B · MAP · PAN / PINCH / TAP / LONG-PRESS</div>
+      <div class="map-grid"></div><div class="island"></div><div class="flight"></div><div class="zone-current"></div><div class="zone-next"></div><div class="marker">○1</div><div class="damage" aria-label="Damage direction cue"></div>
+      <div class="phase">P4 · WAIT<br>01:30</div><button class="close" aria-label="Đóng Map">CLOSE</button>
+      <div class="gesture">1 ngón: pan · pinch: zoom<br>tap: marker · long-press: radial<br>damage không tự đóng Map</div>
+    </section>
+  </main>
+  <footer>Governing contract: DESIGN.md + EXPERIENCE.md · tap-first · no enemy/loot prediction</footer>
+</body>
+</html>
