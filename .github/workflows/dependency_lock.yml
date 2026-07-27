@@ -1,0 +1,23 @@
+name: dependency-lock
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  dependency_lock:
+    name: dependency_lock
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify dependency lock and SBOM
+        run: infrastructure/ci/verify_dependency_lock.sh

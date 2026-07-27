@@ -1,0 +1,271 @@
+schema_version = 1
+
+[[dependencies]]
+id = "godot.editor"
+kind = "engine"
+version = "4.7.1-stable"
+commit = "a13da4feb"
+flavor = "standard"
+source = "https://github.com/godotengine/godot-builds/releases/tag/4.7.1-stable"
+license = "MIT"
+license_decision = "approved"
+wrapper = "game/tools/bootstrap/verify_local_bootstrap.sh"
+owner = "infrastructure"
+platform_applicability = ["windows_x64", "linux_x64", "macos_universal", "android_arm64", "ios_arm64", "linux_headless"]
+promotion_status = "toolchain"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_win64.exe.zip"
+role = "archive"
+platform = "windows_x64"
+source = "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_win64.exe.zip"
+checksum_algorithm = "sha512"
+checksum_hex = "a6b02c527c18ba9936e63562032701432b2dc57d98d6483ceaccb00fe14af16af5773ae8a55e7b4d614edf121c4d9e420d870f804edb1dac16362298a01ce6c4"
+provenance = "official SHA512-SUMS.txt"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_linux.x86_64.zip"
+role = "archive"
+platform = "linux_x64"
+source = "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_linux.x86_64.zip"
+checksum_algorithm = "sha512"
+checksum_hex = "4ccdab7a48eeccbe8819a2fc1f6262f8d72065d98601bcb3743fcbd7ebd39f373758a788ee3293a05ec5b2c48538266c437404312e372225cd2df273945a2de9"
+provenance = "official SHA512-SUMS.txt"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_linux.x86_64.installed_binary"
+role = "installed_binary"
+platform = "linux_x64"
+source = "observed://story-1.1/Godot_v4.7.1-stable_linux.x86_64"
+checksum_algorithm = "sha256"
+checksum_hex = "32f8d7596c4b41185512b1c49d69f2da3be018fd784a53e349fa92a98a97bcde"
+provenance = "observed Story 1.1; trusted only for the exact unpacked official archive"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_macos.universal.zip"
+role = "archive"
+platform = "macos_universal"
+source = "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_macos.universal.zip"
+checksum_algorithm = "sha512"
+checksum_hex = "a5c6443e193829de9a3237b57ef5e01c23839888900e241543da0dd4bac1050125e19469f0cca9a9958ac346070d98cab8e5d6aee16b181c6d06cda86bd07224"
+provenance = "official SHA512-SUMS.txt"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_macos.universal.installed_binary"
+role = "installed_binary"
+platform = "macos_universal"
+source = "observed://story-1.1/Godot_v4.7.1-stable_macos.universal"
+checksum_algorithm = "sha256"
+checksum_hex = "ecc8da2d60100102cfca6e833d3860d7436b46ae062fa072ce89a6c95d664a3f"
+provenance = "observed Story 1.1; trusted only for the exact unpacked official archive"
+
+[[dependencies]]
+id = "godot.export_templates"
+kind = "tool"
+version = "4.7.1-stable"
+flavor = "standard"
+source = "https://github.com/godotengine/godot-builds/releases/tag/4.7.1-stable"
+license = "MIT"
+license_decision = "approved"
+wrapper = "none: consumed by the Story 1.4 canonical build contract"
+owner = "infrastructure"
+platform_applicability = ["windows_x64", "linux_x64", "macos_universal", "android_arm64", "ios_arm64", "linux_headless"]
+promotion_status = "toolchain"
+
+[[dependencies.artifacts]]
+id = "Godot_v4.7.1-stable_export_templates.tpz"
+role = "archive"
+platform = "all_targets"
+source = "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_export_templates.tpz"
+checksum_algorithm = "sha512"
+checksum_hex = "afcc83d8d3d298038f19c58744a0d660fa75dd4baa33cb55d1011bb2565a2a8c2381728924564cb909e37c205a23f21b521b23bd057993afd43ae4da0b2f9d47"
+provenance = "official SHA512-SUMS.txt"
+
+[[dependencies]]
+id = "terrain3d"
+kind = "plugin"
+version = "1.0.2"
+source = "https://github.com/TokisanGames/Terrain3D/releases/tag/v1.0.2"
+license = "MIT"
+license_decision = "approved"
+wrapper = "none: editor-only baseline, not installed or promoted"
+owner = "world"
+platform_applicability = ["editor"]
+promotion_status = "editor_only"
+
+[[dependencies.artifacts]]
+id = "terrain3d-catalog-1.0.2"
+role = "catalog_identity"
+platform = "editor"
+source = "catalog://terrain3d/1.0.2"
+checksum_algorithm = "sha256"
+checksum_hex = "ed69283b916628f800bb565430692876e8d8a2261faf727671f17555ebce89e7"
+provenance = "sha256 of canonical catalog identity; artifact checksum required before promotion"
+
+[[dependencies]]
+id = "nakama.server"
+kind = "framework"
+version = "3.40.0"
+source = "registry:docker.io/heroiclabs/nakama:3.40.0"
+license = "Apache-2.0"
+license_decision = "approved"
+wrapper = "none: verified baseline only, not installed or promoted"
+owner = "backend"
+platform_applicability = ["linux_server"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "nakama-catalog-3.40.0"
+role = "catalog_identity"
+platform = "linux_server"
+source = "catalog://nakama/3.40.0"
+checksum_algorithm = "sha256"
+checksum_hex = "9fa25bc79ac606d252183cb99f49e59e7e87316516475dc89977177aad088275"
+provenance = "sha256 of canonical catalog identity; OCI digest required before promotion"
+
+[[dependencies]]
+id = "nakama.common"
+kind = "sdk"
+version = "1.47.0"
+source = "pkg:golang/github.com/heroiclabs/nakama-common@v1.47.0"
+license = "Apache-2.0"
+license_decision = "approved"
+wrapper = "none: verified baseline only, not installed or promoted"
+owner = "backend"
+platform_applicability = ["linux_server"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "nakama-common-catalog-1.47.0"
+role = "catalog_identity"
+platform = "linux_server"
+source = "catalog://nakama-common/1.47.0"
+checksum_algorithm = "sha256"
+checksum_hex = "d117ac01872d599ac310c014ac285029baa6e015b969918f2d06c85d4f5e5a66"
+provenance = "sha256 of canonical catalog identity; module checksum required before promotion"
+
+[[dependencies]]
+id = "nakama.godot_sdk"
+kind = "sdk"
+version = "3.4.0"
+source = "https://github.com/heroiclabs/nakama-godot/releases/tag/v3.4.0"
+license = "Apache-2.0"
+license_decision = "approved"
+wrapper = "game/src/platform/adapters: required before promotion"
+owner = "platform"
+platform_applicability = ["windows_x64", "linux_x64", "macos_universal", "android_arm64", "ios_arm64"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "nakama-godot-catalog-3.4.0"
+role = "catalog_identity"
+platform = "all_clients"
+source = "catalog://nakama-godot/3.4.0"
+checksum_algorithm = "sha256"
+checksum_hex = "524d5684c12fe83f99f6e2e3aa457041b2f15ec68daf94388f94157c8c7b5b92"
+provenance = "sha256 of canonical catalog identity; release checksum required before promotion"
+
+[[dependencies]]
+id = "cockroachdb"
+kind = "database"
+version = "26.2.3"
+source = "registry:docker.io/cockroachdb/cockroach:v26.2.3"
+license = "BUSL-1.1"
+license_decision = "undecided"
+wrapper = "backend: required before promotion"
+owner = "backend"
+platform_applicability = ["linux_server"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "cockroachdb-catalog-26.2.3"
+role = "catalog_identity"
+platform = "linux_server"
+source = "catalog://cockroachdb/26.2.3"
+checksum_algorithm = "sha256"
+checksum_hex = "b3c9f30f4ac880c65c2c5f3cd7b695415a8e862291321eb4ea9ccbc0394b5df8"
+provenance = "sha256 of canonical catalog identity; OCI digest and license decision required before promotion"
+
+[[dependencies]]
+id = "agones"
+kind = "orchestrator"
+version = "1.59.0"
+source = "https://github.com/googleforgames/agones/releases/tag/v1.59.0"
+license = "Apache-2.0"
+license_decision = "approved"
+wrapper = "infrastructure: required before promotion"
+owner = "infrastructure"
+platform_applicability = ["linux_server"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "agones-catalog-1.59.0"
+role = "catalog_identity"
+platform = "linux_server"
+source = "catalog://agones/1.59.0"
+checksum_algorithm = "sha256"
+checksum_hex = "d077f4e6c5df52dbb34042adcc05c91e989282c9088ad189c190902ad0c6f951"
+provenance = "sha256 of canonical catalog identity; release artifact checksum required before promotion"
+
+[[dependencies]]
+id = "kubernetes"
+kind = "orchestrator"
+version = "1.35.6"
+source = "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.6"
+license = "Apache-2.0"
+license_decision = "approved"
+wrapper = "infrastructure: required before promotion"
+owner = "infrastructure"
+platform_applicability = ["linux_server"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "kubernetes-catalog-1.35.6"
+role = "catalog_identity"
+platform = "linux_server"
+source = "catalog://kubernetes/1.35.6"
+checksum_algorithm = "sha256"
+checksum_hex = "7a924c064dc459297c656258770436b090ae735cfad519d6066cba3ee0f06e7d"
+provenance = "sha256 of canonical catalog identity; release artifact checksum required before promotion"
+
+[[dependencies]]
+id = "go.toolchain"
+kind = "tool"
+version = "1.26.5"
+source = "https://go.dev/dl/go1.26.5.src.tar.gz"
+license = "BSD-3-Clause"
+license_decision = "approved"
+wrapper = "none: standalone backend tooling baseline"
+owner = "backend"
+platform_applicability = ["linux_x64", "macos_universal", "windows_x64"]
+promotion_status = "toolchain"
+
+[[dependencies.artifacts]]
+id = "go-catalog-1.26.5"
+role = "catalog_identity"
+platform = "all_tool_hosts"
+source = "catalog://go/1.26.5"
+checksum_algorithm = "sha256"
+checksum_hex = "f80b979394591814f1a7062bf6e392626858273ba0d73194666c2257e44bee75"
+provenance = "sha256 of canonical catalog identity; official archive checksum required before build consumption"
+
+[[dependencies]]
+id = "eos.voice"
+kind = "sdk"
+version = "portal-artifact-tbd"
+source = "portal://epic-online-services/voice/portal-artifact-tbd"
+license = "Proprietary"
+license_decision = "undecided"
+wrapper = "game/src/platform/adapters: required after five-platform spike"
+owner = "platform"
+platform_applicability = ["windows_x64", "linux_x64", "macos_universal", "android_arm64", "ios_arm64"]
+promotion_status = "not_promoted"
+
+[[dependencies.artifacts]]
+id = "eos-voice-catalog-portal-artifact-tbd"
+role = "catalog_identity"
+platform = "all_clients"
+source = "catalog://eos-voice/portal-artifact-tbd"
+checksum_algorithm = "sha256"
+checksum_hex = "26102e942807baf60a4c1597dae90e327c42335872a81a3edc1fe546556a78ef"
+provenance = "sha256 of canonical unpinned catalog identity; portal version and checksum remain required before promotion"
