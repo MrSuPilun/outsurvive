@@ -1,0 +1,221 @@
+schema_version = 1
+
+[scan]
+exclude = [
+  ".git/**",
+  ".godot/**",
+  "_bmad/**",
+  "_bmad-output/**",
+  "**/.DS_Store",
+  "**/__pycache__/**",
+  "**/*.pyc",
+  "game/tests/fixtures/module_boundaries/**",
+]
+dependency_suffixes = [".gd", ".tscn", ".tres"]
+owner_executable_suffixes = [".py", ".sh"]
+owner_metadata_suffixes = [".gd.uid", ".toml", ".yml", ".yaml", ".json", ".md"]
+governed_source_roots = [
+  "game/src",
+  "game/scenes",
+  "game/tools",
+  "game/tests",
+  "backend",
+  "native",
+]
+
+[godot]
+project_file = "game/project.godot"
+allowed_shared_symbols = [
+  "Array",
+  "Dictionary",
+  "Engine",
+  "JSON",
+  "Node",
+  "ProjectSettings",
+  "RefCounted",
+  "String",
+  "StringName",
+  "Time",
+  "Variant",
+  "bool",
+  "int",
+  "void",
+]
+presentation_symbols = [
+  "AudioStreamPlayer",
+  "AudioStreamPlayer2D",
+  "AudioStreamPlayer3D",
+  "CanvasItem",
+  "Control",
+  "Input",
+  "InputEvent",
+  "MeshInstance3D",
+  "Node2D",
+  "Node3D",
+  "RenderingServer",
+  "Sprite2D",
+]
+
+[[modules]]
+id = "shared"
+owner = "Shared gameplay"
+layer = "domain-contract-simulation"
+include = ["game/src/shared/**"]
+exclude = []
+allowed_edges = ["shared"]
+
+[[modules]]
+id = "client_composition"
+owner = "Client application"
+layer = "composition-root"
+include = ["game/src/client/bootstrap/**"]
+exclude = []
+allowed_edges = ["shared", "platform_port", "platform_adapter"]
+
+[[modules]]
+id = "client_presentation"
+owner = "Client presentation"
+layer = "ui-renderer-scene"
+include = ["game/src/client/ui/**", "game/scenes/**"]
+exclude = []
+allowed_edges = ["shared", "client", "client_composition", "platform_port"]
+
+[[modules]]
+id = "client"
+owner = "Client application"
+layer = "application"
+include = ["game/src/client/**"]
+exclude = ["game/src/client/bootstrap/**", "game/src/client/ui/**"]
+allowed_edges = ["shared", "client", "client_presentation", "platform_port"]
+
+[[modules]]
+id = "server"
+owner = "Server authority"
+layer = "authoritative-application"
+include = ["game/src/server/**"]
+exclude = []
+allowed_edges = ["shared", "server", "platform_port"]
+
+[[modules]]
+id = "platform_port"
+owner = "Platform contracts"
+layer = "neutral-contract"
+include = ["game/src/platform/ports/**"]
+exclude = []
+allowed_edges = ["shared", "platform_port"]
+
+[[modules]]
+id = "platform_adapter"
+owner = "Platform integration"
+layer = "provider-adapter"
+include = ["game/src/platform/adapters/**"]
+exclude = []
+allowed_edges = ["shared", "platform_port", "platform_adapter", "native"]
+
+[[modules]]
+id = "game_config"
+owner = "Game application"
+layer = "composition-configuration"
+include = ["game/project.godot", "game/.gitignore"]
+exclude = []
+allowed_edges = ["shared", "client_composition"]
+
+[[modules]]
+id = "game_tools"
+owner = "Game tooling"
+layer = "development-tooling"
+include = ["game/tools/**"]
+exclude = []
+allowed_edges = ["shared", "game_tools"]
+
+[[modules]]
+id = "game_tests"
+owner = "Game testing"
+layer = "test-code"
+include = ["game/tests/**"]
+exclude = ["game/tests/fixtures/module_boundaries/**"]
+allowed_edges = [
+  "shared",
+  "client",
+  "client_composition",
+  "client_presentation",
+  "server",
+  "platform_port",
+  "platform_adapter",
+  "game_tests",
+]
+
+[[modules]]
+id = "backend"
+owner = "Backend services"
+layer = "service-implementation"
+include = ["backend/**"]
+exclude = []
+allowed_edges = ["backend"]
+
+[[modules]]
+id = "native"
+owner = "Native integration"
+layer = "bridge-implementation"
+include = ["native/**"]
+exclude = []
+allowed_edges = ["shared", "platform_port", "native"]
+
+[[modules]]
+id = "infrastructure"
+owner = "Build and CI"
+layer = "build-ci-tooling"
+include = ["infrastructure/**"]
+exclude = []
+allowed_edges = ["infrastructure"]
+
+[[modules]]
+id = "content_source"
+owner = "Content authoring"
+layer = "raw-dcc-source"
+include = ["content-source/**"]
+exclude = []
+allowed_edges = ["content_source"]
+
+[[modules]]
+id = "quarantine"
+owner = "Asset intake"
+layer = "untrusted-intake"
+include = ["prepare-asset/**"]
+exclude = []
+allowed_edges = ["quarantine"]
+
+[[modules]]
+id = "test_harness"
+owner = "Test infrastructure"
+layer = "external-harness"
+include = ["test-harness/**"]
+exclude = []
+allowed_edges = ["shared", "test_harness"]
+
+[[modules]]
+id = "docs"
+owner = "Project documentation"
+layer = "documentation"
+include = ["docs/**"]
+exclude = []
+allowed_edges = ["docs"]
+
+[[modules]]
+id = "ci"
+owner = "Build and CI"
+layer = "automation"
+include = [".github/**"]
+exclude = []
+allowed_edges = ["ci", "infrastructure"]
+
+[[composition_roots]]
+path = "game/src/client/bootstrap/**"
+
+[[providers]]
+id = "fixture_sdk"
+symbols = ["FixtureSdk"]
+path_patterns = ["res://fixture_sdk/**"]
+provider_path = "native/fixture_sdk/**"
+adapter_module = "platform_adapter"
+port_module = "platform_port"

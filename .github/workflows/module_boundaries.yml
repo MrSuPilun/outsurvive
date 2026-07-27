@@ -1,0 +1,21 @@
+name: module-boundaries
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  module_boundaries:
+    name: module_boundaries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify module boundaries
+        run: infrastructure/ci/verify_module_boundaries.sh
