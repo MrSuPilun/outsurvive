@@ -1,0 +1,589 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "dependency:agones@1.59.0",
+      "externalReferences": [
+        {
+          "comment": "agones-catalog-1.59.0 (catalog_identity, linux_server)",
+          "type": "distribution",
+          "url": "catalog://agones/1.59.0"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d077f4e6c5df52dbb34042adcc05c91e989282c9088ad189c190902ad0c6f951"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "agones",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "infrastructure"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "infrastructure: required before promotion"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_server"
+        }
+      ],
+      "type": "application",
+      "version": "1.59.0"
+    },
+    {
+      "bom-ref": "dependency:cockroachdb@26.2.3",
+      "externalReferences": [
+        {
+          "comment": "cockroachdb-catalog-26.2.3 (catalog_identity, linux_server)",
+          "type": "distribution",
+          "url": "catalog://cockroachdb/26.2.3"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3c9f30f4ac880c65c2c5f3cd7b695415a8e862291321eb4ea9ccbc0394b5df8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BUSL-1.1"
+          }
+        }
+      ],
+      "name": "cockroachdb",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "undecided"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "backend"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "backend: required before promotion"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_server"
+        }
+      ],
+      "type": "application",
+      "version": "26.2.3"
+    },
+    {
+      "bom-ref": "dependency:eos.voice@portal-artifact-tbd",
+      "externalReferences": [
+        {
+          "comment": "eos-voice-catalog-portal-artifact-tbd (catalog_identity, all_clients)",
+          "type": "distribution",
+          "url": "catalog://eos-voice/portal-artifact-tbd"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "26102e942807baf60a4c1597dae90e327c42335872a81a3edc1fe546556a78ef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "name": "eos.voice",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "undecided"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "platform"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "game/src/platform/adapters: required after five-platform spike"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "windows_x64,linux_x64,macos_universal,android_arm64,ios_arm64"
+        }
+      ],
+      "type": "library",
+      "version": "portal-artifact-tbd"
+    },
+    {
+      "bom-ref": "dependency:go.toolchain@1.26.5",
+      "externalReferences": [
+        {
+          "comment": "go-catalog-1.26.5 (catalog_identity, all_tool_hosts)",
+          "type": "distribution",
+          "url": "catalog://go/1.26.5"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f80b979394591814f1a7062bf6e392626858273ba0d73194666c2257e44bee75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "go.toolchain",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "toolchain"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "backend"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "none: standalone backend tooling baseline"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_x64,macos_universal,windows_x64"
+        }
+      ],
+      "type": "application",
+      "version": "1.26.5"
+    },
+    {
+      "bom-ref": "dependency:godot.editor@4.7.1-stable",
+      "externalReferences": [
+        {
+          "comment": "Godot_v4.7.1-stable_linux.x86_64.installed_binary (installed_binary, linux_x64)",
+          "type": "distribution",
+          "url": "observed://story-1.1/Godot_v4.7.1-stable_linux.x86_64"
+        },
+        {
+          "comment": "Godot_v4.7.1-stable_linux.x86_64.zip (archive, linux_x64)",
+          "type": "distribution",
+          "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_linux.x86_64.zip"
+        },
+        {
+          "comment": "Godot_v4.7.1-stable_macos.universal.installed_binary (installed_binary, macos_universal)",
+          "type": "distribution",
+          "url": "observed://story-1.1/Godot_v4.7.1-stable_macos.universal"
+        },
+        {
+          "comment": "Godot_v4.7.1-stable_macos.universal.zip (archive, macos_universal)",
+          "type": "distribution",
+          "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_macos.universal.zip"
+        },
+        {
+          "comment": "Godot_v4.7.1-stable_win64.exe.zip (archive, windows_x64)",
+          "type": "distribution",
+          "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_win64.exe.zip"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "32f8d7596c4b41185512b1c49d69f2da3be018fd784a53e349fa92a98a97bcde"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ecc8da2d60100102cfca6e833d3860d7436b46ae062fa072ce89a6c95d664a3f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4ccdab7a48eeccbe8819a2fc1f6262f8d72065d98601bcb3743fcbd7ebd39f373758a788ee3293a05ec5b2c48538266c437404312e372225cd2df273945a2de9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a5c6443e193829de9a3237b57ef5e01c23839888900e241543da0dd4bac1050125e19469f0cca9a9958ac346070d98cab8e5d6aee16b181c6d06cda86bd07224"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a6b02c527c18ba9936e63562032701432b2dc57d98d6483ceaccb00fe14af16af5773ae8a55e7b4d614edf121c4d9e420d870f804edb1dac16362298a01ce6c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "godot.editor",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "toolchain"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "infrastructure"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "game/tools/bootstrap/verify_local_bootstrap.sh"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "windows_x64,linux_x64,macos_universal,android_arm64,ios_arm64,linux_headless"
+        }
+      ],
+      "type": "application",
+      "version": "4.7.1-stable"
+    },
+    {
+      "bom-ref": "dependency:godot.export_templates@4.7.1-stable",
+      "externalReferences": [
+        {
+          "comment": "Godot_v4.7.1-stable_export_templates.tpz (archive, all_targets)",
+          "type": "distribution",
+          "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.1-stable/Godot_v4.7.1-stable_export_templates.tpz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "afcc83d8d3d298038f19c58744a0d660fa75dd4baa33cb55d1011bb2565a2a8c2381728924564cb909e37c205a23f21b521b23bd057993afd43ae4da0b2f9d47"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "godot.export_templates",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "toolchain"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "infrastructure"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "none: consumed by the Story 1.4 canonical build contract"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "windows_x64,linux_x64,macos_universal,android_arm64,ios_arm64,linux_headless"
+        }
+      ],
+      "type": "application",
+      "version": "4.7.1-stable"
+    },
+    {
+      "bom-ref": "dependency:kubernetes@1.35.6",
+      "externalReferences": [
+        {
+          "comment": "kubernetes-catalog-1.35.6 (catalog_identity, linux_server)",
+          "type": "distribution",
+          "url": "catalog://kubernetes/1.35.6"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7a924c064dc459297c656258770436b090ae735cfad519d6066cba3ee0f06e7d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "kubernetes",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "infrastructure"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "infrastructure: required before promotion"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_server"
+        }
+      ],
+      "type": "application",
+      "version": "1.35.6"
+    },
+    {
+      "bom-ref": "dependency:nakama.common@1.47.0",
+      "externalReferences": [
+        {
+          "comment": "nakama-common-catalog-1.47.0 (catalog_identity, linux_server)",
+          "type": "distribution",
+          "url": "catalog://nakama-common/1.47.0"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d117ac01872d599ac310c014ac285029baa6e015b969918f2d06c85d4f5e5a66"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "nakama.common",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "backend"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "none: verified baseline only, not installed or promoted"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_server"
+        }
+      ],
+      "type": "library",
+      "version": "1.47.0"
+    },
+    {
+      "bom-ref": "dependency:nakama.godot_sdk@3.4.0",
+      "externalReferences": [
+        {
+          "comment": "nakama-godot-catalog-3.4.0 (catalog_identity, all_clients)",
+          "type": "distribution",
+          "url": "catalog://nakama-godot/3.4.0"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "524d5684c12fe83f99f6e2e3aa457041b2f15ec68daf94388f94157c8c7b5b92"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "nakama.godot_sdk",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "platform"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "game/src/platform/adapters: required before promotion"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "windows_x64,linux_x64,macos_universal,android_arm64,ios_arm64"
+        }
+      ],
+      "type": "library",
+      "version": "3.4.0"
+    },
+    {
+      "bom-ref": "dependency:nakama.server@3.40.0",
+      "externalReferences": [
+        {
+          "comment": "nakama-catalog-3.40.0 (catalog_identity, linux_server)",
+          "type": "distribution",
+          "url": "catalog://nakama/3.40.0"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9fa25bc79ac606d252183cb99f49e59e7e87316516475dc89977177aad088275"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "nakama.server",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "not_promoted"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "backend"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "none: verified baseline only, not installed or promoted"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "linux_server"
+        }
+      ],
+      "type": "framework",
+      "version": "3.40.0"
+    },
+    {
+      "bom-ref": "dependency:terrain3d@1.0.2",
+      "externalReferences": [
+        {
+          "comment": "terrain3d-catalog-1.0.2 (catalog_identity, editor)",
+          "type": "distribution",
+          "url": "catalog://terrain3d/1.0.2"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ed69283b916628f800bb565430692876e8d8a2261faf727671f17555ebce89e7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "terrain3d",
+      "properties": [
+        {
+          "name": "outsurvive:license_decision",
+          "value": "approved"
+        },
+        {
+          "name": "outsurvive:promotion_status",
+          "value": "editor_only"
+        },
+        {
+          "name": "outsurvive:owner",
+          "value": "world"
+        },
+        {
+          "name": "outsurvive:wrapper",
+          "value": "none: editor-only baseline, not installed or promoted"
+        },
+        {
+          "name": "outsurvive:platform_applicability",
+          "value": "editor"
+        }
+      ],
+      "type": "library",
+      "version": "1.0.2"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "application:outsurvive",
+      "name": "outsurvive",
+      "type": "application"
+    },
+    "properties": [
+      {
+        "name": "outsurvive:lock_sha256",
+        "value": "f2c8ce87c36f9888dd7a5418b980d1f317f2cf72a28a5fa8088587bb55b7daad"
+      },
+      {
+        "name": "outsurvive:generated",
+        "value": "do_not_edit"
+      }
+    ]
+  },
+  "serialNumber": "urn:uuid:f2c8ce87-c36f-9888-dd7a-5418b980d1f3",
+  "specVersion": "1.6",
+  "version": 1
+}
