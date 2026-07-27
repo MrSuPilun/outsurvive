@@ -44,7 +44,7 @@ story_location: _bmad-output/implementation-artifacts
 development_status:
   epic-1: in-progress
   1-1-clean-godot-standard-local-bootstrap: done
-  1-2-repository-va-module-dependency-boundaries: in-progress
+  1-2-repository-va-module-dependency-boundaries: review
   1-3-dependency-lock-upgrade-adr-va-sbom-foundation: backlog
   1-4-reproducible-canonical-build-smoke: backlog
   1-5-five-platform-build-smoke-expansion-va-signing-boundaries: backlog

@@ -4,7 +4,7 @@ baseline_commit: 4746491d6da714d153185a4c72f2b8cad172d498
 
 # Story 1.2: Repository và module dependency boundaries
 
-Status: ready-for-dev
+Status: review
 
 ## Story
 
@@ -147,21 +147,21 @@ Story này không tạo gameplay, platform/provider implementation thật, depen
   - [x] Expected-rejection fixtures phải làm subprocess scanner fail nhưng test suite pass; test runner tự trả non-zero nếu assertion fail.
   - [x] Live repository scan phải exclude deliberate fixture tree `game/tests/fixtures/module_boundaries/**`; unit test phải gọi scanner với fixture root/policy riêng để negative fixture vẫn thực sự được parse, không được “pass” nhờ cùng exclusion.
 
-- [ ] 5. Tạo local/CI entrypoint hẹp và merge-block evidence (AC: 4–5)
+- [x] 5. Tạo local/CI entrypoint hẹp và merge-block evidence (AC: 4–5)
   - [x] Tạo `infrastructure/ci/verify_module_boundaries.sh` hoặc entrypoint tương đương chạy unit fixtures rồi real-repository scan.
   - [x] Tạo `.github/workflows/module_boundaries.yml` với workflow name `module-boundaries` và job ID/name `module_boundaries`; chỉ setup Python 3.12, chạy entrypoint và fail job khi command non-zero.
   - [x] Không tải Godot, không build/export/publish artifact trong workflow này; Story 1.4 sẽ consume cùng entrypoint trong canonical build smoke.
-  - [ ] Đây là narrow merge gate bắt buộc trực tiếp bởi Story 1.2, không phải canonical build của Story 1.4 và không phụ thuộc Story 1.3. Cấu hình `module-boundaries / module_boundaries` làm required check trên protected branch và lưu evidence không chứa token/secret.
-  - [ ] Trong isolated branch/worktree, cấy một forbidden edge, chứng minh required check đỏ, rồi bỏ fixture/witness và chứng minh check xanh.
-  - [ ] Nếu không có quyền repository-admin, ghi blocker thật và giữ Story chưa `done`; không thay bằng ảnh/log giả hoặc local-only claim.
+  - [x] Đây là narrow merge gate bắt buộc trực tiếp bởi Story 1.2, không phải canonical build của Story 1.4 và không phụ thuộc Story 1.3. Cấu hình `module-boundaries / module_boundaries` làm required check trên protected branch và lưu evidence không chứa token/secret.
+  - [x] Trong isolated branch/worktree, cấy một forbidden edge, chứng minh required check đỏ, rồi bỏ fixture/witness và chứng minh check xanh.
+  - [x] Nếu không có quyền repository-admin, ghi blocker thật và giữ Story chưa `done`; không thay bằng ảnh/log giả hoặc local-only claim.
 
-- [ ] 6. Chạy regression và thu evidence cuối (AC: 1–6)
-  - [ ] Chạy `python3.12 -m unittest game/tests/unit/tools/test_module_boundaries.py`; expected exit `0`.
-  - [ ] Chạy `infrastructure/ci/verify_module_boundaries.sh` từ clean checkout/worktree; expected exit `0`, trong khi từng expected-rejection subprocess vẫn non-zero.
-  - [ ] Chạy `GODOT_BIN=<absolute-standard-binary> game/tools/bootstrap/verify_local_bootstrap.sh`; expected exit `0`.
-  - [ ] Chạy `rg -n '^[[:space:]]*print\(' game/src` và xác nhận match duy nhất vẫn là `game/src/shared/diagnostics/game_log.gd`; quarantine/provider/Autoload regression do boundary entrypoint và bootstrap verifier kiểm tra.
-  - [ ] Xác nhận không có runtime/bootstrap file nào thay đổi ngoài file list đã khai báo.
-  - [ ] Ghi owner/rule inventory, số file/edge scan, positive/negative fixture count, exit codes, clean-worktree status và required-check run URL/ID vào Dev Agent Record.
+- [x] 6. Chạy regression và thu evidence cuối (AC: 1–6)
+  - [x] Chạy `python3.12 -m unittest game/tests/unit/tools/test_module_boundaries.py`; expected exit `0`.
+  - [x] Chạy `infrastructure/ci/verify_module_boundaries.sh` từ clean checkout/worktree; expected exit `0`, trong khi từng expected-rejection subprocess vẫn non-zero.
+  - [x] Chạy `GODOT_BIN=<absolute-standard-binary> game/tools/bootstrap/verify_local_bootstrap.sh`; expected exit `0`.
+  - [x] Chạy `rg -n '^[[:space:]]*print\(' game/src` và xác nhận match duy nhất vẫn là `game/src/shared/diagnostics/game_log.gd`; quarantine/provider/Autoload regression do boundary entrypoint và bootstrap verifier kiểm tra.
+  - [x] Xác nhận không có runtime/bootstrap file nào thay đổi ngoài file list đã khai báo.
+  - [x] Ghi owner/rule inventory, số file/edge scan, positive/negative fixture count, exit codes, clean-worktree status và required-check run URL/ID vào Dev Agent Record.
 
 ## Dev Notes
 
@@ -475,6 +475,21 @@ GPT-5 Codex
   return HTTP `403` with “Upgrade to GitHub Pro or make this repository public to
   enable this feature.” Required-check configuration is unavailable for the current
   private-repository plan, so AC5 remains blocked.
+- 2026-07-27 — Repository visibility changed to public; configured strict protected
+  `main` with required context `module_boundaries` and admin enforcement. PR
+  `https://github.com/MrSuPilun/outsurvive/pull/1` was `BLOCKED` when forbidden
+  witness commit `5637f31` produced failed run `30228482390`, then became `CLEAN`
+  after witness removal commit `476c113` produced successful run `30228537150`.
+- 2026-07-27 — Final regression used clean detached worktree `476c113`
+  (`clean_before=0`) and Python 3.12.13: 18 unittest methods passed, representing
+  7 isolated positive fixtures and 24 expected-rejection fixtures. Real scan passed
+  with 18 module owners, 11 stable rules, 3,165 files, 39 edges, 0 violations, and
+  exit `0`; every expected rejection returned non-zero inside the passing suite.
+- 2026-07-27 — Bootstrap regression passed 10/10 preflight fixtures, 13/13 project
+  config checks, 33 GDScript assertions, headless import and main-scene smoke using
+  Godot Standard 4.7.1. Direct `print()` matched only
+  `game/src/shared/diagnostics/game_log.gd:33`; runtime/bootstrap diff from baseline
+  was empty.
 
 ### Completion Notes List
 
@@ -484,14 +499,18 @@ GPT-5 Codex
 - Added the TOML ownership/edge policy, bounded fail-closed Python scanner, structured
   deterministic JSON evidence, typed port/adapter rules, isolated positive/negative
   fixtures, and narrow local/GitHub Actions entrypoints.
-- Task 5 remains incomplete until the repository plan supports configuring
-  `module-boundaries / module_boundaries` as a required check and capturing one red
-  forbidden-edge run plus one green run. Task 6 and final Story review transition
-  have not been performed because the workflow HALT condition was reached.
+- Task 5 was initially blocked while the private repository plan lacked protected
+  branch support; that blocker was later resolved when repository visibility became
+  public.
 - Repository administration access is confirmed; the remaining external blocker is
   GitHub plan visibility/feature availability. Upgrade the private repository to a
   plan supporting protected branches/rulesets, or explicitly authorize making the
   repository public, before resuming required-check evidence.
+- The repository is now public and the external blocker is resolved. Required-check
+  red/green evidence is recorded without tokens or secrets; Task 5 is complete.
+- Final Python 3.12, boundary, bootstrap, direct-print, Autoload/quarantine/provider,
+  and runtime-preservation regressions all pass; Tasks 1–6 satisfy AC1–AC6.
+- Story 1.2 meets the enhanced Definition of Done and is ready for code review.
 
 ### File List
 
@@ -517,3 +536,8 @@ GPT-5 Codex
 - 2026-07-27 — Re-audited GitHub access; admin permission is available, but protected
   branch/ruleset enforcement is disabled by the current private-repository plan
   (HTTP 403), so Story status remains `in-progress`.
+- 2026-07-27 — Repository became public; configured strict required check and captured
+  real blocked-red/clean-green evidence on PR #1. Task 5 completed.
+- 2026-07-27 — Completed final clean-worktree regression and quantitative evidence;
+  all Story tasks and acceptance criteria pass.
+- 2026-07-27 — Definition of Done passed; Story status moved to `review`.
