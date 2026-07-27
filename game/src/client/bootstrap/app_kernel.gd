@@ -13,6 +13,7 @@ var _state: int = LifecycleState.BOOTING
 
 
 func _ready() -> void:
+	get_tree().auto_accept_quit = false
 	var bootstrap_result: OperationResult = bootstrap()
 	if bootstrap_result.is_success:
 		return
@@ -25,7 +26,20 @@ func _ready() -> void:
 		BuildInfoFacade.build_id(),
 		{"code": String(bootstrap_result.code), "context": bootstrap_result.context},
 	)
-	get_tree().quit(1)
+	var tree: SceneTree = get_tree()
+	if tree != null:
+		tree.quit(1)
+	return
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_CLOSE_REQUEST:
+		if _state != LifecycleState.READY:
+			var tree: SceneTree = get_tree()
+			if tree != null:
+				tree.quit(0)
+		else:
+			request_shutdown(get_tree())
 
 
 func bootstrap() -> OperationResult:
@@ -48,7 +62,7 @@ func bootstrap() -> OperationResult:
 	return transition_result
 
 
-func request_shutdown(scene_tree: SceneTree) -> OperationResult:
+func request_shutdown(scene_tree: SceneTree = null) -> OperationResult:
 	var transition_result: OperationResult = _transition_to(LifecycleState.SHUTTING_DOWN)
 	if not transition_result.is_success:
 		return transition_result
@@ -61,7 +75,9 @@ func request_shutdown(scene_tree: SceneTree) -> OperationResult:
 		BuildInfoFacade.build_id(),
 		{"lifecycle_state": lifecycle_state_name()},
 	)
-	scene_tree.quit(0)
+	var tree: SceneTree = scene_tree if scene_tree != null else get_tree()
+	if tree != null:
+		tree.quit(0)
 	return transition_result
 
 

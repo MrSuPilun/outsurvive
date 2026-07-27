@@ -28,35 +28,42 @@ emit_failure() {
 
 find_godot_binary() {
 	if [ -n "${GODOT_BIN:-}" ]; then
-		printf '%s\n' "$GODOT_BIN"
-		return
+		if command -v "$GODOT_BIN" >/dev/null 2>&1; then
+			command -v "$GODOT_BIN"
+			return 0
+		fi
+		if [ -f "$GODOT_BIN" ] && [ -x "$GODOT_BIN" ]; then
+			printf '%s\n' "$GODOT_BIN"
+			return 0
+		fi
+		return 1
 	fi
 
 	if command -v godot >/dev/null 2>&1; then
 		command -v godot
-		return
+		return 0
 	fi
 
 	if command -v godot4 >/dev/null 2>&1; then
 		command -v godot4
-		return
+		return 0
 	fi
 
-	emit_failure "BOOT_ENGINE_MISSING" "Godot binary was not provided through GODOT_BIN and was not found in PATH"
+	return 1
 }
 
 sha256_file() {
 	if command -v sha256sum >/dev/null 2>&1; then
 		sha256sum "$1" | awk '{print $1}'
-		return
+		return 0
 	fi
 
 	if command -v shasum >/dev/null 2>&1; then
 		shasum -a 256 "$1" | awk '{print $1}'
-		return
+		return 0
 	fi
 
-	emit_failure "BOOT_CHECKSUM_TOOL_MISSING" "Neither sha256sum nor shasum is available"
+	return 1
 }
 
 detect_template_version() {
@@ -78,7 +85,7 @@ detect_template_version() {
 }
 
 run_preflight() {
-	godot_binary=$(find_godot_binary)
+	godot_binary=$(find_godot_binary) || emit_failure "BOOT_ENGINE_MISSING" "Godot binary was not provided through GODOT_BIN and was not found in PATH"
 	if [ ! -f "$godot_binary" ] || [ ! -x "$godot_binary" ]; then
 		emit_failure "BOOT_ENGINE_MISSING" "Selected Godot binary does not exist or is not executable"
 	fi
@@ -98,13 +105,15 @@ run_preflight() {
 	esac
 
 	commit_hash=${version_text#4.7.1.stable.official.}
-	case "$commit_hash" in
+	commit_hash_lower=$(printf '%s' "$commit_hash" | tr 'A-F' 'a-f')
+	case "$commit_hash_lower" in
 		""|*[!0-9a-f]*)
 			emit_failure "BOOT_ENGINE_VERSION_MALFORMED" "Official engine commit hash is missing or malformed"
 			;;
 	esac
 
-	observed_sha256=$(sha256_file "$godot_binary")
+	observed_sha256=$(sha256_file "$godot_binary") || emit_failure "BOOT_CHECKSUM_TOOL_MISSING" "Neither sha256sum nor shasum is available"
+
 	trusted_state=not_provided
 	checksum_status=observed_only
 	if [ -n "${GODOT_SHA256:-}" ]; then

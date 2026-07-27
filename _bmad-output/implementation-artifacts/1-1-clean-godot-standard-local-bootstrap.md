@@ -4,7 +4,7 @@ baseline_commit: NO_VCS
 
 # Story 1.1: Clean Godot Standard local bootstrap
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -102,13 +102,26 @@ Checksum reconciliation: Story 1.1 ghi digest quan sát và xác minh official e
   - [x] Expected-rejection fixtures cho thiếu/invalid build ID và lifecycle transition bất hợp lệ phải assert rejection nhưng vẫn để test runner trả `0`; negative preflight subprocess với engine/version/checksum sai phải trả non-zero.
   - [x] Chứng minh test không cần renderer thật, socket, backend, platform SDK, addon hoặc `prepare-asset/`.
 
-- [ ] 6. Thu evidence và chỉ đóng Story khi không còn “pass giả” (AC: 1–4)
+- [x] 6. Thu evidence và chỉ đóng Story khi không còn “pass giả” (AC: 1–4)
   - [x] Chạy clean headless import.
   - [x] Chạy bootstrap unit smoke và main-scene smoke.
   - [x] Chạy local editor launch/quit thủ công.
   - [x] Chạy static scan cho direct `print()` và dependency ngoài phạm vi.
   - [x] Chạy lại import/smoke trên Linux headless.
-  - [ ] Workspace hiện chưa có `.git`; coding có thể bắt đầu, nhưng không đánh dấu AC “clean checkout” đạt cho tới khi có clean checkout/worktree evidence thực.
+  - [x] Workspace hiện chưa có `.git`; coding có thể bắt đầu, nhưng không đánh dấu AC “clean checkout” đạt cho tới khi có clean checkout/worktree evidence thực.
+
+### Review Findings
+
+- [x] [Review][Patch] Subshell exit flaw in shell script helper functions [`game/tools/bootstrap/verify_local_bootstrap.sh`]
+- [x] [Review][Patch] GODOT_BIN path resolution when provided as relative command name [`game/tools/bootstrap/verify_local_bootstrap.sh:79`]
+- [x] [Review][Patch] Window close request lockup during non-READY states [`game/src/client/bootstrap/app_kernel.gd:18-20`]
+- [x] [Review][Patch] request_shutdown crash if AppKernel is unparented [`game/src/client/bootstrap/app_kernel.gd:64`]
+- [x] [Review][Patch] start_bootstrap() failure in _ready() does not prevent downstream node execution [`game/src/client/bootstrap/app_kernel.gd:13-16`]
+- [x] [Review][Patch] Hexadecimal case sensitivity bug in commit hash verification [`game/tools/bootstrap/verify_local_bootstrap.sh:98`]
+- [x] [Review][Patch] Non-ISO-8601 UTC timestamp formatting in GameLog [`game/src/shared/diagnostics/game_log.gd:18`]
+- [x] [Review][Patch] Incomplete .gitignore rules [`game/.gitignore`]
+
+
 
 ## Dev Notes
 
@@ -315,6 +328,10 @@ GPT-5 Codex
 - Evidence static: direct `print()` chỉ có trong `game_log.gd`; không có `prepare-asset`, addon, MultiplayerAPI, HTTPRequest, Nakama, EOS, root service lookup hoặc `*Manager`.
 - Evidence Linux x86_64: Debian container chạy official Standard `4.7.1-stable` artifact; full verifier pass import + 33 assertions + main smoke, SHA-256 quan sát `32f8d7596c4b41185512b1c49d69f2da3be018fd784a53e349fa92a98a97bcde`.
 - HALT gate: workspace vẫn không có `.git` (`baseline_commit: NO_VCS`), nên không có clean checkout/worktree evidence; Task 6 và Story không được đánh dấu hoàn tất/review.
+- Resume Task 6 RED: repository đã tồn tại nhưng worktree chính có thay đổi người dùng không liên quan `.DS_Store`, nên không được dùng làm clean-worktree evidence.
+- Resume Task 6 GREEN: detached worktree sạch tại commit `311755b343278428796aeeae90e135b4d1d1b949` có status count `0` trước test; macOS clean import + 10/10 verifier tests + 13/13 config tests + 33 assertions + main smoke + static scan đều pass; status count sau test vẫn `0`.
+- Resume Linux x86_64: tách `.godot` trước import, chạy lại official Standard `4.7.1-stable` trên chính detached worktree; verifier và smoke pass. Post-check trong container thiếu `git` bị phát hiện, không được dùng làm evidence; Git host trên cùng bind mount xác nhận commit `311755b343278428796aeeae90e135b4d1d1b949`, status count `0`, và `.godot` được ignore bởi `game/.gitignore`.
+- Completion regression: không còn checkbox chưa hoàn tất; 10/10 verifier tests, 13/13 config tests, 33 GDScript assertions, import, main smoke và static checks đều pass sau khi cập nhật Task 6; File List bao phủ toàn bộ file dưới `game/`.
 
 ### Completion Notes List
 
@@ -327,6 +344,8 @@ GPT-5 Codex
 - Task 4 hoàn tất: `BootRoot` developer diagnostics dùng primitive UI, smoke opt-in sau `--`, và window-close cùng đi qua guarded shutdown.
 - Task 5 hoàn tất: zero-dependency SceneTree runner bao phủ config, Standard runtime, exact lifecycle graph, expected rejections, BootRoot integration và diagnostic parity; mọi failure path dùng process exit code.
 - Task 6 đã đạt toàn bộ macOS/Linux runtime, GUI và static evidence; còn chặn duy nhất là clean checkout/worktree evidence do workspace không có Git repository.
+- Task 6 hoàn tất: clean detached worktree evidence tại commit `311755b343278428796aeeae90e135b4d1d1b949` đạt trên macOS và Linux x86_64, trước/sau validation đều không có source change.
+- Story 1.1 hoàn tất implementation và Definition of Done; trạng thái chuyển sang `review`.
 
 ### File List
 
@@ -335,6 +354,7 @@ GPT-5 Codex
 - `game/tests/unit/tools/test_verify_local_bootstrap.sh`
 - `game/tests/unit/tools/test_project_config.sh`
 - `game/tests/unit/client/test_bootstrap.gd`
+- `game/tests/unit/client/test_bootstrap.gd.uid`
 - `game/tools/bootstrap/verify_local_bootstrap.sh`
 - `game/.gitignore`
 - `game/project.godot`
@@ -349,3 +369,7 @@ GPT-5 Codex
 - `game/src/shared/kernel/build_info.gd.uid`
 - `game/src/shared/kernel/operation_result.gd`
 - `game/src/shared/kernel/operation_result.gd.uid`
+
+## Change Log
+
+- 2026-07-26 — Tạo Godot Standard 4.7.1 bootstrap tối thiểu, fail-closed preflight, typed lifecycle/result, structured diagnostics, zero-dependency tests và clean macOS/Linux worktree evidence; chuyển Story sang `review`.
