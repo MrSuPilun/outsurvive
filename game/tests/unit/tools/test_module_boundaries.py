@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
+import sys
 import tempfile
 import textwrap
 import unittest
 from pathlib import Path
+
+PYTHON_BIN = os.environ.get("MODULE_BOUNDARIES_PYTHON", sys.executable)
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
@@ -178,7 +182,7 @@ class ModuleBoundaryTests(unittest.TestCase):
             policy_path.write_text(textwrap.dedent(policy), encoding="utf-8")
             result = subprocess.run(
                 [
-                    "python3",
+                    PYTHON_BIN,
                     str(SCANNER),
                     "--repo-root",
                     str(root),
@@ -500,7 +504,7 @@ class ModuleBoundaryTests(unittest.TestCase):
     def test_real_repository_scan_passes_and_bootstrap_edges_are_present(self) -> None:
         result = subprocess.run(
             [
-                "python3",
+                PYTHON_BIN,
                 str(SCANNER),
                 "--repo-root",
                 str(REPO_ROOT),

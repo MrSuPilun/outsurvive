@@ -114,6 +114,37 @@ def line_number(text: str, offset: int) -> int:
     return text.count("\n", 0, offset) + 1
 
 
+def split_parameter_list(params_str: str) -> list[str]:
+    if not params_str.strip():
+        return []
+    parts: list[str] = []
+    current: list[str] = []
+    depth = 0
+    in_quote = ""
+    for char in params_str:
+        if in_quote:
+            if char == in_quote:
+                in_quote = ""
+            current.append(char)
+        elif char in ('"', "'"):
+            in_quote = char
+            current.append(char)
+        elif char in "([{":
+            depth += 1
+            current.append(char)
+        elif char in ")]}":
+            depth -= 1
+            current.append(char)
+        elif char == "," and depth == 0:
+            parts.append("".join(current).strip())
+            current = []
+        else:
+            current.append(char)
+    if current:
+        parts.append("".join(current).strip())
+    return parts
+
+
 def strip_gdscript_comments(line: str) -> str:
     quote = ""
     escaped = False
@@ -433,7 +464,7 @@ class Scanner:
 
         consumed_calls: set[tuple[int, int]] = set()
         literal_call = re.compile(
-            r"\b(preload|load)[ \t]*\([ \t]*([\"'])([^\"']+)\2[ \t]*\)"
+            r"\b(preload|load)\s*\(\s*([\"'])([^\"']+)\2\s*\)", re.DOTALL
         )
         for match in literal_call.finditer(clean):
             consumed_calls.add((match.start(), match.end()))
@@ -512,6 +543,9 @@ class Scanner:
                 )
 
         if owner == "shared":
+            own_constants = set(
+                re.findall(r"(?m)^[ \t]*(?:const|enum)[ \t]+([A-Za-z_]\w*)", clean)
+            )
             allowed_symbols = set(self.godot_config["allowed_shared_symbols"])
             referenced_types: dict[str, int] = {}
             type_patterns = (
@@ -528,9 +562,9 @@ class Scanner:
             for symbol, symbol_line in sorted(referenced_types.items()):
                 if (
                     symbol == own_symbol
+                    or symbol in own_constants
                     or symbol in allowed_symbols
                     or symbol in self.class_symbols
-                    or symbol.isupper()
                 ):
                     continue
                 self.violations.append(
@@ -623,8 +657,9 @@ class Scanner:
             if match.group(1).startswith("_"):
                 continue
             parameters = match.group(2).strip()
-            typed_parameters = not parameters or all(
-                ":" in parameter for parameter in parameters.split(",")
+            param_list = split_parameter_list(parameters)
+            typed_parameters = not param_list or all(
+                ":" in param.split("=")[0] for param in param_list
             )
             if not typed_parameters or not match.group(3):
                 self.violations.append(
@@ -842,7 +877,7 @@ def main() -> int:
         policy_bytes = arguments.policy.read_bytes()
         scanner = Scanner(arguments.repo_root, arguments.policy, policy_bytes)
         evidence = scanner.scan()
-    except (OSError, BoundaryFailure) as error:
+    except (OSError, BoundaryFailure, Exception) as error:
         policy_sha256 = hashlib.sha256(policy_bytes).hexdigest()
         if isinstance(error, BoundaryFailure):
             violation = error.violation

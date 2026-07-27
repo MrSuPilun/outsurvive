@@ -4,7 +4,7 @@ baseline_commit: 4746491d6da714d153185a4c72f2b8cad172d498
 
 # Story 1.2: Repository và module dependency boundaries
 
-Status: review
+Status: done
 
 ## Story
 
@@ -162,6 +162,20 @@ Story này không tạo gameplay, platform/provider implementation thật, depen
   - [x] Chạy `rg -n '^[[:space:]]*print\(' game/src` và xác nhận match duy nhất vẫn là `game/src/shared/diagnostics/game_log.gd`; quarantine/provider/Autoload regression do boundary entrypoint và bootstrap verifier kiểm tra.
   - [x] Xác nhận không có runtime/bootstrap file nào thay đổi ngoài file list đã khai báo.
   - [x] Ghi owner/rule inventory, số file/edge scan, positive/negative fixture count, exit codes, clean-worktree status và required-check run URL/ID vào Dev Agent Record.
+
+### Review Findings
+
+- [x] [Review][Decision] Incomplete Godot Built-in Types in Shared Module Allowlist — allowed_shared_symbols in module_boundaries.toml hardcodes a minimal list excluding Vector2/3, Color, Transform, etc. (Resolved: expanded allowed_shared_symbols with standard Godot math/core types)
+- [x] [Review][Patch] Unintended Deletion of Rendering Configuration in game/project.godot [game/project.godot:33]
+- [x] [Review][Patch] Unintended Inclusion of OS-Specific Binary .DS_Store File [.DS_Store:1]
+- [x] [Review][Patch] Scanner Bypasses allowed_shared_symbols Check for All-Uppercase Identifiers [infrastructure/ci/check_module_boundaries.py:1642]
+- [x] [Review][Patch] Inadequate GDScript Multiline String Handling in Lexer/Masker [infrastructure/ci/check_module_boundaries.py:1398]
+- [x] [Review][Patch] Flawed GDScript Function Signature Parsing in Port Interface Validation [infrastructure/ci/check_module_boundaries.py:1907]
+- [x] [Review][Patch] Resource load/preload Invocation Spans Across Multiple Lines [infrastructure/ci/check_module_boundaries.py:1720]
+- [x] [Review][Patch] Policy TOML Parsing Uncaught Exceptions [infrastructure/ci/check_module_boundaries.py:2126]
+- [x] [Review][Patch] Hardcoded python3 Invocation in Unit Tests [game/tests/unit/tools/test_module_boundaries.py:20]
+- [x] [Review][Patch] Missing Explicit CI Workflow Security Permissions [.github/workflows/module_boundaries.yml:10]
+- [x] [Review][Defer] Cyclic Architectural Edge Rules Between Presentation and Application Layers [infrastructure/ci/module_boundaries.toml:76] — deferred, pre-existing UI/client bidirectional allowlist
 
 ## Dev Notes
 
